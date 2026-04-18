@@ -182,6 +182,8 @@ I had to include an honorable mention for Raycast, which is a lot like Spotlight
 It has window and clipboard management built in, and offers plugins for damn near anything you can think of. 
 I find it a bit fiddly—I always struggle to remember the right commands or shortcut keys—but many people swear by it. The free tier is enough for most.
 
+---
+
 And that's my list. 
 Did I miss any better options?
 If so, please let me know in the comments.
