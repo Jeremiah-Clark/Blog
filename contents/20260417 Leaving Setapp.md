@@ -176,9 +176,11 @@ Step Two is one of the most user-friendly authenticator apps I’ve ever used.
 And so is **Ente Auth**, with the advantage of being open source. 
 I haven’t tried Ente’s commercial offerings—Ente Photos (a private cloud photo album) and Ente Locker (like Dropbox, but end-to-end encrypted)—but the polish and utility of Ente Auth is fantastic.
 
-I should add an honorable mention for [Raycast](https://www.raycast.com/) (base app is Free), which is a lot like Spotlight, except that it's extensible.
+## [Raycast](https://www.raycast.com/)—Free, $8/mo Pro
+
+I had to include an honorable mention for Raycast, which is a lot like Spotlight, except that it's extensible.
 It has window and clipboard management built in, and offers plugins for damn near anything you can think of. 
-I find it a bit fiddly—I always struggle to remember the right commands or shortcut keys—but many people swear by it.
+I find it a bit fiddly—I always struggle to remember the right commands or shortcut keys—but many people swear by it. The free tier is enough for most.
 
 And that's my list. 
 Did I miss any better options?
