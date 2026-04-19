@@ -1,4 +1,4 @@
-# Leaving Setapp
+# Leaving Setapp—23 Alternatives
 
 I’ve been using Setapp for nearly a decade, almost as long as it has existed. 
 At the time, I was doing freelance work, and having access to a growing collection of tools for a set monthly fee was revelatory. 
@@ -13,7 +13,8 @@ I always ended up concluding that it was still worthwhile. Until this year.
 It wasn’t easy; a few apps are too specific to have viable replacements, and some really great alternatives are obscure. 
 If you’re a Mac user looking to move away from Setapp, maybe the list I spent years assembling will help you. 
 
-Below is the list of apps I was using, what I’ve found to replace each, and a few I just couldn't part with. I'm including a link for each app, as well as the Homebrew command if one is available (Homebrew deserves another article entirely, if you know you know).
+Below is the list of apps I was using, what I’ve found to replace each, and a few I just couldn't part with. 
+I'm including a link for each app, as well as the Homebrew command if one is available (Homebrew deserves another article entirely, if you know you know). 
 
 ## Worth Simply Buying
 
@@ -21,7 +22,7 @@ To kick things off, three of the Setapp apps I used regularly were just so good,
 
 ### [Antinote](https://antinote.io/)—$5
 
-Fantastic little notepad that lives in your menu bar. As a bonus, it handles basic math—like keeping running totals—so it replaces Numi for me as well.
+Fantastic little notepad that lives in your menu bar. As a bonus, it handles basic math—like keeping running totals—so it replaced Numi for me as well.
 
 ```
 brew install --cask antinote
@@ -54,6 +55,17 @@ The graph is turned off by default, but it can be turned on in Settings > Dashbo
 
 ```
 brew install --cask srimanachanta/tap/stasis
+```
+
+## Archiver = [Keka](https://www.keka.io/en/)—Free, $6
+
+I only recently discovered **Keka**, but already, I’m impressed. 
+It has all the options you could want in a minimal package. 
+You can get it on the Mac App Store, but it will cost $6 (on time). 
+Download it directly or use Homebrew, and you can use it for free.
+
+```
+brew install --cask keka
 ```
 
 ## Bartender = [iBar Pro](https://apps.apple.com/us/app/ibar-pro-menubar-control-tool/id6737150304)—$10
@@ -272,7 +284,13 @@ brew install --cask raycast
 
 ---
 
-And that's my list. 
+And that's my list.
+If you're not keeping track, that's 26 app recommendations—23 replacements and 3 holdouts—for a grand total of $78 (I decided the free tier was enough in a few cases, as noted).
+That's less than the price of one year of Setapp.
+
 Did I miss any better options?
 If so, please let me know in the comments.
 I'm always on the lookout for better tools.
+
+Finally, most of these apps are free, but if you find them useful, consider donating or upgrading.
+A lot of people put a lot of time and effort into making some really fantastic tools; they deserve our support.

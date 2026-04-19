@@ -7,6 +7,7 @@
 | [PopClip](https://www.popclip.app/)     |                                                              | $12                        |
 | [Typeface](https://typefaceapp.com/)    |                                                              | $43                        |
 | AlDente Pro                             | [Stasis](https://github.com/srimanachanta/Stasis)            | Free (open source)         |
+| Archive                                 | [Keka](https://www.keka.io/en/)                              | Free, $6                   |
 | Bartender                               | [iBar Pro](https://apps.apple.com/us/app/ibar-pro-menubar-control-tool/id6737150304?mt=12) | $10                        |
 | BetterTouchTool                         | [Middle](https://middleclick.app/) & [Rectangle](https://rectangleapp.com/) | $8 & Free (open source)    |
 | CleanMyMac                              | [Mole](https://github.com/tw93/Mole) & [Pear Cleaner](https://itsalin.com/appInfo/?id=pearcleaner) | Free (open source)         |
