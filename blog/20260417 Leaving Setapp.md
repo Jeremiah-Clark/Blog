@@ -120,10 +120,9 @@ I created a simple shell script so I can launch it like any other app.
 brew install mole
 ```
 
-**Pear Cleaner** covers one big feature that Mole doesn’t: 
-cleanly uninstalling applications. 
-Just as you can with CleanMyMac, it can be set to open automatically when an app is moved into the Trash. 
-I find it does an even better job of cleaning up stray files than CleanMyMac.
+**Mole** will cleanly uninstall apps, but **Pear Cleaner** does it better and more easily. 
+Just as you can with CleanMyMac, **Pear Cleaner** can be set to open automatically when an app is moved into the Trash. 
+I find it does an even better job of cleaning up stray files than CleanMyMac, and offers far more options and transparency.
 
 ```
 brew install --cask pearcleaner
@@ -133,7 +132,7 @@ brew install --cask pearcleaner
 
 **Shottr** is remarkably similar to CleanShot X in terms of features and capabilities. 
 The biggest gap in **Shottr’s** arsenal is video screen recording. 
-In **Shottr’s** column is optical character recognition (OCR), meaning it can replace TextSniper as well. 
+In **Shottr’s** win column is optical character recognition (OCR), meaning it can replace TextSniper as well. 
 
 I’ve been using the free version with no problems. 
 If you plan to use it commercially, a Basic license is required, and the creator has said there will likely be future features added only to the Basic version.
