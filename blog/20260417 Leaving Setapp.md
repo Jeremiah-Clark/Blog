@@ -174,7 +174,8 @@ Be cautious!
 
 Seriously, just go get both **Affinity** and **Pixelmator Pro**. 
 They both have free versions, and they’re both amazing. 
-**Pixelmator Pro** is a closer match for Luminar Neo, and if I’m honest, I prefer it. 
+
+**Pixelmator Pro** is a closer match for Luminar Neo, and I actually prefer it. 
 If nothing else, the “Super Resolution” feature is pretty killer. 
 
 And **Affinity** is like 80% of Photoshop, Illustrator, and InDesign for 0% of the cost. 
