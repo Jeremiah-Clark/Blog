@@ -189,7 +189,7 @@ brew install --cask affinity
 NitroPDF Pro is a genuinely good, user-friendly PDF editor—a hard act to follow. 
 **PDFGear** is the closest replacement I’ve found so far. 
 It does everything just fine, but it lacks some of the polish I’ve gotten used to. 
-If anyone has suggestions, please drop them in the comments!
+If anyone has suggestions, please send them in!
 
 ## One Switch = [Only Switch](https://github.com/jacklandrin/OnlySwitch)—Free (open source)
 
@@ -289,7 +289,7 @@ If you're not keeping track, that's 26 app recommendations—23 replacements and
 That's less than the price of one year of Setapp.
 
 Did I miss any better options?
-If so, please let me know in the comments.
+If so, please let me know.
 I'm always on the lookout for better tools.
 
 Finally, most of these apps are free, but if you find them useful, consider donating or upgrading.
