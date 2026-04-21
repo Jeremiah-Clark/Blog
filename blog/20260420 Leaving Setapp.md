@@ -65,7 +65,7 @@ brew install --cask srimanachanta/tap/stasis
 
 I only recently discovered **Keka**, but already, I’m impressed. 
 It has all the options you could want in a minimal package. 
-You can get it on the Mac App Store, but it will cost $6 (on time). 
+You can get it on the Mac App Store, but it will cost $6 (one time). 
 Download it directly or use Homebrew, and you can use it for free.
 
 ```
