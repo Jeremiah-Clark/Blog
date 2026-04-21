@@ -1,9 +1,8 @@
 ---
+title: Leaving Setapp—23 Alternatives & 3 Holdouts
 date: 2026-04-20
 slug: leaving-setapp
 ---
-
-# Leaving Setapp—23 Alternatives & 3 Holdouts
 
 I’ve been using Setapp for nearly a decade, almost as long as it has existed. 
 At the time, I was doing freelance work, and having access to a growing collection of tools for a set monthly fee was revelatory. 
