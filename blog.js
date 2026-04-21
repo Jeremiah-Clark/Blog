@@ -1,12 +1,10 @@
-// blog.js — loads markdown posts from a GitHub folder and renders them
+// blog.js — loads markdown posts from a GitHub folder with permalinks and truncation
 (function () {
-  console.log("[blog] script loaded");
-
   var GH_USER   = "Jeremiah-Clark";
-  var GH_REPO   = "Articles";
+  var GH_REPO   = "Blog";
   var GH_BRANCH = "main";
   var POSTS_DIR = "blog";
-  var MOBILE_MQ = "(max-width: 736px)"; // matches Carrd's mobile breakpoint
+  var EXCERPT_BLOCKS = 3; // number of content blocks to show in list view
 
   var statusEl    = document.getElementById("blog-status");
   var containerEl = document.getElementById("blog-container");
@@ -15,6 +13,11 @@
     console.error("[blog] missing #blog-status or #blog-container in DOM");
     return;
   }
+
+  var postsBySlug = {};
+  var originalTitle = document.title;
+
+  // ---------- utilities ----------
 
   function showError(msg) {
     console.error("[blog]", msg);
@@ -28,6 +31,24 @@
       return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c];
     });
   }
+
+  function slugify(s) {
+    return String(s).toLowerCase()
+                    .replace(/[^a-z0-9]+/g, '-')
+                    .replace(/^-+|-+$/g, '');
+  }
+
+  function formatDate(iso) {
+    var d = new Date(iso);
+    return isNaN(d) ? iso : d.toLocaleDateString(undefined,
+      { year: "numeric", month: "long", day: "numeric" });
+  }
+
+  function makePermalink(slug) {
+    return "?post=" + encodeURIComponent(slug) + "#blog";
+  }
+
+  // ---------- markdown rendering ----------
 
   function renderInline(text) {
     text = text.replace(/!\[([^\]]*)\]\(([^)\s]+)\)/g,
@@ -106,9 +127,12 @@
     return out.join("\n");
   }
 
+  // ---------- post parsing ----------
+
   function parsePost(filename, text) {
     var title = filename.replace(/\.md$/i, "");
     var date  = "";
+    var slug  = "";
     var body  = text;
 
     var fm = text.match(/^---\s*\n([\s\S]*?)\n---\s*\n?([\s\S]*)$/);
@@ -116,8 +140,10 @@
       body = fm[2];
       var t = fm[1].match(/^title:\s*(.+)$/m);
       var d = fm[1].match(/^date:\s*(.+)$/m);
+      var s = fm[1].match(/^slug:\s*(.+)$/m);
       if (t) title = t[1].trim().replace(/^["']|["']$/g, "");
       if (d) date  = d[1].trim().replace(/^["']|["']$/g, "");
+      if (s) slug  = s[1].trim().replace(/^["']|["']$/g, "");
     } else {
       var h1 = body.match(/^#\s+(.+)$/m);
       if (h1) { title = h1[1].trim(); body = body.replace(/^#\s+.+\n?/, ""); }
@@ -126,54 +152,162 @@
       var m = filename.match(/^(\d{4})-?(\d{2})-?(\d{2})/);
       if (m) date = m[1] + "-" + m[2] + "-" + m[3];
     }
-    return { title: title, date: date, body: body };
+    if (!slug) {
+      // Derive from filename: strip extension and leading date
+      var base = filename.replace(/\.md$/i, "").replace(/^\d{4}-?\d{2}-?\d{2}\s*/, "");
+      slug = slugify(base);
+    } else {
+      slug = slugify(slug);
+    }
+    return { title: title, date: date, slug: slug, body: body };
   }
 
-  function formatDate(iso) {
-    var d = new Date(iso);
-    return isNaN(d) ? iso : d.toLocaleDateString(undefined,
-      { year: "numeric", month: "long", day: "numeric" });
+  // ---------- excerpt truncation ----------
+  // "Smart" cutoff: counts substantive content blocks (paragraphs, lists,
+  // quotes, code blocks) but not headings. Stops after EXCERPT_BLOCKS blocks.
+  function truncateHtml(html) {
+    var tmp = document.createElement('div');
+    tmp.innerHTML = html;
+    var children = Array.prototype.slice.call(tmp.children);
+    if (children.length === 0) return { excerpt: html, truncated: false };
+
+    var countedTags = { P:1, UL:1, OL:1, BLOCKQUOTE:1, PRE:1 };
+    var blockCount = 0;
+    var cutoff = children.length;
+
+    for (var i = 0; i < children.length; i++) {
+      if (countedTags[children[i].tagName]) blockCount++;
+      if (blockCount >= EXCERPT_BLOCKS) {
+        cutoff = i + 1;
+        break;
+      }
+    }
+    if (cutoff >= children.length) {
+      return { excerpt: html, truncated: false };
+    }
+    var out = document.createElement('div');
+    for (var j = 0; j < cutoff; j++) {
+      out.appendChild(children[j].cloneNode(true));
+    }
+    return { excerpt: out.innerHTML, truncated: true };
   }
 
-  function renderPost(p) {
-    var parsed = parsePost(p.name, p.text);
+  // ---------- DOM assembly ----------
+
+  function renderPost(parsed) {
+    var fullHtml = mdToHtml(parsed.body);
+    var truncation = truncateHtml(fullHtml);
+    var permalink = makePermalink(parsed.slug);
+
     var el = document.createElement("article");
     el.className = "blog-post";
+    el.setAttribute("data-slug", parsed.slug);
     el.innerHTML =
       '<h2 class="blog-title">' +
-        '<button class="blog-title-toggle" type="button" aria-expanded="true">' +
-          '<span class="blog-title-text">' + escapeHtml(parsed.title) + '</span>' +
-          '<span class="blog-toggle-icon" aria-hidden="true">▸</span>' +
-        '</button>' +
+        '<a href="' + permalink + '" data-permalink class="blog-title-link">' +
+          escapeHtml(parsed.title) +
+        '</a>' +
       '</h2>' +
       (parsed.date ? '<p class="blog-date">' + escapeHtml(formatDate(parsed.date)) + '</p>' : '') +
-      '<div class="blog-body">' + mdToHtml(parsed.body) + '</div>';
-
-    var btn = el.querySelector('.blog-title-toggle');
-    btn.addEventListener('click', function () {
-      var expanded = el.classList.toggle('expanded');
-      // aria-expanded is only meaningful on mobile where collapse is active;
-      // on desktop the article is always visible regardless of class.
-      var isMobile = window.matchMedia(MOBILE_MQ).matches;
-      btn.setAttribute('aria-expanded', String(!isMobile || expanded));
-    });
-
+      '<div class="blog-body">' + fullHtml + '</div>' +
+      '<div class="blog-excerpt">' + truncation.excerpt +
+        (truncation.truncated
+          ? '<p class="blog-readmore-wrap">' +
+              '<a href="' + permalink + '" data-permalink class="blog-readmore">Read more →</a>' +
+            '</p>'
+          : '') +
+      '</div>';
     return el;
   }
 
+  function makeBackLink() {
+    var a = document.createElement('a');
+    a.className = 'blog-back';
+    a.href = '#blog';
+    a.setAttribute('data-blog-back', '');
+    a.textContent = '← All posts';
+    return a;
+  }
+
+  // ---------- view state management ----------
+
+  function updateView() {
+    var params = new URLSearchParams(location.search);
+    var slug = params.get('post');
+
+    if (slug && postsBySlug[slug]) {
+      containerEl.classList.remove('mode-list');
+      containerEl.classList.add('mode-single');
+      var posts = containerEl.querySelectorAll('.blog-post');
+      for (var i = 0; i < posts.length; i++) {
+        if (posts[i].getAttribute('data-slug') === slug) {
+          posts[i].classList.add('this-post');
+        } else {
+          posts[i].classList.remove('this-post');
+        }
+      }
+      document.title = postsBySlug[slug].title + ' — ' + originalTitle;
+    } else {
+      if (slug) {
+        // Unknown slug — quietly clear it from URL
+        console.warn('[blog] unknown slug:', slug);
+        history.replaceState(null, '', location.pathname + '#blog');
+      }
+      containerEl.classList.remove('mode-single');
+      containerEl.classList.add('mode-list');
+      var allPosts = containerEl.querySelectorAll('.blog-post');
+      for (var j = 0; j < allPosts.length; j++) {
+        allPosts[j].classList.remove('this-post');
+      }
+      document.title = originalTitle;
+    }
+  }
+
+  function scrollToCurrent() {
+    var params = new URLSearchParams(location.search);
+    var slug = params.get('post');
+    var target = null;
+    if (slug) target = containerEl.querySelector('.blog-post[data-slug="' + slug + '"]');
+    if (!target) target = containerEl;
+    if (target.scrollIntoView) {
+      target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+  }
+
+  function handleContainerClick(e) {
+    // Let ctrl/cmd-click, middle-click, etc. go through as normal
+    if (e.metaKey || e.ctrlKey || e.shiftKey || e.button !== 0) return;
+
+    var permalink = e.target.closest ? e.target.closest('a[data-permalink]') : null;
+    if (permalink) {
+      e.preventDefault();
+      history.pushState(null, '', permalink.getAttribute('href'));
+      updateView();
+      scrollToCurrent();
+      return;
+    }
+    var back = e.target.closest ? e.target.closest('a[data-blog-back]') : null;
+    if (back) {
+      e.preventDefault();
+      history.pushState(null, '', location.pathname + '#blog');
+      updateView();
+      scrollToCurrent();
+      return;
+    }
+  }
+
+  // ---------- load posts and initialize ----------
+
   var apiUrl = "https://api.github.com/repos/" + GH_USER + "/" + GH_REPO +
                "/contents/" + POSTS_DIR + "?ref=" + GH_BRANCH;
-  console.log("[blog] fetching:", apiUrl);
 
   fetch(apiUrl).then(function (r) {
-    console.log("[blog] list status:", r.status);
     if (!r.ok) throw new Error("GitHub API " + r.status);
     return r.json();
   }).then(function (files) {
     var mdFiles = files.filter(function (f) {
       return f.name.toLowerCase().endsWith(".md");
     }).sort(function (a, b) { return b.name.localeCompare(a.name); });
-    console.log("[blog] found", mdFiles.length, "markdown files");
 
     if (mdFiles.length === 0) { statusEl.textContent = "No posts yet."; return; }
 
@@ -183,12 +317,28 @@
     }));
   }).then(function (posts) {
     if (!posts) return;
-    posts.forEach(function (p) {
-      try { containerEl.appendChild(renderPost(p)); }
-      catch (e) { console.error("[blog] render fail:", p.name, e); }
-    });
+
     statusEl.style.display = "none";
-    console.log("[blog] done");
+    containerEl.appendChild(makeBackLink());
+
+    posts.forEach(function (p) {
+      try {
+        var parsed = parsePost(p.name, p.text);
+        if (!parsed.slug) parsed.slug = 'post-' + Math.random().toString(36).slice(2, 8);
+        if (postsBySlug[parsed.slug]) {
+          console.warn('[blog] duplicate slug:', parsed.slug, 'for', p.name);
+        }
+        postsBySlug[parsed.slug] = parsed;
+        containerEl.appendChild(renderPost(parsed));
+      } catch (e) {
+        console.error("[blog] render failed for", p.name, e);
+      }
+    });
+
+    containerEl.addEventListener('click', handleContainerClick);
+    window.addEventListener('popstate', updateView);
+
+    updateView();
   }).catch(function (err) {
     showError("Couldn't load posts: " + err.message);
   });
