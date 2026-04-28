@@ -24,6 +24,7 @@ Most of these are of little consequence to most users, or can be worked around, 
 - **It’s command-line native**. As a “command-line interface” (CLI) tool, comfort working in the Terminal—or an alternative like iTerm2 or Ghostty—will help you get the most out of it.
 - **It’s targeted at devs**. Homebrew is essentially a Unix/Linux package manager for macOS and, as such, is designed primarily for users moving from one to the other. Using it may take some adjustment, depending on where you’re starting from.
 - **It's not very flexible**. This mostly applies to people used to Unix/Linux tools; Homebrew just sort of does what it does with less flexibility than the most common Unix/Linux installers offer. If you’re reading this, you’re likely not an experienced dev, but it’s worth noting.
+- **It’s not really necessary**. Finally, while developers arguably need Homebrew, for everyone else, it is optional. It’s up to you whether you find it beneficial.
 
 ## Installing Homebrew
 
@@ -52,7 +53,7 @@ When it drops you back at an active prompt, it’s fully installed.
 
 ![Terminal-Homebrew-Install](../images/Terminal-Homebrew-Installed.png)
 
-That’s it, Homebrew is installed.
+That’s it, Homebrew is ready to go.
 
 ## Installing Packages
 
@@ -102,7 +103,7 @@ brew update && brew upgrade --greedy && brew cleanup
 
 That will pull all available updates, install them (the `--greedy` flag forces updates on casks that manage their own updates), and make sure anything that is no longer needed is removed. I do this once a week or so just to keep everything up to date.
 
-## More Useful Commands
+### More Useful Commands
 
 If you want more visibility and control, you can use more targeted commands.
 
