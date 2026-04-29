@@ -126,7 +126,21 @@
         while (i < lines.length && /^>\s?/.test(lines[i])) {
           bq.push(lines[i].replace(/^>\s?/, "")); i++;
         }
-        out.push('<blockquote>' + renderInline(escapeHtml(bq.join(" "))) + '</blockquote>');
+        var admonitionIcons = { note: 'ℹ', tip: '✦', warning: '⚠', important: '◆', caution: '✖' };
+        var admonitionMatch = bq[0] && bq[0].trim().match(/^\[!(note|tip|warning|important|caution)\]/i);
+        if (admonitionMatch) {
+          var adType = admonitionMatch[1].toLowerCase();
+          var adBody = bq.slice(1).join(" ").trim();
+          var adLabel = adType.charAt(0).toUpperCase() + adType.slice(1);
+          out.push(
+            '<div class="admonition admonition-' + adType + '">' +
+              '<div class="admonition-title">' + admonitionIcons[adType] + ' ' + adLabel + '</div>' +
+              (adBody ? '<p class="admonition-body">' + renderInline(escapeHtml(adBody)) + '</p>' : '') +
+            '</div>'
+          );
+        } else {
+          out.push('<blockquote>' + renderInline(escapeHtml(bq.join(" "))) + '</blockquote>');
+        }
         continue;
       }
       if (/^\s*[-*+]\s+/.test(line)) {
