@@ -9,7 +9,7 @@
   // Base URL where relative image/asset paths are resolved against.
   // Posts live in /blog, so a path like ../images/foo.png from a post
   // resolves to https://.../Articles@main/images/foo.png
-  var ASSET_BASE = "https://cdn.jsdelivr.net/gh/" + GH_USER + "/" + GH_REPO + "@" + GH_BRANCH + "/" + POSTS_DIR + "/";
+  var ASSET_BASE = "https://raw.githubusercontent.com/" + GH_USER + "/" + GH_REPO + "/" + GH_BRANCH + "/" + POSTS_DIR + "/";
 
   var statusEl    = document.getElementById("blog-status");
   var containerEl = document.getElementById("blog-container");
