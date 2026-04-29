@@ -88,6 +88,20 @@
     return text;
   }
 
+  // Strip the common leading whitespace from a block of lines.
+  // Empty lines are ignored when calculating the minimum indent.
+  function dedent(lines) {
+    var minIndent = Infinity;
+    lines.forEach(function (line) {
+      if (line.trim().length > 0) {
+        var indent = line.match(/^(\s*)/)[1].length;
+        if (indent < minIndent) minIndent = indent;
+      }
+    });
+    if (!isFinite(minIndent)) minIndent = 0;
+    return lines.map(function (line) { return line.slice(minIndent); });
+  }
+
   function mdToHtml(md) {
     var lines = md.replace(/\r\n/g, "\n").split("\n");
     var out = [], i = 0;
@@ -98,7 +112,7 @@
         var code = []; i++;
         while (i < lines.length && !/^\s*```/.test(lines[i])) { code.push(lines[i]); i++; }
         i++;
-        out.push('<pre><code>' + escapeHtml(code.join("\n")) + '</code></pre>');
+        out.push('<pre><code>' + escapeHtml(dedent(code).join("\n")) + '</code></pre>');
         continue;
       }
       if (/^\s*(---|\*\*\*|___)\s*$/.test(line)) { out.push('<hr>'); i++; continue; }
