@@ -136,16 +136,16 @@ brew list
 Update all installed packages, and Homebrew itself:
 
 ```
-brew update    #Checks for available updates
-brew outdated  #Lists packages that have updates (optional)
-brew upgrade   #Installs all available updates
+ brew update   #Checks for available updates
+ brew outdated #Lists packages that have updates (optional)
+ brew upgrade  #Installs all available updates
 ```
 
 Update a single package:
 
 ```
-brew update             #Checks for available updates
-brew upgrade [package]  #Installs only the update specified
+ brew update            #Checks for available updates
+ brew upgrade [package] #Installs only the update specified
 ```
 
 Some casks have internal update systems and/or show “latest” to Homebrew instead of a version number (for example, Chrome or Firefox), so Homebrew does not know to update them. If you want to, you can force the upgrade:
@@ -163,8 +163,8 @@ brew uninstall [package]
 Clean your system of old and unneeded files:
 
 ```
-brew cleanup               #Removes files older than 120 days
-brew cleanup --prune=all   #Removes old files and all caches of any age
+ brew cleanup              #Removes files older than 120 days
+ brew cleanup --prune=all  #Removes old files and all caches of any age
 ```
 
 ## GUI Tools
