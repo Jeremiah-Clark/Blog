@@ -12,6 +12,8 @@ It’s an alternative to the Mac App Store and to downloading directly from deve
 It is used extensively by developers, but everyday users can also benefit from what it offers. I’m targeting this post at the latter: 
 tech-savvy Mac users who are not developers but are interested in what Homebrew has to offer.
 
+---
+
 ## Pros of Using Homebrew
 
 - **It’s fast**. Even large packages install, update, and uninstall quickly, often in seconds.
@@ -28,6 +30,8 @@ Most of these are of little consequence to most users, or can be worked around, 
 - **It’s targeted at devs**. Homebrew is essentially a Unix/Linux package manager for macOS and, as such, is designed primarily for users moving from one to the other. Using it may take some adjustment, depending on where you’re starting from.
 - **It's not very flexible**. This mostly applies to people used to Unix/Linux tools; Homebrew just sort of does what it does with less flexibility than the most common Unix/Linux installers offer. If you’re reading this, you’re likely not an experienced dev, but it’s worth noting.
 - **It’s not really necessary**. Finally, while developers arguably need Homebrew, for everyone else, it is optional. It’s up to you whether you find it beneficial.
+
+---
 
 ## Installing Homebrew
 
@@ -102,6 +106,8 @@ Or casks:
 brew install --cask [user]/[repo]/[package]
 ```
 
+---
+
 ## Finding Packages to Install
 
 All of this raises the question of how you would know what is available and the exact command to use. 
@@ -113,6 +119,8 @@ Aside from articles (like [mine](https://medium.com/@jeremiah-clark/leaving-seta
 - **Homebrew Search**—Using the command `brew search [package]` returns every package that includes your search term, both Formulae and Casks. The search will also include third-party taps. Anything that is already installed will show as bold.
 
 ![Terminal-Homebrew-Search](../images/Terminal-Homebrew-Search.png)
+
+---
 
 ## Maintaining Homebrew
 
@@ -175,6 +183,8 @@ Or a stronger version that removes old files and all caches:
 brew cleanup --prune=all 
 ```
 
+---
+
 ## GUI Tools
 
 There are some apps that make using Homebrew a bit easier for users who are more comfortable with “graphical user interface” (GUI) tools.
@@ -196,6 +206,8 @@ I have not tried Cork, but it is highly regarded and has features that Applite d
 GuiBrew is free and open source, though you will need to clone the repo from GitHub to use it. 
 If you’re comfortable with that, it provides a streamlined interface that gives you access to the full range of Homebrew functions.
 
+---
+
 ## Misconceptions
 
 ### Homebrew Is for Developers Only
@@ -215,6 +227,8 @@ Likewise, do not assume that a project on Homebrew is open-source.
 While Homebrew is free, the software it downloads may not be free to use without restriction. 
 Some packages are only the free tier of the software or limited-time demos. 
 This is handled on a case-by-case basis.
+
+---
 
 ## Only the Beginning
 
