@@ -4,7 +4,9 @@ date: 2026-05-04
 slug: Core_Digital_Tool_Stack
 ---
 
-![Vector art of a laptop, coffee mug, and notebook being used on a desktop. Image by Mohamed Hassan from Pixabay](../images/mohamed_hassan-office-3193372.jpg)
+![Vector art of a laptop, coffee mug, and notebook being used on a desktop. Image by Mohamed Hassan from Pixabay](../images/mohamed_hassan-office-3193372.jpg)*Image by [Mohamed Hassan](https://pixabay.com/users/mohamed_hassan-5229782/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=3193372) from [Pixabay](https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=3193372)*
+
+---
 
 This article covers the six digital tools I rely on most, the core of my digital workflow. They are listed roughly in order of how much time I spend using them in an average day. I like to use a combination of physical and digital tools in everything I do—mostly writing and research projects. I’ll get into physical tools and EDC (Everyday Carry) in future posts. In this article, I’m specifically focusing on major tools, not utilities or helpers.
 
@@ -69,7 +71,7 @@ I’ve tried many of the alternatives. Apple Notes, Notion, Simplenote, Standard
 ### Worth Mentioning
 
 - **Obsidian Sync** costs $4 and, in my opinion, is totally worth it. I’ve tried using cloud storage options like Dropbox and iCloud, but there would always be an issue eventually. I haven’t had a single problem with Obsidian sync in almost five years of using it. 
-  One caution: If you open the iOS app and start editing a note that hasn’t synced yet, it’s possible for the sync to overwrite your edits. Just give it a minute or two before editing existing notes, and you should be fine.
+**One caution**: If you open the iOS app and start editing a note that hasn’t synced yet, it’s possible for the sync to overwrite your edits. Just give it a minute or two before editing existing notes, and you should be fine.
 - Obsidian also has **GitHub support** built-in. You can store your Vault in a GitHub repository for both sync and backup. When I first tried it, I wasn’t comfortable with GitHub yet and made a mess of it. I may try again sometime; there is a lot to recommend this approach. 
 
 ## Web Browser—Zen (at the moment)
@@ -91,11 +93,13 @@ Most recently, I’ve been going back and forth between **Brave** (with the AI a
 ### Why I Love Zen
 
 - **It’s based on Firefox and inherits its security and privacy features**. No matter how you slice it, Firefox is inherently more secure and private than Chrome—even setting aside Google’s deliberate snooping. It helps that, unlike Apple and Google, Mozilla is a nonprofit. Throw in the uBlock Origin extension and make use of Containers, and short of using a hardcore privacy tool like Tor, you’re about as well protected as you can be. 
-- **Zen has a slick, minimalist interface that closely resembles Arc’s**. I sincerely wish Arc were still supported. The way it rethought tabs and streamlined interactions has yet to be matched. For my money, Zen has come the closest. Here’s hoping it can get there.![The Zen browser UI](../images/zen_browser.png)
+- **Zen has a slick, minimalist interface that closely resembles Arc’s**. I sincerely wish Arc were still supported. The way it rethought tabs and streamlined interactions has yet to be matched. For my money, Zen has come the closest. Here’s hoping it can get there.
+![The Zen browser UI. Capture by author.](../images/zen_browser.png)
 
 ### What Could Be Better
 
-- **Not all extensions are vetted**. The one clear security hole in Firefox is that not all extensions are vetted for safety. To Mozilla’s credit, it makes this clear by adding a notice at the top of the store page: ![Firefox extension store warning banner about unverified extensions](../images/firefox_extension_warning.png)
+- **Not all extensions are vetted**. The one clear security hole in Firefox is that not all extensions are vetted for safety. To Mozilla’s credit, it makes this clear by adding a notice at the top of the store page:
+![Firefox extension store warning banner about unverified extensions. Capture by author.](../images/firefox_extension_warning.png)
 - **Performance lags behind Chrome and Safari**. Mozilla has made strides in improving Firefox’s performance, but it’s still not as snappy as most of the alternatives.
 - **There’s always the chance it will cease development without warning**. I’m not saying I think it will, but it could. You can be pretty sure that Apple and Google are in the browser business for the long haul, but as a nonprofit, Mozilla is more likely to run into funding problems. Zen specifically is made by a small group of devs who rely on donations to keep going. Something to be aware of, and a good reason to consider donating.
 
@@ -110,7 +114,7 @@ While I could use Obsidian for long-form writing, I prefer using Typora for that
 ### Why I Love Typora
 
 - **Live Markdown preview**. Typora handles Markdown format preview in almost exactly the way Obsidian does. It hides the markup characters and renders the formatting as you type. It’s as close to a true **WYSIWYG** (what you see is what you get) Markdown editor as I’ve found.
-- **Easy to flip to editing source and back**. Typora has two primary editing views: the Markdown preview and **Source Code Mode**. Hitting `command + /` on macOS, `control + /` on Windows, will toggle to a true plaintext, unformatted view with all markup characters visible. I typically write in the regular view, then switch to Source Code Mode to make sure there are no extra blank lines or other weirdness.
+- **Easy to flip to editing source and back**. Typora has two primary editing views: the Markdown preview and **Source Code Mode**. Hitting `command + /` on macOS, `control + /` on Windows, will toggle to a semi-formatted view with all markup characters visible. I typically write in the regular view, then switch to Source Code Mode to make sure there are no extra blank lines or other weirdness.
 - **Basic GitHub integration**. Since I use GitHub mostly for managing writing projects, I set Typora as the default external editor. Opening a file within a GitHub repo will populate Typora’s **File List View sidebar** with all of the files in the repo that it is able to edit. This aids greatly when editing large documents that have been broken into smaller files.
 
 ### What Could Be Better
@@ -137,7 +141,7 @@ I’d used both GitLab and GitHub for work at different times, though I was neve
 ### What Could Be Better
 
 - **The learning curve is steep**. Hoo-boy, yeah. The way Git works is logical, but complicated and unintuitive, especially to a non-developer. You won’t be surprised to learn that it was created by Linus Torvalds to support the development of the Linux kernel. That’s a hardcore programming background, so the approach makes sense.
-  All I can say is, if I could figure it out, so can you (I have a Fine Arts degree from a defunct institution, so… yeah). There are tons of great resources online, and if you happen to know any programmers, even better. Just take it one step at a time and make sure you have the basics in hand before trying anything fancy.
+All I can say is, if I could figure it out, so can you (I have a Fine Arts degree from a defunct institution, so… yeah). There are tons of great resources online, and if you happen to know any programmers, even better. Just take it one step at a time and make sure you have the basics in hand before trying anything fancy.
 - It’s easy to get lost. Even if you’re comfortable working in Git—pushing, pulling, branching, and merging with confidence—it’s possible to do something with no idea what you just did or how to undo it. If that happens, take a deep breath, step away, and then come back and try to figure it out. If you can’t, your friendly neighborhood programmer or an LLM can help immensely.
 
 ### Worth Mentioning
@@ -156,19 +160,17 @@ I’ve been a champion of Affinity for nearly a decade. Originally a suite of th
 
 - **The vector tools work the way Illustrator always should have**. The first Affinity app I fell in love with was Affinity Designer. It had most of the power of Adobe Illustrator, plus the ability to seamlessly mix in raster tools, all presented in a UI that just made sense. Going back to Illustrator after using Designer was a no-go; the usability gap was so large as to be comical. It still is.
 - **The image editing and desktop layout tools are good enough**. That might sound like faint praise, but it’s not. Photoshop and InDesign still dominate their respective markets; any free (or even $50) tool that realistically challenges either is a big deal. 
-
-  Unless you’re doing high-end professional work, or need to interface with legacy systems built on Adobe’s tools, there’s likely no reason you’d need anything more.
+Unless you’re doing high-end professional work, or need to interface with legacy systems built on Adobe’s tools, there’s likely no reason you’d need anything more.
 - **There are full-featured iPad versions**. As of right now, the Affinity suite is available as three separate iOS apps, all for free. If you have an iPad with an M processor, the apps should run without trouble. Canva has said it will release a unified app soon, which will presumably also be free.
 
 ### What Could Be Better
 
 - **The unified interface is a bit unwieldy in places**. When the three apps were separate, they had the freedom to rework the menus as made sense for each app. In the unified interface, the **menus don’t change when changing modes**. It appears the decision was made for all of the menus to be standardized and visible at all times. That means they had to consolidate a bunch of them. I don’t totally agree with how they’ve done it, but I get it. 
-
-  Less explicable is the **Context Toolbar**, which for some reason no longer fits comfortably on screen, especially in Layout mode. The best option is to float it, which changes it to a two-layer format so everything can be seen on-screen at the same time. It’s workable but frustrating and totally unnecessary.
+Less explicable is the **Context Toolbar**, which for some reason no longer fits comfortably on screen, especially in Layout mode. The best option is to float it, which changes it to a two-layer format so everything can be seen on-screen at the same time. It’s workable but frustrating and totally unnecessary.
 - **The export window is more confusing now (in my opinion)**. I find I get a bit lost in the export window; I did not have that problem before. It has all the options you could ever ask for and works fine; it's just a bit of information overload, and I think there must be a better way to handle it.
 - **I hate the icon**. Seriously, it’s just weird. I don’t like it.
 
-![New unified Affinity logo on the left, the three old logos on the right.](../images/Affinity-Logos.png)
+![New unified Affinity logo on the left, the three old logos on the right. Assembled by author.](../images/Affinity-Logos.png)
 
 ## Scripting & Proofreading—Claude (for now)
 
@@ -186,19 +188,22 @@ That said, there are some valuable and valid uses for these tools. Among them: c
 ### Why I Use Claude
 
 - **Whipping up simple scripts to solve problems is easy and kind of fun**. I’ve used Claude to quickly create some niche tools, like custom plugins for processing files in Obsidian and PopClip, and to help with regex queries (something I’ve always had trouble with). Being able to address these problems quickly, as you encounter them, makes a real difference.
-  I’ve also used it to create working prototypes of apps I think should exist, to prove out the idea, and to show prospective developers. Some of these, along with short write-ups, can be found on my website at https://jeremiahclark.com/#projects. I have a number of developer friends, but they’re busy people, and I’m not a developer and never will be. This is the only way I’ve been able to get this far.
+I’ve also used it to create working prototypes of apps I think should exist, to prove out the idea, and to show prospective developers. Some of these, along with short write-ups, can be found on my website at https://jeremiahclark.com/#projects. I have a number of developer friends, but they’re busy people, and I’m not a developer and never will be. This is the only way I’ve been able to get this far.
 - **It’s the best non-human editor and proofreader around**. I created a system for using Claude to review my writing. It consists of a series of Markdown documents that contain my personal style guide, a detailed description of how I write, and highly detailed rules of engagement. This ensures that what I get out is formatted usefully, doesn’t try to change the voice, tone, or content, and is free of opinion or undue influence. I should probably write more about this system at some point (makes a note).
-  I still take care to change only what I agree with (mostly typos, grammar, and punctuation problems, that sort of thing) and discard the rest. As a result, I’m significantly more confident in my writing when I release it, something that is more than worth the price of access (for now).
+I still take care to change only what I agree with (mostly typos, grammar, and punctuation problems, that sort of thing) and discard the rest. As a result, I’m significantly more confident in my writing when I release it, something that is more than worth the price of access (for now).
 
 ### What Could Be Better
 
 - **Whipping up simple scripts to solve problems can be aggravating**. When something isn’t working, it can be soul-crushingly difficult to get Claude to fix it. Especially if it’s something you don’t know anything about, you’re left asking over and over again for fixes that don’t seem to work.
-  The answer I’ve arrived at is to keep, as much as possible, to things you understand—at least at a basic level—and work step by step. Add features one at a time; as soon as something works, save it so you can always go back to that version. And don’t be afraid to go back or start over.
+The answer I’ve arrived at is to keep, as much as possible, to things you understand—at least at a basic level—and work step by step. Add features one at a time; as soon as something works, save it so you can always go back to that version. And don’t be afraid to go back or start over.
 - **It can be the dumbest and weirdest editor around**. Sometimes, usually after a period of everything just working, when your guard is down, Claude will develop a rather specific and annoying sort of stupidity. It will insist that something is misspelled that isn’t; it will claim that there is a glaring factual error related to text that just isn’t there. Even basic math can be a stumbling block:
-  ![A screenshot of Claude output adding up percentages incorrectly, then offering the exact same numbers as the correct percentages](../images/claude_being_dumb.jpg) A good reminder that, yes, this is just a sophisticated algorithm and “algorithms are super dumb” (to quote one of the best pieces of AI-themed media to date).
+  
+
+![A screenshot of Claude output adding up percentages incorrectly, then offering the exact same numbers as the correct percentages](../images/claude_being_dumb.jpg)
+A good reminder that, yes, this is just a sophisticated algorithm and “algorithms are super dumb” (to quote one of the best pieces of AI-themed media to date).
 - **The looming AI bubble**. The dirty secret of the AI industry is that it is terribly, catastrophically unprofitable. At the moment, OpenAI, Anthropic, Perplexity, and all the rest spend something like $8 or $9 for every $1 they make from subscriptions. Possibly more. *That can’t last.* 
-  Either the tools will be degraded to save on development and support costs (some reports indicate Claude Opus 4.7 is already showing signs of this), or the pricing will become astronomical. *Or both.* 
-  Use the tools but know that LLMs **as we know them now** may not be around for long.
+Either the tools will be degraded to save on development and support costs (some reports indicate Claude Opus 4.7 is already showing signs of this), or the pricing will become astronomical. *Or both.* 
+Use the tools but know that LLMs **as we know them now** may not be around for long.
 
 ---
 
