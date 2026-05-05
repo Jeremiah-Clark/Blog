@@ -12,24 +12,29 @@ This article covers the six digital tools I rely on most, the core of my digital
 
 ## TL;DR—The Bottom Line
 
-- Information Hub—**Obsidian**
-  - Pro: Plaintext files hosted locally, easily extensible.
-  - Con: Possibly overwhelming at first.
-- Web Browser—**Zen** (at the moment)
-  - Pro: A well-designed, private, reliable, modern browser.
-  - Con: Lags in performance, some questions about future development.
-- Focused Writing—**Typora**
-  - Pro: Minimal Markdown editor with live preview.
-  - Con: Has a few annoying quirks.
-- Project Sync & Version Control—**GitHub**
-  - Pro: Solid syncing and version control.
-  - Con: Steep learning curve, unintuitive for non-developers.
-- Art & Design—**Affinity**
-  - Pro: 80% of Photoshop, Illustrator, and InDesign for 0% the cost.
-  - Con: The new unified interface is a bit unwieldy in places.
-- Scripting & Proofreading—**Claude** (for now)
-  - Pro: Currently the best at dealing with the nuances of writing; top-notch at working up simple scripts and prototypes.
-  - Con: Scripting can be frustrating when something breaks, and Claude can't seem to fix it. 
+Information Hub—**Obsidian**
+- Pro: Plaintext files hosted locally, easily extensible.
+- Con: Possibly overwhelming at first.
+
+Web Browser—**Zen** (at the moment)
+- Pro: A well-designed, private, reliable, modern browser.
+- Con: Lags in performance, some questions about future development.
+
+Focused Writing—**Typora**
+- Pro: Minimal Markdown editor with live preview.
+- Con: Has a few annoying quirks.
+
+Project Sync & Version Control—**GitHub**
+- Pro: Solid syncing and version control.
+- Con: Steep learning curve, unintuitive for non-developers.
+
+Art & Design—**Affinity**
+- Pro: 80% of Photoshop, Illustrator, and InDesign for 0% the cost.
+- Con: The new unified interface is a bit unwieldy in places.
+
+Scripting & Proofreading—**Claude** (for now)
+- Pro: Currently the best at dealing with the nuances of writing; top-notch at working up simple scripts and prototypes.
+- Con: Scripting can be frustrating when something breaks, and Claude can't seem to fix it. 
 
 ---
 
