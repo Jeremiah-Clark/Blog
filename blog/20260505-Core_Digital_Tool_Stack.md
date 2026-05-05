@@ -70,10 +70,10 @@ I’ve tried many of the alternatives. Apple Notes, Notion, Simplenote, Standard
 
 ### Worth Mentioning
 
-- **Obsidian Sync** costs $4 and, in my opinion, is totally worth it. I’ve tried using cloud storage options like Dropbox and iCloud, but there would always be an issue eventually. I haven’t had a single problem with Obsidian sync in almost five years of using it. 
+- **Obsidian Sync costs $4/month** and, in my opinion, is totally worth it. I’ve tried using cloud storage options like Dropbox and iCloud, but there would always be an issue eventually. I haven’t had a single problem with Obsidian sync in almost five years of using it. 
   - *One caution:* If you open the iOS app and start editing a note that hasn’t synced yet, it’s possible for the sync to overwrite your edits. Just give it a minute or two before editing existing notes, and you should be fine.
 
-- Obsidian also has **GitHub support** built-in. You can store your Vault in a GitHub repository for both sync and backup. When I first tried it, I wasn’t comfortable with GitHub yet and made a mess of it. I may try again sometime; there is a lot to recommend this approach. 
+- **Obsidian also has GitHub support built in**. You can store your Vault in a GitHub repository for both sync and backup. When I first tried it, I wasn’t comfortable with GitHub yet and made a mess of it. I may try again sometime; there is a lot to recommend this approach. 
 
 ## Web Browser—Zen (at the moment)
 
@@ -144,7 +144,7 @@ I’d used both GitLab and GitHub for work at different times, though I was neve
 - **The learning curve is steep**. Hoo-boy, yeah. The way Git works is logical, but complicated and unintuitive, especially to a non-developer. You won’t be surprised to learn that it was created by Linus Torvalds to support the development of the Linux kernel. That’s a hardcore programming background, so the approach makes sense.
   - All I can say is, if I could figure it out, so can you (I have a Fine Arts degree from a defunct institution, so… yeah). There are tons of great resources online, and if you happen to know any programmers, even better. Just take it one step at a time and make sure you have the basics in hand before trying anything fancy.
 
-- It’s easy to get lost. Even if you’re comfortable working in Git—pushing, pulling, branching, and merging with confidence—it’s possible to do something with no idea what you just did or how to undo it. If that happens, take a deep breath, step away, and then come back and try to figure it out. If you can’t, your friendly neighborhood programmer or an LLM can help immensely.
+- **It’s easy to get lost**. Even if you’re comfortable working in Git—pushing, pulling, branching, and merging with confidence—it’s possible to do something with no idea what you just did or how to undo it. If that happens, take a deep breath, step away, and then come back and try to figure it out. If you can’t, your friendly neighborhood programmer or an LLM can help immensely.
 
 ### Worth Mentioning
 
