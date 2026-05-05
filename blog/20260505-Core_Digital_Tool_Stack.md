@@ -1,6 +1,6 @@
 ---
 title: I Settled My Core Digital Tool Stack—I've Never Been More Productive
-date: 2026-05-04
+date: 2026-05-05
 slug: Core_Digital_Tool_Stack
 ---
 
