@@ -71,7 +71,8 @@ I’ve tried many of the alternatives. Apple Notes, Notion, Simplenote, Standard
 ### Worth Mentioning
 
 - **Obsidian Sync** costs $4 and, in my opinion, is totally worth it. I’ve tried using cloud storage options like Dropbox and iCloud, but there would always be an issue eventually. I haven’t had a single problem with Obsidian sync in almost five years of using it. 
-**One caution**: If you open the iOS app and start editing a note that hasn’t synced yet, it’s possible for the sync to overwrite your edits. Just give it a minute or two before editing existing notes, and you should be fine.
+  - *One caution:* If you open the iOS app and start editing a note that hasn’t synced yet, it’s possible for the sync to overwrite your edits. Just give it a minute or two before editing existing notes, and you should be fine.
+
 - Obsidian also has **GitHub support** built-in. You can store your Vault in a GitHub repository for both sync and backup. When I first tried it, I wasn’t comfortable with GitHub yet and made a mess of it. I may try again sometime; there is a lot to recommend this approach. 
 
 ## Web Browser—Zen (at the moment)
@@ -141,7 +142,8 @@ I’d used both GitLab and GitHub for work at different times, though I was neve
 ### What Could Be Better
 
 - **The learning curve is steep**. Hoo-boy, yeah. The way Git works is logical, but complicated and unintuitive, especially to a non-developer. You won’t be surprised to learn that it was created by Linus Torvalds to support the development of the Linux kernel. That’s a hardcore programming background, so the approach makes sense.
-All I can say is, if I could figure it out, so can you (I have a Fine Arts degree from a defunct institution, so… yeah). There are tons of great resources online, and if you happen to know any programmers, even better. Just take it one step at a time and make sure you have the basics in hand before trying anything fancy.
+  - All I can say is, if I could figure it out, so can you (I have a Fine Arts degree from a defunct institution, so… yeah). There are tons of great resources online, and if you happen to know any programmers, even better. Just take it one step at a time and make sure you have the basics in hand before trying anything fancy.
+
 - It’s easy to get lost. Even if you’re comfortable working in Git—pushing, pulling, branching, and merging with confidence—it’s possible to do something with no idea what you just did or how to undo it. If that happens, take a deep breath, step away, and then come back and try to figure it out. If you can’t, your friendly neighborhood programmer or an LLM can help immensely.
 
 ### Worth Mentioning
@@ -166,7 +168,8 @@ Unless you’re doing high-end professional work, or need to interface with lega
 ### What Could Be Better
 
 - **The unified interface is a bit unwieldy in places**. When the three apps were separate, they had the freedom to rework the menus as made sense for each app. In the unified interface, the **menus don’t change when changing modes**. It appears the decision was made for all of the menus to be standardized and visible at all times. That means they had to consolidate a bunch of them. I don’t totally agree with how they’ve done it, but I get it. 
-Less explicable is the **Context Toolbar**, which for some reason no longer fits comfortably on screen, especially in Layout mode. The best option is to float it, which changes it to a two-layer format so everything can be seen on-screen at the same time. It’s workable but frustrating and totally unnecessary.
+  - Less explicable is the **Context Toolbar**, which for some reason no longer fits comfortably on screen, especially in Layout mode. The best option is to float it, which changes it to a two-layer format so everything can be seen on-screen at the same time. It’s workable but frustrating and totally unnecessary.
+
 - **The export window is more confusing now (in my opinion)**. I find I get a bit lost in the export window; I did not have that problem before. It has all the options you could ever ask for and works fine; it's just a bit of information overload, and I think there must be a better way to handle it.
 - **I hate the icon**. Seriously, it’s just weird. I don’t like it.
 
@@ -190,14 +193,16 @@ That said, there are some valuable and valid uses for these tools. Among them: c
 - **Whipping up simple scripts to solve problems is easy and kind of fun**. I’ve used Claude to quickly create some niche tools, like custom plugins for processing files in Obsidian and PopClip, and to help with regex queries (something I’ve always had trouble with). Being able to address these problems quickly, as you encounter them, makes a real difference.
 I’ve also used it to create working prototypes of apps I think should exist, to prove out the idea, and to show prospective developers. Some of these, along with short write-ups, can be found on my website at https://jeremiahclark.com/#projects. I have a number of developer friends, but they’re busy people, and I’m not a developer and never will be. This is the only way I’ve been able to get this far.
 - **It’s the best non-human editor and proofreader around**. I created a system for using Claude to review my writing. It consists of a series of Markdown documents that contain my personal style guide, a detailed description of how I write, and highly detailed rules of engagement. This ensures that what I get out is formatted usefully, doesn’t try to change the voice, tone, or content, and is free of opinion or undue influence. I should probably write more about this system at some point (makes a note).
-I still take care to change only what I agree with (mostly typos, grammar, and punctuation problems, that sort of thing) and discard the rest. As a result, I’m significantly more confident in my writing when I release it, something that is more than worth the price of access (for now).
+  - I still take care to change only what I agree with (mostly typos, grammar, and punctuation problems, that sort of thing) and discard the rest. As a result, I’m significantly more confident in my writing when I release it, something that is more than worth the price of access (for now).
+
 
 ### What Could Be Better
 
 - **Whipping up simple scripts to solve problems can be aggravating**. When something isn’t working, it can be soul-crushingly difficult to get Claude to fix it. Especially if it’s something you don’t know anything about, you’re left asking over and over again for fixes that don’t seem to work.
-The answer I’ve arrived at is to keep, as much as possible, to things you understand—at least at a basic level—and work step by step. Add features one at a time; as soon as something works, save it so you can always go back to that version. And don’t be afraid to go back or start over.
+  - The answer I’ve arrived at is to keep, as much as possible, to things you understand—at least at a basic level—and work step by step. Add features one at a time; as soon as something works, save it so you can always go back to that version. And don’t be afraid to go back or start over.
+
 - **It can be the dumbest and weirdest editor around**. Sometimes, usually after a period of everything just working, when your guard is down, Claude will develop a rather specific and annoying sort of stupidity. It will insist that something is misspelled that isn’t; it will claim that there is a glaring factual error related to text that just isn’t there. Even basic math can be a stumbling block:
-  
+
 
 ![A screenshot of Claude output adding up percentages incorrectly, then offering the exact same numbers as the correct percentages](../images/claude_being_dumb.jpg)
 A good reminder that, yes, this is just a sophisticated algorithm and “algorithms are super dumb” (to quote one of the best pieces of AI-themed media to date).
