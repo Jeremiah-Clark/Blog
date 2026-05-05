@@ -6,6 +6,8 @@ slug: homebrew-for-normies
 
 `1360 Words; 6 min read`
 
+
+
 In my last article ([Leaving Setapp…](https://medium.com/@jeremiah-clark/leaving-setapp-23-alternatives-3-holdouts-61921358230c)), I included Homebrew commands for most of the recommended apps and said it “deserves another article entirely.” 
 Well, here we go.
 
