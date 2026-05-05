@@ -4,6 +4,8 @@ date: 2026-04-20
 slug: leaving-setapp
 ---
 
+`2180 Words; 9 min read`
+
 I’ve been using Setapp for nearly a decade, almost as long as it has existed. 
 At the time, I was doing freelance work, and having access to a growing collection of tools for a set monthly fee was revelatory. 
 I’ll admit, there’s also the allure of having shiny new apps to try out whenever I want. 
