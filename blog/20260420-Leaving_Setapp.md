@@ -63,6 +63,7 @@ The graph is turned off by default, but it can be turned on in Settings > Dashbo
 
 ```
 brew install --cask srimanachanta/tap/stasis
+xattr -cr /Applications/Stasis.app
 ```
 
 ## Archiver = [Keka](https://www.keka.io/en/)—Free, $6
