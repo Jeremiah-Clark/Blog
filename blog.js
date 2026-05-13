@@ -139,7 +139,7 @@
             '</div>'
           );
         } else {
-          out.push('<blockquote>' + renderInline(escapeHtml(bq.join(" "))) + '</blockquote>');
+          out.push('<blockquote>' + mdToHtml(bq.join("\n")) + '</blockquote>');
         }
         continue;
       }
