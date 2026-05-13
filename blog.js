@@ -164,6 +164,12 @@
         continue;
       }
       if (/^\s*$/.test(line)) { i++; continue; }
+      // Raw HTML passthrough
+        if (/^<[a-zA-Z\/]/.test(line)) {
+          out.push(line);
+          i++;
+          continue;
+        }
       var para = [];
       while (i < lines.length &&
              !/^\s*$/.test(lines[i]) &&
