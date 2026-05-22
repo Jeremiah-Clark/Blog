@@ -1,5 +1,5 @@
 ---
-title: Getting Started with Homebrew for Normies
+title: Getting Started with Homebrew for Non-Developers
 date: 2026-04-28
 slug: homebrew-for-normies
 ---
