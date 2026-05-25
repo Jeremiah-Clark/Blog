@@ -1,8 +1,14 @@
 ---
-title: Using Shell Scripts to Launch CLI Tools for Non-Developers
-date: May 26, 2026
+title: Using Shell Scripts to Launch CLI Tools, for Non-Developers
+date: May 25, 2026
 slug: shell_scripts_launch_cli_tools
 ---
+
+![photo-1767817099805-d79e31fb968c](../images/photo-1767817099805-d79e31fb968c.jpeg)
+
+<div style="text-align: center; font-style: italic;">
+Photo by <a href="https://unsplash.com/@harshitkatiyar?utm_source=medium&utm_medium=referral">Harshit Katiyar</a> on <a href="https://unsplash.com/?utm_source=medium&utm_medium=referral">Unsplash</a>
+</div>
 
 Though I’m not a developer or hacker, I use a number of **Command-Line Interface (CLI)** tools with some regularity. In some cases, these tools are quicker, lighter-weight, or just better than the more common **Graphical User Interface (GUI)** alternatives.
 
@@ -10,12 +16,11 @@ But as I said, I don’t live in the terminal. To run a CLI tool, I would first 
 
 Instead, I’ve created simple shell scripts to launch them like any other app. It’s surprisingly easy to do, even if you have no experience with scripting or programming. These files can be added to the Applications folder and treated like regular apps. I like to keep mine in a separate folder on the Dock.
 
-![My folder of CLI scripts.](../images/CLI-folder.png)
+![Screenshot showing my folder of CLI scripts.](../images/CLI-folder.png)
 
 <div style="text-align: center; font-style: italic;">
 My folder of CLI tools.
 </div>
-
 ## Required Tools
 
 - **Terminal Emulator**—The default terminal app works fine. In day-to-day use, I prefer *Ghostty*, but it doesn’t make any difference for this purpose (*iTerm2* is another popular alternative, though it has known compatibility issues with the *Mole* tool, so I don’t use it).
@@ -93,12 +98,12 @@ From there, *Mole* takes over. Once the *Mole* process ends, you will see the me
 ```
 #!/bin/bash
 read -rp "Search term: " searchterm
-fd "$searchterm" / n
+fd "$searchterm" /
 ```
 
 > \[!Note]
 >
-> Going forward, I’m only going to detail the elements not covered previously:
+> Going forward, I’m only going to detail the elements not covered previously.
 
 - `read -rp` displays a prompt and waits for a response before continuing. It will interpret whatever is typed as raw text.
 - The text inside the quotation marks is the actual prompt; the text can be anything.
