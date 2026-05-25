@@ -6,7 +6,6 @@ slug: shell_scripts_launch_cli_tools
 ---
 
 ![photo-1767817099805-d79e31fb968c](../images/photo-1767817099805-d79e31fb968c.jpeg)
-
 <div style="text-align: center; font-style: italic;">Photo by <a href="https://unsplash.com/@harshitkatiyar?utm_source=medium&utm_medium=referral">Harshit Katiyar</a> on <a href="https://unsplash.com/?utm_source=medium&utm_medium=referral">Unsplash</a></div>
 
 `1250 Words; 6 min read`
@@ -21,9 +20,8 @@ Instead, I’ve created simple shell scripts to launch them like any other app. 
 
 ![Screenshot showing my folder of CLI scripts.](../images/CLI-folder.png)
 
-<div style="text-align: center; font-style: italic;">
-My folder of CLI tools.
-</div>
+<div style="text-align: center; font-style: italic;">My folder of CLI tools.</div>
+
 ## Required Tools
 
 - **Terminal Emulator**—The default terminal app works fine. In day-to-day use, I prefer *Ghostty*, but it doesn’t make any difference for this purpose (*iTerm2* is another popular alternative, though it has known compatibility issues with the *Mole* tool, so I don’t use it).
@@ -66,9 +64,7 @@ Regardless of which path you choose, the new file will act like an application w
 
 ![Shows the process of dragging an icon into the “Info” window for a file.](../images/Custom_Icon.png)
 
-<div style="text-align: center; font-style: italic;">
-Mole has an icon on its GitHub page, so I took a screenshot and cropped it down.
-</div>
+<div style="text-align: center; font-style: italic;">Mole has an icon on its GitHub page, so I took a screenshot and cropped it down.</div>
 
 ## Example Scripts
 
