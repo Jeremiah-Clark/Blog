@@ -2,13 +2,13 @@
 title: Using Shell Scripts to Launch CLI Tools, for Non-Developers
 date: May 25, 2026
 slug: shell_scripts_launch_cli_tools
+
 ---
 
 ![photo-1767817099805-d79e31fb968c](../images/photo-1767817099805-d79e31fb968c.jpeg)
 
-<div style="text-align: center; font-style: italic;">
-Photo by <a href="https://unsplash.com/@harshitkatiyar?utm_source=medium&utm_medium=referral">Harshit Katiyar</a> on <a href="https://unsplash.com/?utm_source=medium&utm_medium=referral">Unsplash</a>
-</div>
+<div style="text-align: center; font-style: italic;">Photo by <a href="https://unsplash.com/@harshitkatiyar?utm_source=medium&utm_medium=referral">Harshit Katiyar</a> on <a href="https://unsplash.com/?utm_source=medium&utm_medium=referral">Unsplash</a></div>
+
 `1250 Words; 6 min read`
 
 ---
