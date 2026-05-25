@@ -9,6 +9,9 @@ slug: shell_scripts_launch_cli_tools
 <div style="text-align: center; font-style: italic;">
 Photo by <a href="https://unsplash.com/@harshitkatiyar?utm_source=medium&utm_medium=referral">Harshit Katiyar</a> on <a href="https://unsplash.com/?utm_source=medium&utm_medium=referral">Unsplash</a>
 </div>
+`1250 Words; 6 min read`
+
+---
 
 Though I’m not a developer or hacker, I use a number of **Command-Line Interface (CLI)** tools with some regularity. In some cases, these tools are quicker, lighter-weight, or just better than the more common **Graphical User Interface (GUI)** alternatives.
 
