@@ -77,6 +77,8 @@ I’ve chosen three freely available CLI tools to use as examples:
 
 ### 1. MOLE
 
+The simplest case is when you only need to call a single command:
+
 ```
 #!/bin/bash 
 mo
@@ -87,7 +89,7 @@ Let’s break it down line by line:
 - `#!/bin/bash` is called the **shebang** or **hashbang** line. It tells macOS which interpreter to use when running the file. In this case, it specifies the *Bash* shell (*Bash* and its alternatives are beyond the scope of this article). When you double-click the script, macOS automatically opens it in your default terminal.
 - `mo` is the command that launches the *Mole* tool.
 
-This is an example of a very basic shell script. Nothing more is required; only this text needs to be included in the file.
+This is a very basic shell script. Nothing more is required; only this text needs to be included in the file.
 
 ![A screenshot of the CotEditor app with the script for launching Mole.](../images/SCR-20260521-papf.png)
 
@@ -95,10 +97,13 @@ From there, *Mole* takes over. Once the *Mole* process ends, you will see the me
 
 ### 2. FD
 
+Sometimes you need to input something when the script is run:
+
 ```
 #!/bin/bash
 read -rp "Search term: " searchterm
 fd "$searchterm" /
+$SHELL
 ```
 
 > \[!Note]
