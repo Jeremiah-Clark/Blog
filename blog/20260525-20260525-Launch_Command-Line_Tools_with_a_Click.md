@@ -106,7 +106,7 @@ fd "$searchterm" /
 $SHELL
 ```
 
-> \[!Note]
+> [!Note]
 >
 > Going forward, I’m only going to detail the elements not covered previously.
 
