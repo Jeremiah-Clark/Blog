@@ -84,7 +84,7 @@ mo
 
 Let’s break it down line by line:
 
-- `#!/bin/bash` is called the **shebang** or **hasbang** line. It tells macOS which interpreter to use when running the file. In this case, it specifies the *Bash* shell (*Bash* and its alternatives are beyond the scope of this article). When you double-click the script, macOS automatically opens it in your default terminal.
+- `#!/bin/bash` is called the **shebang** or **hashbang** line. It tells macOS which interpreter to use when running the file. In this case, it specifies the *Bash* shell (*Bash* and its alternatives are beyond the scope of this article). When you double-click the script, macOS automatically opens it in your default terminal.
 - `mo` is the command that launches the *Mole* tool.
 
 This is an example of a very basic shell script. Nothing more is required; only this text needs to be included in the file.
