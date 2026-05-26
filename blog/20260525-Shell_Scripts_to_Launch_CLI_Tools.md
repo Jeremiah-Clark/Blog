@@ -1,5 +1,5 @@
 ---
-title: Using Shell Scripts to Launch CLI Tools, for Non-Developers
+title: Launch Command-Line Tools with a Click using Shell Scripts, for Non-Developers
 date: May 25, 2026
 slug: shell_scripts_launch_cli_tools
 
