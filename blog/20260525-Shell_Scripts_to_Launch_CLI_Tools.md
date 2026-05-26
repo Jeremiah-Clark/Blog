@@ -6,6 +6,7 @@ slug: shell_scripts_launch_cli_tools
 ---
 
 ![A close up tilt-shift image of a screen showing code.](../images/photo-1767817099805-d79e31fb968c.jpeg)
+
 <div style="text-align: center; font-style: italic;">Photo by <a href="https://unsplash.com/@harshitkatiyar?utm_source=medium&utm_medium=referral">Harshit Katiyar</a> on <a href="https://unsplash.com/?utm_source=medium&utm_medium=referral">Unsplash</a></div>
 
 `1250 Words; 6 min read`
@@ -19,6 +20,7 @@ But as I said, I don’t live in the terminal. To run a CLI tool, I would first 
 Instead, I’ve created simple shell scripts to launch them like any other app. It’s surprisingly easy to do, even if you have no experience with scripting or programming. These files can be added to the Applications folder and treated like regular apps. I like to keep mine in a separate folder on the Dock.
 
 ![Screenshot showing my folder of CLI scripts.](../images/CLI-folder.png)
+
 <div style="text-align: center; font-style: italic;">My folder of CLI tools.</div>
 
 ## Required Tools
@@ -62,6 +64,7 @@ Regardless of which path you choose, the new file will act like an application w
 4. If you ever want to remove the custom icon, simply select it and hit the “delete” key.
 
 ![Shows the process of dragging an icon into the “Info” window for a file.](../images/Custom_Icon.png)
+
 <div style="text-align: center; font-style: italic;">Mole has an icon on its GitHub page, so I took a screenshot and cropped it down.</div>
 
 ## Example Scripts
