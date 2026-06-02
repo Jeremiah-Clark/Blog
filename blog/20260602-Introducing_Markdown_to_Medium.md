@@ -64,19 +64,19 @@ If you don’t want to work directly with the GitHub repository, you can [downlo
 ### Supported by the Medium editor
 
 - **Paragraphs** = Fully supported
-- **Bold/Italic** `**text**`/`*text*` = Fully supported
+- **Bold/Italic** `**text**` / `*text*` = Fully supported
 - **Links** `[text](url)` = Fully supported
 - **Headings H1–H3** `#`, `##`, `###` = Fully supported
 - **Blockquotes** `> Text` = Fully supported
 - **Inline Code/Code Blocks** = Fully supported
 - **Horizontal Rules** `---` = Supported; becomes a divider (blank line with three centered dots)
-- **Unordered/Ordered Lists** `- Text`/`1. Text` = Supported (one level only)
+- **Unordered/Ordered Lists** `- Text` / `1. Text` = Supported (one level only)
 - **Images, remote** `![alt text](https://...)` = Supported (will be fetched by Medium editor)
 
 ### Not supported by the Medium editor
 
 - **Tables** = Not supported; Medium will strip the table formatting. Reformat tables as a list or replace with images.
-- **Nested list items**  `  - Text`/`  1. Text` = The Medium editor only supports simple lists with one level. All nested items will be promoted to the top level.
+- **Nested list items**  ` - Text` / ` 1. Text` = The Medium editor only supports simple lists with one level. All nested items will be promoted to the top level.
 - **Task items** `- [ ] Text` = Task items will be changed to regular bullets.
 - **Headers beyond H3** `####`+ = Only H1, H2, and H3 are supported. Headers `####`+ are collapsed to `###`.
 - **Lists Within Blockquotes** `> - Text` = Not supported; the blockquote markup will be stripped.
