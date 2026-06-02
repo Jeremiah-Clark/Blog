@@ -10,7 +10,7 @@ I made a tool. If you write in Markdown and publish on Medium—as I do—this t
 
 <div style="text-align: center; font-style: italic;">Photo by <a href="https://unsplash.com/@christopher__burns?utm_source=medium&utm_medium=referral">Christopher Burns</a> on <a href="https://unsplash.com?utm_source=medium&utm_medium=referral">Unsplash</a></div>
 
-`905 words; 4 min read`
+`900 words; 4 min read`
 
 ---
 
