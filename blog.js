@@ -71,22 +71,28 @@
 
   // ---------- markdown rendering ----------
 
-  function renderInline(text) {
-    text = text.replace(/!\[([^\]]*)\]\(([^)\s]+)\)/g,
-      function (_, alt, url) {
-        return '<img src="' + escapeHtml(resolveAssetUrl(url)) + '" alt="' + escapeHtml(alt) + '" loading="lazy">';
-      });
-    text = text.replace(/\[([^\]]+)\]\(([^)\s]+)\)/g,
-      function (_, t, url) {
-        return '<a href="' + escapeHtml(resolveAssetUrl(url)) + '" target="_blank" rel="noopener noreferrer">' + t + '</a>';
-      });
-    text = text.replace(/`([^`]+)`/g, function (_, code) {
-      return '<code>' + escapeHtml(code) + '</code>';
+function renderInline(text) {
+  // Process inline code FIRST — escapes its own content internally.
+  text = text.replace(/`([^`]+)`/g, function (_, code) {
+    return '<code>' + escapeHtml(code) + '</code>';
+  });
+  // Images before links (more specific pattern first).
+  text = text.replace(/!\[([^\]]*)\]\(([^)\s]+)\)/g,
+    function (_, alt, url) {
+      return '<img src="' + escapeHtml(resolveAssetUrl(url)) + '" alt="' + escapeHtml(alt) + '" loading="lazy">';
     });
-    text = text.replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>');
-    text = text.replace(/(^|[^*])\*([^*\n]+)\*/g, '$1<em>$2</em>');
-    return text;
-  }
+  text = text.replace(/\[([^\]]+)\]\(([^)\s]+)\)/g,
+    function (_, t, url) {
+      return '<a href="' + escapeHtml(resolveAssetUrl(url)) + '" target="_blank" rel="noopener noreferrer">' + escapeHtml(t) + '</a>';
+    });
+  text = text.replace(/\*\*([^*]+)\*\*/g, function(_, s) { return '<strong>' + escapeHtml(s) + '</strong>'; });
+  text = text.replace(/(^|[^*])\*([^*\n]+)\*/g, function(_, pre, s) { return pre + '<em>' + escapeHtml(s) + '</em>'; });
+  // Escape remaining plain text, but don't double-escape already-inserted HTML tags.
+  text = text.replace(/(?:^|(?<=>))([^<]*)(?=<|$)/g, function(_, plain) {
+    return escapeHtml(plain);
+  });
+  return text;
+}
 
   // Strip the common leading whitespace from a block of lines.
   // Empty lines are ignored when calculating the minimum indent.
@@ -118,7 +124,7 @@
       if (/^\s*(---|\*\*\*|___)\s*$/.test(line)) { out.push('<hr>'); i++; continue; }
       var h = line.match(/^(#{1,6})\s+(.*)$/);
       if (h) {
-        out.push('<h' + h[1].length + '>' + renderInline(escapeHtml(h[2])) + '</h' + h[1].length + '>');
+        out.push('<h' + h[1].length + '>' + renderInline(h[2]) + '</h' + h[1].length + '>');
         i++; continue;
       }
       if (/^>\s?/.test(line)) {
@@ -135,7 +141,7 @@
           out.push(
             '<div class="admonition admonition-' + adType + '">' +
               '<div class="admonition-title">' + admonitionIcons[adType] + ' ' + adLabel + '</div>' +
-              (adBody ? '<p class="admonition-body">' + renderInline(escapeHtml(adBody)) + '</p>' : '') +
+              (adBody ? '<p class="admonition-body">' + renderInline(adBody) + '</p>' : '') +
             '</div>'
           );
         } else {
@@ -149,7 +155,7 @@
           items.push(lines[i].replace(/^\s*[-*+]\s+/, "")); i++;
         }
         out.push('<ul>' + items.map(function (x) {
-          return '<li>' + renderInline(escapeHtml(x)) + '</li>';
+          return '<li>' + renderInline(x) + '</li>';
         }).join("") + '</ul>');
         continue;
       }
@@ -159,7 +165,7 @@
           oitems.push(lines[i].replace(/^\s*\d+\.\s+/, "")); i++;
         }
         out.push('<ol>' + oitems.map(function (x) {
-          return '<li>' + renderInline(escapeHtml(x)) + '</li>';
+          return '<li>' + renderInline(x) + '</li>';
         }).join("") + '</ol>');
         continue;
       }
@@ -180,7 +186,7 @@
              !/^\s*\d+\.\s+/.test(lines[i])) {
         para.push(lines[i]); i++;
       }
-      out.push('<p>' + renderInline(escapeHtml(para.join(" "))) + '</p>');
+      out.push('<p>' + renderInline(para.join(" ")) + '</p>');
     }
     return out.join("\n");
   }
