@@ -102,7 +102,7 @@ If you don’t want to work directly with the GitHub repository, you can [downlo
 
 ## Licensing
 
-Markdown → Medium is available for free under an **MIT license**, which means it’s free to use, modify, and distribute. I would appreciate credit if you use it, and a link to this post or my website (https://jeremiahclark.com) would be wonderful.
+Markdown → Medium is available for free under an **MIT license**, which means it’s free to use, modify, and distribute. I would appreciate credit if you distribute it, and a link to this post or my website (https://jeremiahclark.com) would be wonderful.
 
 ## Conclusion
 
