@@ -72,24 +72,34 @@
   // ---------- markdown rendering ----------
 
 function renderInline(text) {
-  // Process inline code FIRST — escapes its own content internally.
+  // 1. Extract inline code into placeholders so subsequent regexes can't touch their contents.
+  var codeChunks = [];
   text = text.replace(/`([^`]+)`/g, function (_, code) {
-    return '<code>' + escapeHtml(code) + '</code>';
+    var placeholder = '\x00code' + codeChunks.length + '\x00';
+    codeChunks.push('<code>' + escapeHtml(code) + '</code>');
+    return placeholder;
   });
-  // Images before links (more specific pattern first).
-  text = text.replace(/!\[([^\]]*)\]\(([^)\s]+)\)/g,
-    function (_, alt, url) {
-      return '<img src="' + escapeHtml(resolveAssetUrl(url)) + '" alt="' + escapeHtml(alt) + '" loading="lazy">';
-    });
-  text = text.replace(/\[([^\]]+)\]\(([^)\s]+)\)/g,
-    function (_, t, url) {
-      return '<a href="' + escapeHtml(resolveAssetUrl(url)) + '" target="_blank" rel="noopener noreferrer">' + escapeHtml(t) + '</a>';
-    });
-  text = text.replace(/\*\*([^*]+)\*\*/g, function(_, s) { return '<strong>' + escapeHtml(s) + '</strong>'; });
-  text = text.replace(/(^|[^*])\*([^*\n]+)\*/g, function(_, pre, s) { return pre + '<em>' + escapeHtml(s) + '</em>'; });
-  // Escape remaining plain text, but don't double-escape already-inserted HTML tags.
-  text = text.replace(/(?:^|(?<=>))([^<]*)(?=<|$)/g, function(_, plain) {
+  // 2. Bold and italic before links, so they only ever wrap plain text.
+  text = text.replace(/\*\*([^*]+)\*\*/g, function(_, s) {
+    return '<strong>' + escapeHtml(s) + '</strong>';
+  });
+  text = text.replace(/(^|[^*])\*([^*\n]+)\*/g, function(_, pre, s) {
+    return pre + '<em>' + escapeHtml(s) + '</em>';
+  });
+  // 3. Images before links (more specific pattern first).
+  text = text.replace(/!\[([^\]]*)\]\(([^)\s]+)\)/g, function (_, alt, url) {
+    return '<img src="' + escapeHtml(resolveAssetUrl(url)) + '" alt="' + escapeHtml(alt) + '" loading="lazy">';
+  });
+  text = text.replace(/\[([^\]]+)\]\(([^)\s]+)\)/g, function (_, t, url) {
+    return '<a href="' + escapeHtml(resolveAssetUrl(url)) + '" target="_blank" rel="noopener noreferrer">' + escapeHtml(t) + '</a>';
+  });
+  // 4. Escape remaining plain text segments (between HTML tags and placeholders).
+  text = text.replace(/(?:^|(?<=>))([^<\x00]*)(?=<|\x00|$)/g, function(_, plain) {
     return escapeHtml(plain);
+  });
+  // 5. Restore code placeholders.
+  text = text.replace(/\x00code(\d+)\x00/g, function(_, i) {
+    return codeChunks[+i];
   });
   return text;
 }
