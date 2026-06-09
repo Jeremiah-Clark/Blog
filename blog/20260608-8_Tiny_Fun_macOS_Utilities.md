@@ -4,6 +4,10 @@ date: 2026-06-08
 slug: 8_tiny_fun_macos_utilities
 ---
 
+![A stylized image of a Swiss Army Knife with tools open, black and white and starkly lit.](../images/0_S1CvkM8qxNmQoEi5-optimised.jpg)
+
+<div style="text-align: center; font-style: italic;">Photo by <a href="https://unsplash.com/@efeyagizs">Efe Yağız Soysal</a> on <a href="https://unsplash.com/">Unsplash</a></div>
+
 I’ve been a Mac user for over 25 years—and a Windows user for a decade longer, for the record. One of the things I love about being a Mac user is the proliferation of small apps and utilities that are both genuinely useful and fun to use. Sure, Windows has always had *more* software—but not *better*, in the cases that matter to me.
 
 That’s down to the fact that dedicated Mac developers are a different breed. The good ones have great attention to detail, polish, and utility. For this list, I’m focusing on lesser-known apps that are small, fun, and genuinely useful.
