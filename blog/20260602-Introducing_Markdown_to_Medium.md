@@ -1,5 +1,5 @@
 ---
-title: Introducing "Markdown → Medium"
+title: Introducing Markdown → Medium
 date: 2026-06-02
 slug: Markdown_to_Medium
 ---
