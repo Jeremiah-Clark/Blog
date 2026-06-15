@@ -1,9 +1,11 @@
 # macOS system files
 
 .DS_Store
+Desktop.ini
 .AppleDouble
 .LSOverride
 ._*
+Thumbs.db
 .Spotlight-V100
 .Trashes
 .fseventsd
@@ -38,15 +40,10 @@
 *.afphoto-preview
 *.afpub-preview
 
-## Template files
-# These lines are commented out by default, meaning the template files
-# (.tex, .lua, .yaml, .sh) ARE tracked by Git.
-#
-# If you want to keep the template files OUT of your content repo (e.g.,
-# you installed them globally or share them across projects), uncomment
-# the lines below:
+## Template-only Files
 
 # *.tex
 # *.lua
 # *.yaml
 # *.sh
+.DS_Store
