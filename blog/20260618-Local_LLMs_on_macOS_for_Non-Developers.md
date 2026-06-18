@@ -5,6 +5,12 @@ slug: local_llms_macos
 
 ---
 
+![Stylized, abstract spirograph-like image with letters AI in the center.](../images/0_yoypHghT5nVWGu07-optimised.jpg)
+
+<div style="text-align: center; font-style: italic;">Photo by <a href="https://medium.com/r/?url=https%3A%2F%2Funsplash.com%2F%40zachmmalin%3Futm_source%3Dmedium%26utm_medium%3Dreferral">Zach M</a> on <a href="https://medium.com/r/?url=https%3A%2F%2Funsplash.com%3Futm_source%3Dmedium%26utm_medium%3Dreferral">Unsplash</a></div>
+
+
+`2300 words; 9 minutes`
 AI is becoming an essential tool for creative and technical workers—specifically in the form of **Large Language Models** (LLMs). Whether you don’t trust cloud model providers, you want to add another tool to your arsenal, your network connection is unreliable, or you just want to feel more in control, there are many reasons to run LLMs locally on your device. But it’s a huge and complicated subject with few obvious easy entry points, especially if you’re not a developer or technologist.
 
 If that sounds familiar, this article is for you. The world of LLMs is deeply complicated and deeply weird—moving fast with essentially no transparency or oversight. If the model is running on your device, that sidesteps most of those concerns. 
