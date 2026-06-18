@@ -201,7 +201,7 @@ The individual model pages on CanIRun.ai include a table that details the impact
 
 ![A screenshot showing the page for Llama 3.1 8B on CanIRun.ai, showing the Quantization options.](../images/CanIRunAI-llama3_1_8b.png)
 
-<div style="text-align: center; font-style: italic;">Note that the full-size model "BARELY RUNS", while the Q4_K_M version "RUNS GREAT"<br />(in addition to taking up about one-third as much RAM).</div>
+<div style="text-align: center; font-style: italic;">Note that the full-size model "BARELY RUNS", while the Q4_K_M version<br />"RUNS GREAT" (in addition to taking up about one-third as much RAM).</div>
 
 The essential takeaway is that for most models, the **Q4_K_M** version is a good balance between performance gains and quality reduction. 
 
