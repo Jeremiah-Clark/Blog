@@ -16,7 +16,9 @@ I’ve been a Mac user for over 25 years—and a Windows user for a decade longe
 
 That’s down to the fact that dedicated Mac developers are a different breed. The good ones have great attention to detail, polish, and utility. For this list, I’m focusing on lesser-known apps that are small, fun, and genuinely useful.
 
-> **Note**: I’m including commands for any apps available through Homebrew. If you need a quick introduction to Homebrew, [I’ve got you covered](https://medium.com/@jeremiah-clark/getting-started-with-homebrew-for-normies-5161f03853b2).
+> [!Note]
+> 
+> I’m including commands for any apps available through Homebrew. If you need a quick introduction to Homebrew, [I’ve got you covered](https://medium.com/@jeremiah-clark/getting-started-with-homebrew-for-normies-5161f03853b2).
 
 ## TL;DR
 
@@ -152,7 +154,9 @@ This is the one I’ve been using the longest. A coworker recommended it to me b
 
 The free version includes a few different styles of cat runners. Individual runners of other types can be purchased, or the whole lot can be unlocked for $8 (including the ability to make your own). I’m a big fan of the dinosaur and Welsh corgi runners, in particular.
 
-> **Note**: There is a [Windows version of RunCat](https://runcat-dev.github.io/RunCat365/). It doesn’t seem to have any in-app purchases, but it includes the ability to make custom runners for free.
+> [!Note]
+> 
+> There is a [Windows version of RunCat](https://runcat-dev.github.io/RunCat365/). It doesn’t seem to have any in-app purchases, but it includes the ability to make custom runners for free.
 
 ## [Monocle](https://www.heyiam.dk/monocle)—$14 (one-time, free trial)
 
