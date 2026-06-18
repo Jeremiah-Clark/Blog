@@ -25,7 +25,7 @@ My goal with this article is to get non-developer Mac users who are local-LLM-cu
 
 Steps to get started quickly:
 
-1. Install **Ollama**: `brew install ollama`
+1. Install **Ollama** with [Homebrew](https://medium.com/@jeremiah-clark/getting-started-with-homebrew-for-normies-5161f03853b2) (in Terminal): `brew install ollama`
 2. Activate Ollama: `ollama serve`
 3. Download a model (see list below): `ollama pull [model]`
 4. Open the Ollama app, select your downloaded model in the lower right of the chat window, and start chatting.
@@ -147,7 +147,9 @@ The more tokens a model outputs per second, the faster its responses will feel. 
 
 At around 70 tok/s, responses start feeling snappy. At 80+, they feel essentially instant.
 
-> **Note**: Latency—the wait for the first output tokens—impacts the apparent speed of the model as well, but that is dictated more by hardware than by choice of model.
+> [!Note]
+> 
+> Latency—the wait for the first output tokens—impacts the apparent speed of the model as well, but that is dictated more by hardware than by choice of model.
 
 ### Status & Score
 
@@ -172,7 +174,9 @@ Here are my recommendations, organized by hardware. I’m using CanIRun.ai and t
 - **Active Memory** = Less than 20%
 - **Context Window** = 128k or more
 
-> **Note**: I’m assuming the base RAM allocation for each configuration.
+> [!Note]
+> 
+> I’m assuming the base RAM allocation for each configuration.
 
 I’ve chosen these as general-purpose tools primarily for conversation and text processing. This list is organized from least to most powerful. Once you locate your hardware, anything higher up on the list will run even better.
 
@@ -189,7 +193,9 @@ No doubt you’ve noticed that every command includes “-q4_K_M”. That’s th
 
 Quantization is a form of optimization that makes models smaller and faster, but reduces their quality. It runs from “F16” (16-bit), the original model, to “Q2_K” (2-bit), which is significantly reduced. The K specifies “grouped quantization,” and the M specifies “medium precision.” Beyond that, the rabbit hole goes deep—and for most use cases, Q4_K_M is the right answer anyway.
 
-> **Note**: Higher-end models go up to F32 (32-bit), but models that run locally on current consumer hardware top out at F16.
+> [!Note]
+> 
+> Higher-end models go up to F32 (32-bit), but models that run locally on current consumer hardware top out at F16.
 
 The individual model pages on CanIRun.ai include a table that details the impact of each level of quantization on the model, as well as how each should run on your system.
 
