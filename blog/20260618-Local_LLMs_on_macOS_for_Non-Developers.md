@@ -255,4 +255,4 @@ Maintaining your local LLMs from the CLI is straightforward:
 
 ---
 
-This article turned out to be more involved than I expected—and I’ve been running local LLMs for a while now. Writing it clarified a lot for me, which I sincerely hope reading it did the same for you.
+This article turned out to be more involved than I expected—and I’ve been running local LLMs for a while now. Writing it clarified a lot for me, and I sincerely hope reading it did the same for you.
