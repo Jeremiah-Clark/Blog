@@ -261,4 +261,4 @@ This article turned out to be more involved than I expected—and I’ve been ru
 
 > [!Note]
 >
-> This is barely scratching the surface. This topic is deep and ever-changing. What I presented here is what I’ve found to be the most straightforward way to get your feet wet and see if you really want to dive in. Importantly, everything here is easy to reverse if you don’t — as I did several times before taking the plunge. There’s little harm in experimenting now that you have this base knowledge.*
+> This is barely scratching the surface. This topic is deep and ever-changing. What I presented here is what I’ve found to be the most straightforward way to get your feet wet and see if you really want to dive in. Importantly, everything here is easy to reverse if you don’t — as I did several times before taking the plunge. There’s little harm in experimenting now that you have this base knowledge.
