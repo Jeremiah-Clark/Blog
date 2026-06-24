@@ -1,14 +1,15 @@
-// blog.js — loads markdown posts from a GitHub folder with permalinks and truncation
+// blog.js — loads markdown posts from a GitHub folder with permalinks, truncation, and pagination
 (function () {
   var GH_USER   = "Jeremiah-Clark";
   var GH_REPO   = "Blog";
   var GH_BRANCH = "main";
   var POSTS_DIR = "blog";
+  var POSTS_PER_PAGE = 10;
   var EXCERPT_BLOCKS = 3; // number of content blocks to show in list view
 
   // Base URL where relative image/asset paths are resolved against.
   // Posts live in /blog, so a path like ../images/foo.png from a post
-  // resolves to https://.../Articles@main/images/foo.png
+  // resolves to https://.../Blog@main/images/foo.png
   var ASSET_BASE = "https://raw.githubusercontent.com/" + GH_USER + "/" + GH_REPO + "/" + GH_BRANCH + "/" + POSTS_DIR + "/";
 
   var statusEl    = document.getElementById("blog-status");
@@ -20,6 +21,7 @@
   }
 
   var postsBySlug = {};
+  var postsArray = []; // sorted array of all posts
   var originalTitle = document.title;
 
   // ---------- utilities ----------
@@ -71,38 +73,22 @@
 
   // ---------- markdown rendering ----------
 
-function renderInline(text) {
-  // 1. Extract inline code into placeholders so subsequent regexes can't touch their contents.
-  var codeChunks = [];
-  text = text.replace(/`([^`]+)`/g, function (_, code) {
-    var placeholder = '\x00code' + codeChunks.length + '\x00';
-    codeChunks.push('<code>' + escapeHtml(code) + '</code>');
-    return placeholder;
-  });
-  // 2. Bold and italic before links, so they only ever wrap plain text.
-  text = text.replace(/\*\*([^*]+)\*\*/g, function(_, s) {
-    return '<strong>' + escapeHtml(s) + '</strong>';
-  });
-  text = text.replace(/(^|[^*])\*([^*\n]+)\*/g, function(_, pre, s) {
-    return pre + '<em>' + escapeHtml(s) + '</em>';
-  });
-  // 3. Images before links (more specific pattern first).
-  text = text.replace(/!\[([^\]]*)\]\(([^)\s]+)\)/g, function (_, alt, url) {
-    return '<img src="' + escapeHtml(resolveAssetUrl(url)) + '" alt="' + escapeHtml(alt) + '" loading="lazy">';
-  });
-  text = text.replace(/\[([^\]]+)\]\(([^)\s]+)\)/g, function (_, t, url) {
-    return '<a href="' + escapeHtml(resolveAssetUrl(url)) + '" target="_blank" rel="noopener noreferrer">' + escapeHtml(t) + '</a>';
-  });
-  // 4. Escape remaining plain text segments (between HTML tags and placeholders).
-  text = text.replace(/(?:^|(?<=>))([^<\x00]*)(?=<|\x00|$)/g, function(_, plain) {
-    return escapeHtml(plain);
-  });
-  // 5. Restore code placeholders.
-  text = text.replace(/\x00code(\d+)\x00/g, function(_, i) {
-    return codeChunks[+i];
-  });
-  return text;
-}
+  function renderInline(text) {
+    text = text.replace(/!\[([^\]]*)\]\(([^)\s]+)\)/g,
+      function (_, alt, url) {
+        return '<img src="' + escapeHtml(resolveAssetUrl(url)) + '" alt="' + escapeHtml(alt) + '" loading="lazy">';
+      });
+    text = text.replace(/\[([^\]]+)\]\(([^)\s]+)\)/g,
+      function (_, t, url) {
+        return '<a href="' + escapeHtml(resolveAssetUrl(url)) + '" target="_blank" rel="noopener noreferrer">' + t + '</a>';
+      });
+    text = text.replace(/`([^`]+)`/g, function (_, code) {
+      return '<code>' + escapeHtml(code) + '</code>';
+    });
+    text = text.replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>');
+    text = text.replace(/(^|[^*])\*([^*\n]+)\*/g, '$1<em>$2</em>');
+    return text;
+  }
 
   // Strip the common leading whitespace from a block of lines.
   // Empty lines are ignored when calculating the minimum indent.
@@ -134,7 +120,7 @@ function renderInline(text) {
       if (/^\s*(---|\*\*\*|___)\s*$/.test(line)) { out.push('<hr>'); i++; continue; }
       var h = line.match(/^(#{1,6})\s+(.*)$/);
       if (h) {
-        out.push('<h' + h[1].length + '>' + renderInline(h[2]) + '</h' + h[1].length + '>');
+        out.push('<h' + h[1].length + '>' + renderInline(escapeHtml(h[2])) + '</h' + h[1].length + '>');
         i++; continue;
       }
       if (/^>\s?/.test(line)) {
@@ -151,7 +137,7 @@ function renderInline(text) {
           out.push(
             '<div class="admonition admonition-' + adType + '">' +
               '<div class="admonition-title">' + admonitionIcons[adType] + ' ' + adLabel + '</div>' +
-              (adBody ? '<p class="admonition-body">' + renderInline(adBody) + '</p>' : '') +
+              (adBody ? '<p class="admonition-body">' + renderInline(escapeHtml(adBody)) + '</p>' : '') +
             '</div>'
           );
         } else {
@@ -165,7 +151,7 @@ function renderInline(text) {
           items.push(lines[i].replace(/^\s*[-*+]\s+/, "")); i++;
         }
         out.push('<ul>' + items.map(function (x) {
-          return '<li>' + renderInline(x) + '</li>';
+          return '<li>' + renderInline(escapeHtml(x)) + '</li>';
         }).join("") + '</ul>');
         continue;
       }
@@ -175,17 +161,11 @@ function renderInline(text) {
           oitems.push(lines[i].replace(/^\s*\d+\.\s+/, "")); i++;
         }
         out.push('<ol>' + oitems.map(function (x) {
-          return '<li>' + renderInline(x) + '</li>';
+          return '<li>' + renderInline(escapeHtml(x)) + '</li>';
         }).join("") + '</ol>');
         continue;
       }
       if (/^\s*$/.test(line)) { i++; continue; }
-      // Raw HTML passthrough
-        if (/^<[a-zA-Z\/]/.test(line)) {
-          out.push(line);
-          i++;
-          continue;
-        }
       var para = [];
       while (i < lines.length &&
              !/^\s*$/.test(lines[i]) &&
@@ -196,7 +176,7 @@ function renderInline(text) {
              !/^\s*\d+\.\s+/.test(lines[i])) {
         para.push(lines[i]); i++;
       }
-      out.push('<p>' + renderInline(para.join(" ")) + '</p>');
+      out.push('<p>' + renderInline(escapeHtml(para.join(" "))) + '</p>');
     }
     return out.join("\n");
   }
@@ -301,36 +281,95 @@ function renderInline(text) {
     return a;
   }
 
+  function makePaginationNav(currentPage, totalPages) {
+    var nav = document.createElement('nav');
+    nav.className = 'blog-pagination';
+
+    if (currentPage > 1) {
+      var prev = document.createElement('a');
+      prev.href = '?page=' + (currentPage - 1) + '#blog';
+      prev.className = 'blog-pagination-btn blog-pagination-prev';
+      prev.setAttribute('data-pagination', '');
+      prev.textContent = '← Previous';
+      nav.appendChild(prev);
+    }
+
+    var pageInfo = document.createElement('span');
+    pageInfo.className = 'blog-pagination-info';
+    pageInfo.textContent = 'Page ' + currentPage + ' of ' + totalPages;
+    nav.appendChild(pageInfo);
+
+    if (currentPage < totalPages) {
+      var next = document.createElement('a');
+      next.href = '?page=' + (currentPage + 1) + '#blog';
+      next.className = 'blog-pagination-btn blog-pagination-next';
+      next.setAttribute('data-pagination', '');
+      next.textContent = 'Next →';
+      nav.appendChild(next);
+    }
+
+    return nav;
+  }
+
   // ---------- view state management ----------
 
   function updateView() {
     var params = new URLSearchParams(location.search);
-    var slug = params.get('post');
+    var postSlug = params.get('post');
+    var pageNum = parseInt(params.get('page'), 10) || 1;
 
-    if (slug && postsBySlug[slug]) {
+    // Single post view takes priority
+    if (postSlug && postsBySlug[postSlug]) {
       containerEl.classList.remove('mode-list');
       containerEl.classList.add('mode-single');
       var posts = containerEl.querySelectorAll('.blog-post');
       for (var i = 0; i < posts.length; i++) {
-        if (posts[i].getAttribute('data-slug') === slug) {
+        if (posts[i].getAttribute('data-slug') === postSlug) {
           posts[i].classList.add('this-post');
         } else {
           posts[i].classList.remove('this-post');
         }
       }
-      document.title = postsBySlug[slug].title + ' — ' + originalTitle;
-    } else {
-      if (slug) {
-        console.warn('[blog] unknown slug:', slug);
-        history.replaceState(null, '', location.pathname + '#blog');
+      document.title = postsBySlug[postSlug].title + ' — ' + originalTitle;
+      return;
+    }
+
+    // List view with pagination
+    if (postSlug) {
+      console.warn('[blog] unknown slug:', postSlug);
+      history.replaceState(null, '', location.pathname + '?page=1#blog');
+      pageNum = 1;
+    }
+
+    containerEl.classList.remove('mode-single');
+    containerEl.classList.add('mode-list');
+    var allPosts = containerEl.querySelectorAll('.blog-post');
+    for (var j = 0; j < allPosts.length; j++) {
+      allPosts[j].classList.remove('this-post');
+    }
+    document.title = originalTitle;
+
+    // Update post visibility based on current page
+    var totalPages = Math.ceil(postsArray.length / POSTS_PER_PAGE);
+    if (pageNum < 1 || pageNum > totalPages) pageNum = 1;
+    var startIdx = (pageNum - 1) * POSTS_PER_PAGE;
+    var endIdx = startIdx + POSTS_PER_PAGE;
+    var visibleSlugs = postsArray.slice(startIdx, endIdx).map(function (p) { return p.slug; });
+
+    for (var k = 0; k < allPosts.length; k++) {
+      var slug = allPosts[k].getAttribute('data-slug');
+      if (visibleSlugs.indexOf(slug) !== -1) {
+        allPosts[k].style.display = 'block';
+      } else {
+        allPosts[k].style.display = 'none';
       }
-      containerEl.classList.remove('mode-single');
-      containerEl.classList.add('mode-list');
-      var allPosts = containerEl.querySelectorAll('.blog-post');
-      for (var j = 0; j < allPosts.length; j++) {
-        allPosts[j].classList.remove('this-post');
-      }
-      document.title = originalTitle;
+    }
+
+    // Update pagination nav
+    var existingNav = containerEl.querySelector('.blog-pagination');
+    if (existingNav) existingNav.remove();
+    if (totalPages > 1) {
+      containerEl.appendChild(makePaginationNav(pageNum, totalPages));
     }
   }
 
@@ -338,7 +377,9 @@ function renderInline(text) {
     var params = new URLSearchParams(location.search);
     var slug = params.get('post');
     var target = null;
-    if (slug) target = containerEl.querySelector('.blog-post[data-slug="' + slug + '"]');
+    if (slug) {
+      target = containerEl.querySelector('.blog-post[data-slug="' + slug + '"]');
+    }
     if (!target) target = containerEl;
     if (target.scrollIntoView) {
       target.scrollIntoView({ behavior: 'smooth', block: 'start' });
@@ -356,10 +397,20 @@ function renderInline(text) {
       scrollToCurrent();
       return;
     }
+
+    var pagination = e.target.closest ? e.target.closest('a[data-pagination]') : null;
+    if (pagination) {
+      e.preventDefault();
+      history.pushState(null, '', pagination.getAttribute('href'));
+      updateView();
+      scrollToCurrent();
+      return;
+    }
+
     var back = e.target.closest ? e.target.closest('a[data-blog-back]') : null;
     if (back) {
       e.preventDefault();
-      history.pushState(null, '', location.pathname + '#blog');
+      history.pushState(null, '', location.pathname + '?page=1#blog');
       updateView();
       scrollToCurrent();
       return;
@@ -399,6 +450,7 @@ function renderInline(text) {
           console.warn('[blog] duplicate slug:', parsed.slug, 'for', p.name);
         }
         postsBySlug[parsed.slug] = parsed;
+        postsArray.push(parsed);
         containerEl.appendChild(renderPost(parsed));
       } catch (e) {
         console.error("[blog] render failed for", p.name, e);
