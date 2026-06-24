@@ -304,16 +304,16 @@
   }
 
   function makePaginationNav(currentPage, totalPages) {
-    var html = '<nav class="blog-pagination">';
+    var html = '<nav style="display: flex; align-items: center; justify-content: center; gap: 0; margin: 2rem 0; padding: 1rem; border-top: 1px solid #e0e0e0;">';
     
     if (currentPage > 1) {
-      html += '<a href="?page=' + (currentPage - 1) + '#blog" class="blog-pagination-btn blog-pagination-prev" data-pagination="">← Previous</a>';
+      html += '<a href="?page=' + (currentPage - 1) + '#blog" style="display: inline-block; padding: 0.5rem 1rem; background: #F4F4F5; border: 1px solid #ddd; border-radius: 4px; color: #B02F68; text-decoration: none; font-size: 0.95rem; transition: all 0.2s ease; margin-right: 1em;">← Previous</a>';
     }
     
-    html += '<span class="blog-pagination-info">Page ' + currentPage + ' of ' + totalPages + '</span>';
+    html += '<span style="font-size: 0.9rem; color: #666; white-space: nowrap; margin: 0 1em;">Page ' + currentPage + ' of ' + totalPages + '</span>';
     
     if (currentPage < totalPages) {
-      html += '<a href="?page=' + (currentPage + 1) + '#blog" class="blog-pagination-btn blog-pagination-next" data-pagination="">Next →</a>';
+      html += '<a href="?page=' + (currentPage + 1) + '#blog" style="display: inline-block; padding: 0.5rem 1rem; background: #F4F4F5; border: 1px solid #ddd; border-radius: 4px; color: #B02F68; text-decoration: none; font-size: 0.95rem; transition: all 0.2s ease; margin-left: 1em;">Next →</a>';
     }
     
     html += '</nav>';
@@ -407,8 +407,8 @@
       return;
     }
 
-    var pagination = e.target.closest ? e.target.closest('a[data-pagination]') : null;
-    if (pagination) {
+    var pagination = e.target.closest ? e.target.closest('a[href*="page="]') : null;
+    if (pagination && !pagination.hasAttribute('data-blog-back')) {
       e.preventDefault();
       history.pushState(null, '', pagination.getAttribute('href'));
       updateView();
