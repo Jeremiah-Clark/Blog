@@ -342,6 +342,9 @@
         }
       }
       document.title = postsBySlug[postSlug].title + ' — ' + originalTitle;
+      // Remove pagination in single-post view
+      var existingNav = document.getElementById('blog-pagination-nav');
+      if (existingNav) existingNav.remove();
       return;
     }
 
