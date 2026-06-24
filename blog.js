@@ -74,19 +74,35 @@
   // ---------- markdown rendering ----------
 
   function renderInline(text) {
-    text = text.replace(/!\[([^\]]*)\]\(([^)\s]+)\)/g,
-      function (_, alt, url) {
-        return '<img src="' + escapeHtml(resolveAssetUrl(url)) + '" alt="' + escapeHtml(alt) + '" loading="lazy">';
-      });
-    text = text.replace(/\[([^\]]+)\]\(([^)\s]+)\)/g,
-      function (_, t, url) {
-        return '<a href="' + escapeHtml(resolveAssetUrl(url)) + '" target="_blank" rel="noopener noreferrer">' + t + '</a>';
-      });
+    // 1. Extract inline code into placeholders so subsequent regexes can't touch their contents.
+    var codeChunks = [];
     text = text.replace(/`([^`]+)`/g, function (_, code) {
-      return '<code>' + escapeHtml(code) + '</code>';
+      var placeholder = '\x00code' + codeChunks.length + '\x00';
+      codeChunks.push('<code>' + escapeHtml(code) + '</code>');
+      return placeholder;
     });
-    text = text.replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>');
-    text = text.replace(/(^|[^*])\*([^*\n]+)\*/g, '$1<em>$2</em>');
+    // 2. Bold and italic before links, so they only ever wrap plain text.
+    text = text.replace(/\*\*([^*]+)\*\*/g, function(_, s) {
+      return '<strong>' + escapeHtml(s) + '</strong>';
+    });
+    text = text.replace(/(^|[^*])\*([^*\n]+)\*/g, function(_, pre, s) {
+      return pre + '<em>' + escapeHtml(s) + '</em>';
+    });
+    // 3. Images before links (more specific pattern first).
+    text = text.replace(/!\[([^\]]*)\]\(([^)\s]+)\)/g, function (_, alt, url) {
+      return '<img src="' + escapeHtml(resolveAssetUrl(url)) + '" alt="' + escapeHtml(alt) + '" loading="lazy">';
+    });
+    text = text.replace(/\[([^\]]+)\]\(([^)\s]+)\)/g, function (_, t, url) {
+      return '<a href="' + escapeHtml(resolveAssetUrl(url)) + '" target="_blank" rel="noopener noreferrer">' + escapeHtml(t) + '</a>';
+    });
+    // 4. Escape remaining plain text segments (between HTML tags and placeholders).
+    text = text.replace(/(?:^|(?<=>))([^<\x00]*)(?=<|\x00|$)/g, function(_, plain) {
+      return escapeHtml(plain);
+    });
+    // 5. Restore code placeholders.
+    text = text.replace(/\x00code(\d+)\x00/g, function(_, i) {
+      return codeChunks[+i];
+    });
     return text;
   }
 
@@ -109,6 +125,12 @@
     var out = [], i = 0;
     while (i < lines.length) {
       var line = lines[i];
+      // Raw HTML passthrough: lines starting with < are output as-is
+      if (/^<[a-zA-Z\/]/.test(line)) {
+        out.push(line);
+        i++;
+        continue;
+      }
       // Code fence: allow optional leading whitespace before the backticks
       if (/^\s*```/.test(line)) {
         var code = []; i++;
@@ -120,7 +142,7 @@
       if (/^\s*(---|\*\*\*|___)\s*$/.test(line)) { out.push('<hr>'); i++; continue; }
       var h = line.match(/^(#{1,6})\s+(.*)$/);
       if (h) {
-        out.push('<h' + h[1].length + '>' + renderInline(escapeHtml(h[2])) + '</h' + h[1].length + '>');
+        out.push('<h' + h[1].length + '>' + renderInline(h[2]) + '</h' + h[1].length + '>');
         i++; continue;
       }
       if (/^>\s?/.test(line)) {
@@ -137,7 +159,7 @@
           out.push(
             '<div class="admonition admonition-' + adType + '">' +
               '<div class="admonition-title">' + admonitionIcons[adType] + ' ' + adLabel + '</div>' +
-              (adBody ? '<p class="admonition-body">' + renderInline(escapeHtml(adBody)) + '</p>' : '') +
+              (adBody ? '<p class="admonition-body">' + renderInline(adBody) + '</p>' : '') +
             '</div>'
           );
         } else {
@@ -151,7 +173,7 @@
           items.push(lines[i].replace(/^\s*[-*+]\s+/, "")); i++;
         }
         out.push('<ul>' + items.map(function (x) {
-          return '<li>' + renderInline(escapeHtml(x)) + '</li>';
+          return '<li>' + renderInline(x) + '</li>';
         }).join("") + '</ul>');
         continue;
       }
@@ -161,7 +183,7 @@
           oitems.push(lines[i].replace(/^\s*\d+\.\s+/, "")); i++;
         }
         out.push('<ol>' + oitems.map(function (x) {
-          return '<li>' + renderInline(escapeHtml(x)) + '</li>';
+          return '<li>' + renderInline(x) + '</li>';
         }).join("") + '</ol>');
         continue;
       }
@@ -176,7 +198,7 @@
              !/^\s*\d+\.\s+/.test(lines[i])) {
         para.push(lines[i]); i++;
       }
-      out.push('<p>' + renderInline(escapeHtml(para.join(" "))) + '</p>');
+      out.push('<p>' + renderInline(para.join(" ")) + '</p>');
     }
     return out.join("\n");
   }
@@ -275,7 +297,7 @@
   function makeBackLink() {
     var a = document.createElement('a');
     a.className = 'blog-back';
-    a.href = '#blog';
+    a.href = '?page=1#blog';
     a.setAttribute('data-blog-back', '');
     a.textContent = '← All posts';
     return a;
@@ -290,7 +312,7 @@
       prev.href = '?page=' + (currentPage - 1) + '#blog';
       prev.className = 'blog-pagination-btn blog-pagination-prev';
       prev.setAttribute('data-pagination', '');
-      prev.textContent = '← Previous &nbsp;';
+      prev.textContent = '← Previous';
       nav.appendChild(prev);
     }
 
@@ -304,7 +326,7 @@
       next.href = '?page=' + (currentPage + 1) + '#blog';
       next.className = 'blog-pagination-btn blog-pagination-next';
       next.setAttribute('data-pagination', '');
-      next.textContent = '&nbsp; Next →';
+      next.textContent = 'Next →';
       nav.appendChild(next);
     }
 
@@ -326,8 +348,10 @@
       for (var i = 0; i < posts.length; i++) {
         if (posts[i].getAttribute('data-slug') === postSlug) {
           posts[i].classList.add('this-post');
+          posts[i].style.display = 'block';
         } else {
           posts[i].classList.remove('this-post');
+          posts[i].style.display = 'none';
         }
       }
       document.title = postsBySlug[postSlug].title + ' — ' + originalTitle;
@@ -343,10 +367,6 @@
 
     containerEl.classList.remove('mode-single');
     containerEl.classList.add('mode-list');
-    var allPosts = containerEl.querySelectorAll('.blog-post');
-    for (var j = 0; j < allPosts.length; j++) {
-      allPosts[j].classList.remove('this-post');
-    }
     document.title = originalTitle;
 
     // Update post visibility based on current page
@@ -356,8 +376,10 @@
     var endIdx = startIdx + POSTS_PER_PAGE;
     var visibleSlugs = postsArray.slice(startIdx, endIdx).map(function (p) { return p.slug; });
 
+    var allPosts = containerEl.querySelectorAll('.blog-post');
     for (var k = 0; k < allPosts.length; k++) {
       var slug = allPosts[k].getAttribute('data-slug');
+      allPosts[k].classList.remove('this-post');
       if (visibleSlugs.indexOf(slug) !== -1) {
         allPosts[k].style.display = 'block';
       } else {
