@@ -290,7 +290,7 @@
       prev.href = '?page=' + (currentPage - 1) + '#blog';
       prev.className = 'blog-pagination-btn blog-pagination-prev';
       prev.setAttribute('data-pagination', '');
-      prev.textContent = '← Previous ';
+      prev.textContent = '← Previous &nbsp;';
       nav.appendChild(prev);
     }
 
@@ -304,7 +304,7 @@
       next.href = '?page=' + (currentPage + 1) + '#blog';
       next.className = 'blog-pagination-btn blog-pagination-next';
       next.setAttribute('data-pagination', '');
-      next.textContent = ' Next →';
+      next.textContent = '&nbsp; Next →';
       nav.appendChild(next);
     }
 
