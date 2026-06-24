@@ -304,7 +304,7 @@
   }
 
   function makePaginationNav(currentPage, totalPages) {
-    var html = '<nav style="display: flex; align-items: center; justify-content: center; gap: 0; margin: 2rem 0; padding: 1rem; border-top: 1px solid #e0e0e0;">';
+    var html = '<nav id="blog-pagination-nav" style="display: flex; align-items: center; justify-content: center; gap: 0; margin: 2rem 0; padding: 1rem; border-top: 1px solid #e0e0e0;">';
     
     if (currentPage > 1) {
       html += '<a href="?page=' + (currentPage - 1) + '#blog" style="display: inline-block; padding: 0.5rem 1rem; background: #F4F4F5; border: 1px solid #ddd; border-radius: 4px; color: #B02F68; text-decoration: none; font-size: 0.95rem; transition: all 0.2s ease; margin-right: 1em;">← Previous</a>';
@@ -374,8 +374,8 @@
       }
     }
 
-    // Update pagination nav
-    var existingNav = containerEl.querySelector('.blog-pagination');
+    // Update pagination nav - remove existing one by id
+    var existingNav = document.getElementById('blog-pagination-nav');
     if (existingNav) existingNav.remove();
     if (totalPages > 1) {
       containerEl.insertAdjacentHTML('beforeend', makePaginationNav(pageNum, totalPages));
