@@ -343,8 +343,10 @@
       }
       document.title = postsBySlug[postSlug].title + ' — ' + originalTitle;
       // Remove pagination in single-post view
-      var existingNav = document.getElementById('blog-pagination-nav');
-      if (existingNav) existingNav.remove();
+      var existingNav = containerEl.querySelector('#blog-pagination-nav');
+      if (existingNav) {
+        existingNav.style.display = 'none';
+      }
       return;
     }
 
@@ -378,10 +380,18 @@
     }
 
     // Update pagination nav - remove existing one by id
-    var existingNav = document.getElementById('blog-pagination-nav');
-    if (existingNav) existingNav.remove();
+    var existingNav = containerEl.querySelector('#blog-pagination-nav');
+    if (existingNav) {
+      existingNav.remove();
+    }
     if (totalPages > 1) {
       containerEl.insertAdjacentHTML('beforeend', makePaginationNav(pageNum, totalPages));
+    } else {
+      // Make sure pagination is not shown if only 1 page
+      var paginationNav = containerEl.querySelector('#blog-pagination-nav');
+      if (paginationNav) {
+        paginationNav.style.display = 'none';
+      }
     }
   }
 
