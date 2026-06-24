@@ -304,33 +304,20 @@
   }
 
   function makePaginationNav(currentPage, totalPages) {
-    var nav = document.createElement('nav');
-    nav.className = 'blog-pagination';
-
+    var html = '<nav class="blog-pagination">';
+    
     if (currentPage > 1) {
-      var prev = document.createElement('a');
-      prev.href = '?page=' + (currentPage - 1) + '#blog';
-      prev.className = 'blog-pagination-btn blog-pagination-prev';
-      prev.setAttribute('data-pagination', '');
-      prev.textContent = '← Previous';
-      nav.appendChild(prev);
+      html += '<a href="?page=' + (currentPage - 1) + '#blog" class="blog-pagination-btn blog-pagination-prev" data-pagination="">← Previous</a>';
     }
-
-    var pageInfo = document.createElement('span');
-    pageInfo.className = 'blog-pagination-info';
-    pageInfo.textContent = 'Page ' + currentPage + ' of ' + totalPages;
-    nav.appendChild(pageInfo);
-
+    
+    html += '<span class="blog-pagination-info">Page ' + currentPage + ' of ' + totalPages + '</span>';
+    
     if (currentPage < totalPages) {
-      var next = document.createElement('a');
-      next.href = '?page=' + (currentPage + 1) + '#blog';
-      next.className = 'blog-pagination-btn blog-pagination-next';
-      next.setAttribute('data-pagination', '');
-      next.textContent = 'Next →';
-      nav.appendChild(next);
+      html += '<a href="?page=' + (currentPage + 1) + '#blog" class="blog-pagination-btn blog-pagination-next" data-pagination="">Next →</a>';
     }
-
-    return nav;
+    
+    html += '</nav>';
+    return html;
   }
 
   // ---------- view state management ----------
@@ -391,7 +378,7 @@
     var existingNav = containerEl.querySelector('.blog-pagination');
     if (existingNav) existingNav.remove();
     if (totalPages > 1) {
-      containerEl.appendChild(makePaginationNav(pageNum, totalPages));
+      containerEl.insertAdjacentHTML('beforeend', makePaginationNav(pageNum, totalPages));
     }
   }
 
