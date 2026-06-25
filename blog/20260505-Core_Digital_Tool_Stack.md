@@ -4,13 +4,12 @@ date: 2026-05-05
 slug: Core_Digital_Tool_Stack
 ---
 
-![Vector art of a laptop, coffee mug, and notebook being used on a desktop. Image by Mohamed Hassan from Pixabay](mohamed_hassan-office-3193372-optimised.jpg)*Image by [Mohamed Hassan](https://pixabay.com/users/mohamed_hassan-5229782/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=3193372) from [Pixabay](https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=3193372)*
-
----
+![Vector art of a laptop, coffee mug, and notebook being used on a desktop. Image by Mohamed Hassan from Pixabay](../images/mohamed_hassan-office-3193372-optimised.jpg)
+<div style='text-align: center; font-style: italic;'>Image by <a href="https://pixabay.com/users/mohamed_hassan-5229782/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=3193372">Mohamed Hassan</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=3193372">Pixabay</a></div>
 
 `3950 Words; 16 min read`
 
-
+---
 
 This article covers the six digital tools I rely on most, the core of my digital workflow. They are listed roughly in order of how much time I spend using them in an average day. I like to use a combination of physical and digital tools in everything I do—mostly writing and research projects. I’ll get into physical tools and EDC (Everyday Carry) in future posts. In this article, I’m specifically focusing on major tools, not utilities or helpers.
 
