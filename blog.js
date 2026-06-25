@@ -327,6 +327,12 @@
     var postSlug = params.get('post');
     var pageNum = parseInt(params.get('page'), 10) || 1;
 
+    // ALWAYS remove pagination first, we'll re-add it if needed
+    var existingNav = containerEl.querySelector('#blog-pagination-nav');
+    if (existingNav) {
+      existingNav.remove();
+    }
+
     // Single post view takes priority
     if (postSlug && postsBySlug[postSlug]) {
       containerEl.classList.remove('mode-list');
@@ -342,11 +348,6 @@
         }
       }
       document.title = postsBySlug[postSlug].title + ' — ' + originalTitle;
-      // Remove pagination in single-post view
-      var existingNav = containerEl.querySelector('#blog-pagination-nav');
-      if (existingNav) {
-        existingNav.style.display = 'none';
-      }
       return;
     }
 
@@ -379,19 +380,10 @@
       }
     }
 
-    // Update pagination nav - remove existing one by id
-    var existingNav = containerEl.querySelector('#blog-pagination-nav');
-    if (existingNav) {
-      existingNav.remove();
-    }
+    // Update pagination nav (already removed at top of updateView)
+    var totalPages = Math.ceil(postsArray.length / POSTS_PER_PAGE);
     if (totalPages > 1) {
       containerEl.insertAdjacentHTML('beforeend', makePaginationNav(pageNum, totalPages));
-    } else {
-      // Make sure pagination is not shown if only 1 page
-      var paginationNav = containerEl.querySelector('#blog-pagination-nav');
-      if (paginationNav) {
-        paginationNav.style.display = 'none';
-      }
     }
   }
 
