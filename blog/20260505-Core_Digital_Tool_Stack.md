@@ -4,7 +4,7 @@ date: 2026-05-05
 slug: Core_Digital_Tool_Stack
 ---
 
-![Vector art of a laptop, coffee mug, and notebook being used on a desktop. Image by Mohamed Hassan from Pixabay](../images/mohamed_hassan-office-3193372.jpg)*Image by [Mohamed Hassan](https://pixabay.com/users/mohamed_hassan-5229782/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=3193372) from [Pixabay](https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=3193372)*
+![Vector art of a laptop, coffee mug, and notebook being used on a desktop. Image by Mohamed Hassan from Pixabay](mohamed_hassan-office-3193372-optimised.jpg)*Image by [Mohamed Hassan](https://pixabay.com/users/mohamed_hassan-5229782/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=3193372) from [Pixabay](https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=3193372)*
 
 ---
 
