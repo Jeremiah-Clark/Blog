@@ -2,6 +2,7 @@
 title: Leaving Setapp—23 Alternatives & 3 Holdouts
 date: 2026-04-20
 slug: leaving-setapp
+tags: apps
 ---
 
 `2180 Words; 9 min read`

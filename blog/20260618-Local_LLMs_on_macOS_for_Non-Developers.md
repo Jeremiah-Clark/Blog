@@ -2,6 +2,7 @@
 title: Setting up Local LLMs on macOS for Non-Developers
 date: 2026-06-18
 slug: local_llms_macos
+tags: AI
 
 ---
 

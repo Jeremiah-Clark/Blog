@@ -2,6 +2,7 @@
 title: I Settled My Core Digital Tool Stack—I've Never Been More Productive
 date: 2026-05-05
 slug: Core_Digital_Tool_Stack
+tags: apps
 ---
 
 ![Vector art of a laptop, coffee mug, and notebook being used on a desktop. Image by Mohamed Hassan from Pixabay](../images/mohamed_hassan-office-3193372-optimised.jpg)

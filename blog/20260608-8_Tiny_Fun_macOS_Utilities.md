@@ -2,6 +2,7 @@
 title: 8 Tiny, Fun macOS Utilities
 date: 2026-06-08
 slug: 8_tiny_fun_macos_utilities
+tags: apps
 ---
 
 ![A stylized image of a Swiss Army Knife with tools open, black and white and starkly lit.](../images/0_S1CvkM8qxNmQoEi5-optimised.jpg)
