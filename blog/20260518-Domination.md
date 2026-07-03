@@ -2,6 +2,7 @@
 title: That One Time I Dominated EVERYONE
 date: May 18, 2026
 slug: domination
+tags: narrative
 
 ---
 

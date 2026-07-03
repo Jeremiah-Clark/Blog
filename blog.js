@@ -1,4 +1,4 @@
-// blog.js — loads markdown posts from a GitHub folder with permalinks, truncation, and pagination
+// blog.js — loads markdown posts from a GitHub folder with permalinks, truncation, pagination, and tag filtering
 (function () {
   var GH_USER   = "Jeremiah-Clark";
   var GH_REPO   = "Blog";
@@ -22,6 +22,7 @@
 
   var postsBySlug = {};
   var postsArray = []; // sorted array of all posts
+  var allTags = [];    // [{ slug, label }], unique across all posts, sorted by slug
   var originalTitle = document.title;
 
   // ---------- utilities ----------
@@ -53,6 +54,10 @@
 
   function makePermalink(slug) {
     return "?post=" + encodeURIComponent(slug) + "#blog";
+  }
+
+  function makeTagLink(tagSlug) {
+    return "?tag=" + encodeURIComponent(tagSlug) + "&page=1#blog";
   }
 
   // Resolve a relative URL against the post's base location in the repo.
@@ -205,21 +210,63 @@
 
   // ---------- post parsing ----------
 
+  // Parses a "tags" field out of a raw frontmatter block. Supports three
+  // explicit forms only — no hashtag scanning of the article body:
+  //   tags: foo, bar, baz
+  //   tags: [foo, bar, baz]
+  //   tags:
+  //     - foo
+  //     - bar
+  function parseTagsFromFrontmatter(fmText) {
+    function cleanItem(s) {
+      return s.trim().replace(/^["']|["']$/g, "");
+    }
+
+    // Inline bracketed list: tags: [foo, bar]
+    var inlineList = fmText.match(/^tags:\s*\[(.*)\]\s*$/m);
+    if (inlineList) {
+      return inlineList[1].split(",").map(cleanItem).filter(Boolean);
+    }
+
+    // Multi-line YAML list (Obsidian's default "tags" property format):
+    //   tags:
+    //     - foo
+    //     - bar
+    var blockList = fmText.match(/^tags:[ \t]*\n((?:[ \t]*-[ \t]*.+\n?)+)/m);
+    if (blockList) {
+      return blockList[1].split("\n").map(function (line) {
+        var m = line.match(/^\s*-\s*(.+)$/);
+        return m ? cleanItem(m[1]) : null;
+      }).filter(Boolean);
+    }
+
+    // Single-line comma-separated: tags: foo, bar, baz
+    var singleLine = fmText.match(/^tags:\s*(.+)$/m);
+    if (singleLine) {
+      return singleLine[1].split(",").map(cleanItem).filter(Boolean);
+    }
+
+    return [];
+  }
+
   function parsePost(filename, text) {
     var title = filename.replace(/\.md$/i, "");
     var date  = "";
     var slug  = "";
+    var tags  = [];
     var body  = text;
 
     var fm = text.match(/^---\s*\n([\s\S]*?)\n---\s*\n?([\s\S]*)$/);
     if (fm) {
       body = fm[2];
-      var t = fm[1].match(/^title:\s*(.+)$/m);
-      var d = fm[1].match(/^date:\s*(.+)$/m);
-      var s = fm[1].match(/^slug:\s*(.+)$/m);
+      var frontmatterText = fm[1];
+      var t = frontmatterText.match(/^title:\s*(.+)$/m);
+      var d = frontmatterText.match(/^date:\s*(.+)$/m);
+      var s = frontmatterText.match(/^slug:\s*(.+)$/m);
       if (t) title = t[1].trim().replace(/^["']|["']$/g, "");
       if (d) date  = d[1].trim().replace(/^["']|["']$/g, "");
       if (s) slug  = s[1].trim().replace(/^["']|["']$/g, "");
+      tags = parseTagsFromFrontmatter(frontmatterText);
     } else {
       var h1 = body.match(/^#\s+(.+)$/m);
       if (h1) { title = h1[1].trim(); body = body.replace(/^#\s+.+\n?/, ""); }
@@ -234,7 +281,7 @@
     } else {
       slug = slugify(slug);
     }
-    return { title: title, date: date, slug: slug, body: body };
+    return { title: title, date: date, slug: slug, tags: tags, body: body };
   }
 
   // ---------- excerpt truncation ----------
@@ -268,6 +315,19 @@
 
   // ---------- DOM assembly ----------
 
+  function makeTagPillsHtml(tags) {
+    if (!tags || !tags.length) return '';
+    return '<p class="blog-tags" style="margin:0.3rem 0 0.8rem;">' +
+      tags.map(function (t) {
+        var tagSlug = slugify(t);
+        return '<a href="' + makeTagLink(tagSlug) + '" data-blog-tag class="blog-tag-pill" ' +
+          'style="display:inline-block;padding:0.2rem 0.6rem;margin:0 0.35rem 0.35rem 0;' +
+          'background:#F4F4F5;border:1px solid #ddd;border-radius:12px;color:#B02F68;' +
+          'text-decoration:none;font-size:0.8rem;">' + escapeHtml(t) + '</a>';
+      }).join('') +
+      '</p>';
+  }
+
   function renderPost(parsed) {
     var fullHtml = mdToHtml(parsed.body);
     var truncation = truncateHtml(fullHtml);
@@ -283,6 +343,7 @@
         '</a>' +
       '</h2>' +
       (parsed.date ? '<p class="blog-date">' + escapeHtml(formatDate(parsed.date)) + '</p>' : '') +
+      makeTagPillsHtml(parsed.tags) +
       '<div class="blog-body">' + fullHtml + '</div>' +
       '<div class="blog-excerpt">' + truncation.excerpt +
         (truncation.truncated
@@ -303,19 +364,41 @@
     return a;
   }
 
-  function makePaginationNav(currentPage, totalPages) {
+  function makeTagFilterBar(activeTagSlug) {
+    if (!allTags.length) return '';
+    var html = '<nav id="blog-tag-filter" style="display:flex;flex-wrap:wrap;align-items:center;' +
+      'gap:0.5rem;margin:1rem 0;padding:0.75rem 0;border-bottom:1px solid #e0e0e0;">';
+    html += '<span style="font-size:0.85rem;color:#666;margin-right:0.2rem;">Filter by tag:</span>';
+
+    function pillStyle(active) {
+      return 'display:inline-block;padding:0.25rem 0.75rem;border-radius:12px;font-size:0.85rem;' +
+        'text-decoration:none;' +
+        (active ? 'background:#B02F68;color:#fff;' : 'background:#F4F4F5;border:1px solid #ddd;color:#B02F68;');
+    }
+
+    html += '<a href="?page=1#blog" style="' + pillStyle(!activeTagSlug) + '">All</a>';
+    allTags.forEach(function (t) {
+      html += '<a href="' + makeTagLink(t.slug) + '" style="' + pillStyle(t.slug === activeTagSlug) + '">' +
+        escapeHtml(t.label) + '</a>';
+    });
+    html += '</nav>';
+    return html;
+  }
+
+  function makePaginationNav(currentPage, totalPages, tagSlug) {
+    var tagQS = tagSlug ? 'tag=' + encodeURIComponent(tagSlug) + '&' : '';
     var html = '<nav id="blog-pagination-nav" style="display: flex; align-items: center; justify-content: center; gap: 0; margin: 2rem 0; padding: 1rem; border-top: 1px solid #e0e0e0;">';
-    
+
     if (currentPage > 1) {
-      html += '<a href="?page=' + (currentPage - 1) + '#blog" style="display: inline-block; padding: 0.5rem 1rem; background: #F4F4F5; border: 1px solid #ddd; border-radius: 4px; color: #B02F68; text-decoration: none; font-size: 0.95rem; transition: all 0.2s ease; margin-right: 1em;">← Previous</a>';
+      html += '<a href="?' + tagQS + 'page=' + (currentPage - 1) + '#blog" style="display: inline-block; padding: 0.5rem 1rem; background: #F4F4F5; border: 1px solid #ddd; border-radius: 4px; color: #B02F68; text-decoration: none; font-size: 0.95rem; transition: all 0.2s ease; margin-right: 1em;">← Previous</a>';
     }
-    
+
     html += '<span style="font-size: 0.9rem; color: #666; white-space: nowrap; margin: 0 1em;">Page ' + currentPage + ' of ' + totalPages + '</span>';
-    
+
     if (currentPage < totalPages) {
-      html += '<a href="?page=' + (currentPage + 1) + '#blog" style="display: inline-block; padding: 0.5rem 1rem; background: #F4F4F5; border: 1px solid #ddd; border-radius: 4px; color: #B02F68; text-decoration: none; font-size: 0.95rem; transition: all 0.2s ease; margin-left: 1em;">Next →</a>';
+      html += '<a href="?' + tagQS + 'page=' + (currentPage + 1) + '#blog" style="display: inline-block; padding: 0.5rem 1rem; background: #F4F4F5; border: 1px solid #ddd; border-radius: 4px; color: #B02F68; text-decoration: none; font-size: 0.95rem; transition: all 0.2s ease; margin-left: 1em;">Next →</a>';
     }
-    
+
     html += '</nav>';
     return html;
   }
@@ -326,12 +409,16 @@
     var params = new URLSearchParams(location.search);
     var postSlug = params.get('post');
     var pageNum = parseInt(params.get('page'), 10) || 1;
+    var tagParam = params.get('tag') ? slugify(params.get('tag')) : null;
 
-    // ALWAYS remove pagination first, we'll re-add it if needed
+    // ALWAYS remove pagination, tag filter bar, and empty-state message first,
+    // we'll re-add whichever are needed below.
     var existingNav = containerEl.querySelector('#blog-pagination-nav');
-    if (existingNav) {
-      existingNav.remove();
-    }
+    if (existingNav) existingNav.remove();
+    var existingTagBar = containerEl.querySelector('#blog-tag-filter');
+    if (existingTagBar) existingTagBar.remove();
+    var existingEmpty = containerEl.querySelector('#blog-empty-message');
+    if (existingEmpty) existingEmpty.remove();
 
     // Single post view takes priority
     if (postSlug && postsBySlug[postSlug]) {
@@ -362,12 +449,18 @@
     containerEl.classList.add('mode-list');
     document.title = originalTitle;
 
-    // Update post visibility based on current page
-    var totalPages = Math.ceil(postsArray.length / POSTS_PER_PAGE);
+    // Filter by tag (if any), then paginate the filtered set
+    var activePosts = tagParam
+      ? postsArray.filter(function (p) {
+          return p.tags.some(function (t) { return slugify(t) === tagParam; });
+        })
+      : postsArray;
+
+    var totalPages = Math.max(1, Math.ceil(activePosts.length / POSTS_PER_PAGE));
     if (pageNum < 1 || pageNum > totalPages) pageNum = 1;
     var startIdx = (pageNum - 1) * POSTS_PER_PAGE;
     var endIdx = startIdx + POSTS_PER_PAGE;
-    var visibleSlugs = postsArray.slice(startIdx, endIdx).map(function (p) { return p.slug; });
+    var visibleSlugs = activePosts.slice(startIdx, endIdx).map(function (p) { return p.slug; });
 
     var allPosts = containerEl.querySelectorAll('.blog-post');
     for (var k = 0; k < allPosts.length; k++) {
@@ -380,10 +473,18 @@
       }
     }
 
-    // Update pagination nav (already removed at top of updateView)
-    var totalPages = Math.ceil(postsArray.length / POSTS_PER_PAGE);
-    if (totalPages > 1) {
-      containerEl.insertAdjacentHTML('beforeend', makePaginationNav(pageNum, totalPages));
+    // Tag filter bar goes right after the back link
+    var backLinkEl = containerEl.querySelector('.blog-back');
+    var tagBarHtml = makeTagFilterBar(tagParam);
+    if (backLinkEl && tagBarHtml) {
+      backLinkEl.insertAdjacentHTML('afterend', tagBarHtml);
+    }
+
+    if (activePosts.length === 0) {
+      containerEl.insertAdjacentHTML('beforeend',
+        '<p id="blog-empty-message" style="padding:2rem 0;color:#666;">No posts found for this tag.</p>');
+    } else if (totalPages > 1) {
+      containerEl.insertAdjacentHTML('beforeend', makePaginationNav(pageNum, totalPages, tagParam));
     }
   }
 
@@ -412,6 +513,8 @@
       return;
     }
 
+    // Covers both pagination links and tag links (tag links always include
+    // "page=1" in their href, so they're routed through here too).
     var pagination = e.target.closest ? e.target.closest('a[href*="page="]') : null;
     if (pagination && !pagination.hasAttribute('data-blog-back')) {
       e.preventDefault();
@@ -456,6 +559,8 @@
     statusEl.style.display = "none";
     containerEl.appendChild(makeBackLink());
 
+    var tagMap = {}; // slug -> first-seen display label
+
     posts.forEach(function (p) {
       try {
         var parsed = parsePost(p.name, p.text);
@@ -466,9 +571,17 @@
         postsBySlug[parsed.slug] = parsed;
         postsArray.push(parsed);
         containerEl.appendChild(renderPost(parsed));
+        parsed.tags.forEach(function (t) {
+          var s = slugify(t);
+          if (s && !tagMap[s]) tagMap[s] = t;
+        });
       } catch (e) {
         console.error("[blog] render failed for", p.name, e);
       }
+    });
+
+    allTags = Object.keys(tagMap).sort().map(function (s) {
+      return { slug: s, label: tagMap[s] };
     });
 
     containerEl.addEventListener('click', handleContainerClick);
