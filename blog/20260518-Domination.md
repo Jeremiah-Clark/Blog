@@ -3,7 +3,6 @@ title: That One Time I Dominated EVERYONE
 date: May 18, 2026
 slug: domination
 tags: narrative
-
 ---
 
 ![Image of intense green laser lights.](../images/0_8OuZ_JAdVaJOxF0c.jpeg)

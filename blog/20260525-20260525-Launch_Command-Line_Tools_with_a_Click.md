@@ -3,7 +3,6 @@ title: Launch Command-Line Tools with a Click using Shell Scripts, for Non-Devel
 date: May 25, 2026
 slug: shell_scripts_launch_cli_tools
 tags: CLI
-
 ---
 
 ![A close up tilt-shift image of a screen showing code.](../images/photo-1767817099805-d79e31fb968c.jpeg)

@@ -3,7 +3,6 @@ title: Setting up Local LLMs on macOS for Non-Developers
 date: 2026-06-18
 slug: local_llms_macos
 tags: AI
-
 ---
 
 ![Stylized, abstract spirograph-like image with letters AI in the center.](../images/0_yoypHghT5nVWGu07-optimised.jpg)
