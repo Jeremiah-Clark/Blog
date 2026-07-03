@@ -2,6 +2,7 @@
 title: Introducing Markdown → Medium
 date: 2026-06-02
 slug: Markdown_to_Medium
+tags: tool
 ---
 
 I made a tool. If you write in Markdown and publish on Medium—as I do—this tool is for you.
