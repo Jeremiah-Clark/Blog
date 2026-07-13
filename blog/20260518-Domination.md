@@ -5,9 +5,7 @@ slug: domination
 tags: narrative
 ---
 
-![Image of intense green laser lights.](../images/0_8OuZ_JAdVaJOxF0c.jpeg)
-
-<div style="text-align: center; font-style: italic;">Photo by <a href="https://unsplash.com/@dellutriyuriy6?utm_source=medium&utm_medium=referral">Yuriy Dellutri</a> on <a href="https://unsplash.com/?utm_source=medium&utm_medium=referral">Unsplash</a></div>
+![Photo by Yuriy Dellutri on Unsplash.](../images/0_8OuZ_JAdVaJOxF0c.jpeg)
 
 `840 Words; 4 min read`
 

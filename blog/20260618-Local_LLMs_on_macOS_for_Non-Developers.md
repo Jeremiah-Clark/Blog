@@ -5,9 +5,7 @@ slug: local_llms_macos
 tags: AI
 ---
 
-![Stylized, abstract spirograph-like image with letters AI in the center.](../images/0_yoypHghT5nVWGu07-optimised.jpg)
-
-<div style="text-align: center; font-style: italic;">Photo by <a href="https://medium.com/r/?url=https%3A%2F%2Funsplash.com%2F%40zachmmalin%3Futm_source%3Dmedium%26utm_medium%3Dreferral">Zach M</a> on <a href="https://medium.com/r/?url=https%3A%2F%2Funsplash.com%3Futm_source%3Dmedium%26utm_medium%3Dreferral">Unsplash</a></div>
+![Photo by Zach M on Unsplash.](../images/0_yoypHghT5nVWGu07-optimised.jpg)
 
 `2300 words; 9 minutes`
 
@@ -94,9 +92,7 @@ As you’ll see in my screenshots, my system is an M4 Pro with 24GB of RAM. That
 
 The simplest starting point is **[CanIRun.ai](https://www.canirun.ai/)**—it automatically identifies your hardware and shows how well each model is expected to run on it.
 
-![A screenshot of the CanIRun.ai home page.](../images/CanIRunAI-Home.png)
-
-<div style="text-align: center; font-style: italic;">What I see when I visit CanIRun.ai. The hardware configuration is automatic, but can be adjusted.</div>
+![What I see when I visit CanIRun.ai. The hardware configuration is automatic, but can be adjusted.](../images/CanIRunAI-Home.png)
 
 Let’s break down the information in CanIRun.ai’s LLM table, from left to right:
 
@@ -199,9 +195,7 @@ Quantization is a form of optimization that makes models smaller and faster, but
 
 The individual model pages on CanIRun.ai include a table that details the impact of each level of quantization on the model, as well as how each should run on your system.
 
-![A screenshot showing the page for Llama 3.1 8B on CanIRun.ai, showing the Quantization options.](../images/CanIRunAI-llama3_1_8b.png)
-
-<div style="text-align: center; font-style: italic;">Note that the full-size model "BARELY RUNS", while the Q4_K_M version<br />"RUNS GREAT" (in addition to taking up about one-third as much RAM).</div>
+![Note that the full-size model "BARELY RUNS", while the Q4_K_M version "RUNS GREAT" (in addition to taking up about one-third as much RAM).](../images/CanIRunAI-llama3_1_8b.png)
 
 The essential takeaway is that for most models, the **Q4_K_M** version is a good balance between performance gains and quality reduction. 
 
@@ -227,9 +221,7 @@ Note the lack of spaces and capitalization in the model name.
 
 Most of the time, this will work fine. If you get an error that the file does not exist, you may need to track down Ollama’s exact model name.
 
-![A screenshot of the Terminal showing an error following an attempt to pull an LLM model into Ollama. The error reads “file does not exist”.](../images/TerminalOllamaNotFound.png)
-
-<div style="text-align: center; font-style: italic;">Ollama doesn't have a "Q4_K_M" version of Llama 3.1 8B, so it returns an error.</div>
+![Ollama doesn't have a "Q4_K_M" version of Llama 3.1 8B, so it returns an error.](../images/TerminalOllamaNotFound.png)
 
 ### Finding a Specific Model’s Ollama Command
 

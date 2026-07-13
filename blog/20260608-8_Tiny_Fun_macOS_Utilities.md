@@ -5,9 +5,7 @@ slug: 8_tiny_fun_macos_utilities
 tags: apps
 ---
 
-![A stylized image of a Swiss Army Knife with tools open, black and white and starkly lit.](../images/0_S1CvkM8qxNmQoEi5-optimised.jpg)
-
-<div style="text-align: center; font-style: italic;">Photo by <a href="https://unsplash.com/@efeyagizs">Efe Yağız Soysal</a> on <a href="https://unsplash.com/">Unsplash</a></div>
+![Photo by Efe Yağız Soysal on Unsplash.](../images/0_S1CvkM8qxNmQoEi5-optimised.jpg)
 
 `1750 words; 7 minutes`
 
@@ -45,8 +43,6 @@ That’s down to the fact that dedicated Mac developers are a different breed. T
 And that’s about all. It pointedly does not support third-party plugins and has no clipboard manager. It may sound limiting, but since installing TinyStart, I haven’t missed **Spotlight** or even **Raycast** for this purpose at all.
 
 ![A screenshot of the TinyStart window.](../images/TinyStart.png)
-
-<div style="text-align: center; font-style: italic;">A screenshot of the TinyStart window.</div>
 
 If you need a powerful and flexible tool—especially if you require plugin support—Raycast is hard to beat. I’ve used it plenty, but I've never integrated all its features into my workflow—I used it as a glorified app launcher. Same with **Alfred** before it.
 
@@ -97,8 +93,6 @@ brew install --cask itsycal
 
 ![A screenshot of the ItsyCal popup window.](../images/ItsyCal.png)
 
-<div style="text-align: center; font-style: italic;">A screenshot of the ItsyCal popup window.</div>
-
 It’s lightweight, quick, and easy to reference. The menu bar icon can also be customized to show the month and day of the week if you want. I rarely open anything else to view or manage my calendars.
 
 ## [PopClip](https://www.popclip.app/)—$12 (free trial)
@@ -122,8 +116,6 @@ Some of the extensions I have active:
 - *And so on*
 
 ![A screenshot of the PopClip popup menu.](../images/PopClip.png)
-
-<div style="text-align: center; font-style: italic;">A screenshot of the PopClip popup menu.</div>
 
 As a bonus, the scripting for the extensions is fairly straightforward. I had Claude whip up a basic extension to append selected text to a note in Obsidian, for example.
 
@@ -149,8 +141,6 @@ RunCat puts a tiny animated “runner” on your menu bar—a bounding cat by de
 
 ![A screenshot of the RunCat system status menu, and the dinosaur runner.](../images/RunCat.png)
 
-<div style="text-align: center; font-style: italic;">A screenshot of the RunCat system status menu, and the dinosaur runner.</div>
-
 This is the one I’ve been using the longest. A coworker recommended it to me back in the early COVID days, when we were all desperate for a little distraction. I fell in love with it, especially once I discovered you could buy more runners.
 
 The free version includes a few different styles of cat runners. Individual runners of other types can be purchased, or the whole lot can be unlocked for $8 (including the ability to make your own). I’m a big fan of the dinosaur and Welsh corgi runners, in particular.
@@ -167,9 +157,7 @@ brew install --cask monocle-app
 
 Monocle is described as “noise-canceling for your screen.” When invoked, it blurs everything behind the active window, allowing you to more easily focus on the task at hand. The amount of blurring is customizable, and it can also apply a tint, visual grain, and other effects, depending on your taste.
 
-![A screenshot of a busy desktop without Mococle, and then with Monocle activated. The background is b&w, and blurred, and the menubar and dock are hidden.](../images/Mococle.png)
-
-<div style="text-align: center; font-style: italic;"><strong>Left</strong>: Normal busy desktop. <strong>Right</strong>: The same desktop with Monocle activated.</div>
+![Left: Normal busy desktop. Right: The same desktop with Monocle activated.](../images/Mococle.png)
 
 
 This is the most expensive item on this list, and probably the one that will resonate with the fewest readers (unless I’m wrong, please let me know in the comments). There are other apps that do something like this, but that are cheaper or free. I’ve tried them and honestly never cared for the effect. The difference with Monocle is that it allows for more customization and, frankly, looks better. I don’t use it very often, but when I do need it, it can be a godsend.

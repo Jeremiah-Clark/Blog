@@ -5,9 +5,7 @@ slug: Core_Digital_Tool_Stack
 tags: apps
 ---
 
-![Vector art of a laptop, coffee mug, and notebook being used on a desktop. Image by Mohamed Hassan from Pixabay](../images/mohamed_hassan-office-3193372-optimised.jpg)
-<div style='text-align: center; font-style: italic;'>Image by <a href="https://pixabay.com/users/mohamed_hassan-5229782/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=3193372">Mohamed Hassan</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=3193372">Pixabay</a></div>
-
+![Image by Mohamed Hassan from Pixabay.](../images/mohamed_hassan-office-3193372-optimised.jpg)
 `3950 Words; 16 min read`
 
 ---
@@ -207,9 +205,9 @@ I’ve also used it to create working prototypes of apps I think should exist, t
 
 - **It can be the dumbest and weirdest editor around**. Sometimes, usually after a period of everything just working, when your guard is down, Claude will develop a rather specific and annoying sort of stupidity. It will insist that something is misspelled that isn’t; it will claim that there is a glaring factual error related to text that just isn’t there. Even basic math can be a stumbling block:
 
-
-![A screenshot of Claude output adding up percentages incorrectly, then offering the exact same numbers as the correct percentages](../images/claude_being_dumb.jpg)
+![Claude adding incorrectly, then offering the same numbers as corrections.](../images/claude_being_dumb.jpg)
 A good reminder that, yes, this is just a sophisticated algorithm and “algorithms are super dumb” (to quote one of the best pieces of AI-themed media to date).
+
 - **The looming AI bubble**. The dirty secret of the AI industry is that it is terribly, catastrophically unprofitable. At the moment, OpenAI, Anthropic, Perplexity, and all the rest spend something like $8 or $9 for every $1 they make from subscriptions. Possibly more. *That can’t last.* 
 Either the tools will be degraded to save on development and support costs (some reports indicate Claude Opus 4.7 is already showing signs of this), or the pricing will become astronomical. *Or both.* 
 Use the tools but know that LLMs **as we know them now** may not be around for long.

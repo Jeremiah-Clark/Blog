@@ -48,19 +48,19 @@ Open the Terminal and copy/paste the following into it:
 You’ll see a message asking for your password to enable *sudo* (“superuser do”—only give this permission to systems and processes you trust). 
 Type your user password (the one you use to log in to macOS), and hit return.
 
-![Terminal-Homebrew-Command](../images/Terminal-Homebrew-Command.png)
+![Terminal password entry.](../images/Terminal-Homebrew-Command.png)
 
 > [!TIP]
 >
 > When the Terminal shows that little key in the cursor, typing won't appear to do anything. This is a security feature to prevent snooping when typing a password. Just type your password and hit return.
 
-![Terminal-Homebrew-Install](../images/Terminal-Homebrew-Install.png)
+![Terminal mid-Homebrew install.](../images/Terminal-Homebrew-Install.png)
 
 Hit return one more time to fully install Homebrew. 
 This may take a minute. 
 When it drops you back at an active prompt, it’s fully installed. 
 
-![Terminal-Homebrew-Install](../images/Terminal-Homebrew-Installed.png)
+![Terminal following a successful Homebrew install.](../images/Terminal-Homebrew-Installed.png)
 
 That’s it, Homebrew is ready to go.
 
@@ -119,7 +119,7 @@ Aside from articles (like [mine](https://medium.com/@jeremiah-clark/leaving-seta
 - **[Homebrew Fonts](https://formulae.brew.sh/cask-font/)**—The official list of Cask fonts, within the core tap, on Homebrew’s website.
 - **Homebrew Search**—Using the command `brew search [package]` returns every package that includes your search term, both Formulae and Casks. The search will also include third-party taps. Anything that is already installed will show as bold.
 
-![Terminal-Homebrew-Search](../images/Terminal-Homebrew-Search.png)
+![Terminal Homebrew search.](../images/Terminal-Homebrew-Search.png)
 
 ## Maintaining Homebrew
 

@@ -7,9 +7,7 @@ tags: tool
 
 I made a tool. If you write in Markdown and publish on Medium—as I do—this tool is for you.
 
-![A stylized photograph of a grinding tool kicking up sparks.](../images/0_iUUx7I6YwGXazSUI-optimised.jpg)
-
-<div style="text-align: center; font-style: italic;">Photo by <a href="https://unsplash.com/@christopher__burns?utm_source=medium&utm_medium=referral">Christopher Burns</a> on <a href="https://unsplash.com?utm_source=medium&utm_medium=referral">Unsplash</a></div>
+![Photo by Christopher Burns on Unsplash.](../images/0_iUUx7I6YwGXazSUI-optimised.jpg)
 
 `900 words; 4 min read`
 
@@ -92,14 +90,10 @@ If you don’t want to work directly with the GitHub repository, you can [downlo
 
 - **Blockquote spacing** = Medium’s editor adds an extra empty line at the end of blockquotes. There’s no workaround.
 
-![Markdown to Medium example in use (using this post).](../images/md_to_medium-example-optimised.png)
-
-<div style="text-align: center; font-style: italic;">The Markdown → Medium tool in use (how meta).</div>
+![The Markdown → Medium tool in use (how meta).](../images/md_to_medium-example-optimised.png)
 
 
-![Markdown to Medium example pasted into Medium editor (this post).](../images/md_to_medium-paste-optimised.png)
-
-<div style="text-align: center; font-style: italic;">The content above, pasted into the Medium editor.</div>
+![The content above, pasted into the Medium editor.](../images/md_to_medium-paste-optimised.png)
 
 ## Licensing
 
