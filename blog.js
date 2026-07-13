@@ -46,10 +46,20 @@
                     .replace(/^-+|-+$/g, '');
   }
 
+  // Date-only strings (YYYY-MM-DD) are parsed as local dates; new Date()
+  // would treat them as UTC midnight, shifting them a day back for
+  // visitors west of UTC.
+  function parseDate(str) {
+    if (!str) return null;
+    var m = String(str).match(/^(\d{4})-(\d{2})-(\d{2})$/);
+    var d = m ? new Date(+m[1], +m[2] - 1, +m[3]) : new Date(str);
+    return isNaN(d) ? null : d;
+  }
+
   function formatDate(iso) {
-    var d = new Date(iso);
-    return isNaN(d) ? iso : d.toLocaleDateString(undefined,
-      { year: "numeric", month: "long", day: "numeric" });
+    var d = parseDate(iso);
+    return d ? d.toLocaleDateString(undefined,
+      { year: "numeric", month: "long", day: "numeric" }) : iso;
   }
 
   function makePermalink(slug) {
@@ -78,37 +88,47 @@
 
   // ---------- markdown rendering ----------
 
-  function renderInline(text) {
-    // 1. Extract inline code into placeholders so subsequent regexes can't touch their contents.
-    var codeChunks = [];
-    text = text.replace(/`([^`]+)`/g, function (_, code) {
-      var placeholder = '\x00code' + codeChunks.length + '\x00';
-      codeChunks.push('<code>' + escapeHtml(code) + '</code>');
-      return placeholder;
-    });
-    // 2. Bold and italic before links, so they only ever wrap plain text.
-    text = text.replace(/\*\*([^*]+)\*\*/g, function(_, s) {
-      return '<strong>' + escapeHtml(s) + '</strong>';
-    });
-    text = text.replace(/(^|[^*])\*([^*\n]+)\*/g, function(_, pre, s) {
-      return pre + '<em>' + escapeHtml(s) + '</em>';
-    });
-    // 3. Images before links (more specific pattern first).
-    text = text.replace(/!\[([^\]]*)\]\(([^)\s]+)\)/g, function (_, alt, url) {
-      return '<img src="' + escapeHtml(resolveAssetUrl(url)) + '" alt="' + escapeHtml(alt) + '" loading="lazy">';
-    });
-    text = text.replace(/\[([^\]]+)\]\(([^)\s]+)\)/g, function (_, t, url) {
-      return '<a href="' + escapeHtml(resolveAssetUrl(url)) + '" target="_blank" rel="noopener noreferrer">' + escapeHtml(t) + '</a>';
-    });
-    // 4. Escape remaining plain text segments (between HTML tags and placeholders).
-    text = text.replace(/(?:^|(?<=>))([^<\x00]*)(?=<|\x00|$)/g, function(_, plain) {
-      return escapeHtml(plain);
-    });
-    // 5. Restore code placeholders.
-    text = text.replace(/\x00code(\d+)\x00/g, function(_, i) {
-      return codeChunks[+i];
-    });
+  // Bold and italic on already-escaped text.
+  function emphasize(text) {
+    text = text.replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>');
+    text = text.replace(/(^|[^*])\*([^*\n]+)\*/g, '$1<em>$2</em>');
     return text;
+  }
+
+  // URL part of []() / ![](): no spaces, one level of balanced parens allowed
+  // (e.g. Wikipedia links).
+  var MD_URL = '((?:[^()\\s]|\\([^()\\s]*\\))+)';
+  var IMG_RE  = new RegExp('!\\[([^\\]]*)\\]\\(' + MD_URL + '\\)', 'g');
+  var LINK_RE = new RegExp('\\[([^\\]]+)\\]\\(' + MD_URL + '\\)', 'g');
+  // A line consisting solely of an image (rendered as a block-level figure).
+  var IMG_LINE_RE = new RegExp('^\\s*!\\[([^\\]]*)\\]\\(' + MD_URL + '\\)\\s*$');
+
+  function renderInline(text) {
+    // Code, images, and links are rendered first and stashed as \x00N\x00
+    // placeholders, so escaping and emphasis can then run over everything
+    // that's left without touching them.
+    var chunks = [];
+    function stash(html) {
+      chunks.push(html);
+      return '\x00' + (chunks.length - 1) + '\x00';
+    }
+
+    text = text.replace(/`([^`]+)`/g, function (_, code) {
+      return stash('<code>' + escapeHtml(code) + '</code>');
+    });
+    // Images before links (more specific pattern first).
+    text = text.replace(IMG_RE, function (_, alt, url) {
+      return stash('<img src="' + escapeHtml(resolveAssetUrl(url)) + '" alt="' + escapeHtml(alt) + '" loading="lazy">');
+    });
+    text = text.replace(LINK_RE, function (_, t, url) {
+      return stash('<a href="' + escapeHtml(resolveAssetUrl(url)) + '" target="_blank" rel="noopener noreferrer">' + emphasize(escapeHtml(t)) + '</a>');
+    });
+
+    text = emphasize(escapeHtml(text));
+
+    return text.replace(/\x00(\d+)\x00/g, function (_, i) {
+      return chunks[+i];
+    });
   }
 
   // Strip the common leading whitespace from a block of lines.
@@ -145,6 +165,17 @@
         continue;
       }
       if (/^\s*(---|\*\*\*|___)\s*$/.test(line)) { out.push('<hr>'); i++; continue; }
+      // A line that is only an image becomes a figure, with the alt text as a caption
+      var img = line.match(IMG_LINE_RE);
+      if (img) {
+        out.push(
+          '<figure class="blog-figure">' +
+            '<img src="' + escapeHtml(resolveAssetUrl(img[2])) + '" alt="' + escapeHtml(img[1]) + '" loading="lazy">' +
+            (img[1] ? '<figcaption>' + escapeHtml(img[1]) + '</figcaption>' : '') +
+          '</figure>'
+        );
+        i++; continue;
+      }
       var h = line.match(/^(#{1,6})\s+(.*)$/);
       if (h) {
         out.push('<h' + h[1].length + '>' + renderInline(h[2]) + '</h' + h[1].length + '>');
@@ -200,7 +231,10 @@
              !/^\s*```/.test(lines[i]) &&
              !/^>\s?/.test(lines[i]) &&
              !/^\s*[-*+]\s+/.test(lines[i]) &&
-             !/^\s*\d+\.\s+/.test(lines[i])) {
+             !/^\s*\d+\.\s+/.test(lines[i]) &&
+             !/^\s*(---|\*\*\*|___)\s*$/.test(lines[i]) &&
+             !/^<[a-zA-Z\/]/.test(lines[i]) &&
+             !IMG_LINE_RE.test(lines[i])) {
         para.push(lines[i]); i++;
       }
       out.push('<p>' + renderInline(para.join(" ")) + '</p>');
@@ -441,7 +475,8 @@
     // List view with pagination
     if (postSlug) {
       console.warn('[blog] unknown slug:', postSlug);
-      history.replaceState(null, '', location.pathname + '?page=1#blog');
+      var fallbackQS = tagParam ? '?tag=' + encodeURIComponent(tagParam) + '&page=1#blog' : '?page=1#blog';
+      history.replaceState(null, '', location.pathname + fallbackQS);
       pageNum = 1;
     }
 
@@ -502,7 +537,7 @@
   }
 
   function handleContainerClick(e) {
-    if (e.metaKey || e.ctrlKey || e.shiftKey || e.button !== 0) return;
+    if (e.metaKey || e.ctrlKey || e.shiftKey || e.altKey || e.button !== 0) return;
 
     var permalink = e.target.closest ? e.target.closest('a[data-permalink]') : null;
     if (permalink) {
@@ -549,12 +584,25 @@
 
     if (mdFiles.length === 0) { statusEl.textContent = "No posts yet."; return; }
 
+    // A post that fails to fetch is skipped (null) rather than
+    // taking down the whole blog.
     return Promise.all(mdFiles.map(function (f) {
-      return fetch(f.download_url).then(function (r) { return r.text(); })
-        .then(function (text) { return { name: f.name, text: text }; });
+      return fetch(f.download_url).then(function (r) {
+        if (!r.ok) throw new Error("HTTP " + r.status);
+        return r.text();
+      }).then(function (text) { return { name: f.name, text: text }; })
+        .catch(function (err) {
+          console.error("[blog] couldn't load", f.name, err);
+          return null;
+        });
     }));
   }).then(function (posts) {
     if (!posts) return;
+    posts = posts.filter(Boolean);
+    if (posts.length === 0) {
+      showError("Couldn't load posts: none of the post files could be fetched.");
+      return;
+    }
 
     statusEl.style.display = "none";
     containerEl.appendChild(makeBackLink());
@@ -567,16 +615,37 @@
         if (!parsed.slug) parsed.slug = 'post-' + Math.random().toString(36).slice(2, 8);
         if (postsBySlug[parsed.slug]) {
           console.warn('[blog] duplicate slug:', parsed.slug, 'for', p.name);
+          var n = 2;
+          while (postsBySlug[parsed.slug + '-' + n]) n++;
+          parsed.slug = parsed.slug + '-' + n;
         }
+        parsed.filename = p.name;
         postsBySlug[parsed.slug] = parsed;
         postsArray.push(parsed);
-        containerEl.appendChild(renderPost(parsed));
         parsed.tags.forEach(function (t) {
           var s = slugify(t);
           if (s && !tagMap[s]) tagMap[s] = t;
         });
       } catch (e) {
-        console.error("[blog] render failed for", p.name, e);
+        console.error("[blog] parse failed for", p.name, e);
+      }
+    });
+
+    // Newest first, by date where available (undated posts sort last),
+    // falling back to filename descending.
+    postsArray.sort(function (a, b) {
+      var ta = parseDate(a.date), tb = parseDate(b.date);
+      if (ta && tb && ta.getTime() !== tb.getTime()) return tb.getTime() - ta.getTime();
+      if (ta && !tb) return -1;
+      if (!ta && tb) return 1;
+      return b.filename.localeCompare(a.filename);
+    });
+
+    postsArray.forEach(function (parsed) {
+      try {
+        containerEl.appendChild(renderPost(parsed));
+      } catch (e) {
+        console.error("[blog] render failed for", parsed.filename, e);
       }
     });
 
