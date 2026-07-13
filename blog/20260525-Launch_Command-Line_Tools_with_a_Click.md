@@ -48,7 +48,7 @@ You can also avoid the terminal altogether:
 3. When the script is complete, go to “File > Save…” in the menu.
 4. Give the file a name (no extension, no spaces), check "Make file executable,” navigate to the target directory, and save.
 
-![The Save dialog in CotEditor, note the lack of file extension, and Make file executable is checked.](../images/save_script.png)
+![The Save dialog in CotEditor, note the lack of file extension, and that “Make file executable” is checked.](../images/save_script.png)
 
 Regardless of which path you choose, the new file will act like an application when you double-click on it.
 
