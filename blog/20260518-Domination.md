@@ -17,8 +17,6 @@ Dominated them at **laser tag**, specifically.
 
 ![My goofy face right before the game.](../images/Dominate-Laser_Tag.png)
 
-<div style="text-align: center; font-style: italic;">"Game Face" on!</div>
-
 To understand why this is significant, I need to paint you a self-portrait. 
 
 I’m a big guy, always have been. I’m at the tall end of average in height, but off the charts in weight. I was 35 when this happened, dealing with high blood pressure and the first inklings of anxiety. Most of my coworkers were younger, many were more competitive, and all were more fit. At a different event, I was embarrassed when my overburdened go-kart literally couldn’t keep up, and I became a slow-moving crash hazard for everyone else to avoid. 
@@ -63,15 +61,11 @@ I leaned around the corner as their lights came back on. Zap zap. This time, the
 
 The rest of the match went about the same. Team Red won, 12,360 to 10,480. My individual score: 3280. More than a quarter of my team’s total, and a 20% lead over the second-place player (also a Red), at 2680.
 
-![Game 1 scores](../images/Dominate-Scores1.png)
-
-<div style="text-align: center; font-style: italic;">Game one (names are random, I swear).</div>
+![Game one (names are random, I swear).](../images/Dominate-Scores1.png)
 
 In the second round, Blue took the win 20,900 to 16,980. Red still squeaked out the top individual scores, though. I ended with 3020 points, just ahead of second place with 2980. Either everyone stepped up their game for the second round, or others had spotted the same flaw I had.
 
 ![Game 2 Scores](../images/Dominate-Scores2.png)
-
-<div style="text-align: center; font-style: italic;">Game two.</div>
 
 I wasn’t the smartest, probably not the strongest, *certainly* not the fastest. I was just the first to recognize and exploit the way the system worked. That’s it. 
 
