@@ -131,6 +131,14 @@
     });
   }
 
+  // Split a GFM table row into trimmed cells, dropping the outer pipes.
+  function splitTableRow(row) {
+    row = row.trim();
+    if (row.charAt(0) === '|') row = row.slice(1);
+    if (row.charAt(row.length - 1) === '|') row = row.slice(0, -1);
+    return row.split('|').map(function (c) { return c.trim(); });
+  }
+
   // Strip the common leading whitespace from a block of lines.
   // Empty lines are ignored when calculating the minimum indent.
   function dedent(lines) {
@@ -221,6 +229,31 @@
         out.push('<ol>' + oitems.map(function (x) {
           return '<li>' + renderInline(x) + '</li>';
         }).join("") + '</ol>');
+        continue;
+      }
+      // GFM table: a header row containing |, then a separator row like | --- | :---: |
+      if (line.indexOf('|') !== -1 && i + 1 < lines.length &&
+          lines[i + 1].indexOf('|') !== -1 && lines[i + 1].indexOf('-') !== -1 &&
+          /^\s*\|?[\s:|-]+\|?\s*$/.test(lines[i + 1])) {
+        var aligns = splitTableRow(lines[i + 1]).map(function (c) {
+          var colL = c.charAt(0) === ':', colR = c.charAt(c.length - 1) === ':';
+          return colL && colR ? 'center' : colR ? 'right' : '';
+        });
+        var rowHtml = function (tag, cells) {
+          return '<tr>' + cells.map(function (c, idx) {
+            var al = aligns[idx] ? ' style="text-align:' + aligns[idx] + '"' : '';
+            return '<' + tag + al + '>' + renderInline(c) + '</' + tag + '>';
+          }).join('') + '</tr>';
+        };
+        var headRow = rowHtml('th', splitTableRow(line));
+        i += 2;
+        var bodyRows = [];
+        while (i < lines.length && lines[i].indexOf('|') !== -1 && !/^\s*$/.test(lines[i])) {
+          bodyRows.push(rowHtml('td', splitTableRow(lines[i])));
+          i++;
+        }
+        out.push('<div class="blog-table-wrap"><table><thead>' + headRow + '</thead>' +
+                 '<tbody>' + bodyRows.join('') + '</tbody></table></div>');
         continue;
       }
       if (/^\s*$/.test(line)) { i++; continue; }
@@ -321,12 +354,15 @@
   // ---------- excerpt truncation ----------
 
   function truncateHtml(html) {
-    var tmp = document.createElement('div');
+    // Parse inside a <template> — its content is inert, so images in the
+    // full body don't start downloading just to compute the excerpt.
+    var tmp = document.createElement('template');
     tmp.innerHTML = html;
-    var children = Array.prototype.slice.call(tmp.children);
+    var children = Array.prototype.slice.call(tmp.content.children);
     if (children.length === 0) return { excerpt: html, truncated: false };
 
-    var countedTags = { P:1, UL:1, OL:1, BLOCKQUOTE:1, PRE:1 };
+    // DIV covers table wrappers and admonitions; FIGURE covers images.
+    var countedTags = { P:1, UL:1, OL:1, BLOCKQUOTE:1, PRE:1, DIV:1, FIGURE:1 };
     var blockCount = 0;
     var cutoff = children.length;
 
@@ -340,9 +376,9 @@
     if (cutoff >= children.length) {
       return { excerpt: html, truncated: false };
     }
-    var out = document.createElement('div');
+    var out = document.createElement('template');
     for (var j = 0; j < cutoff; j++) {
-      out.appendChild(children[j].cloneNode(true));
+      out.content.appendChild(children[j].cloneNode(true));
     }
     return { excerpt: out.innerHTML, truncated: true };
   }
@@ -351,13 +387,10 @@
 
   function makeTagPillsHtml(tags) {
     if (!tags || !tags.length) return '';
-    return '<p class="blog-tags" style="margin:0.3rem 0 0.8rem;">' +
+    return '<p class="blog-tags">' +
       tags.map(function (t) {
-        var tagSlug = slugify(t);
-        return '<a href="' + makeTagLink(tagSlug) + '" data-blog-tag class="blog-tag-pill" ' +
-          'style="display:inline-block;padding:0.2rem 0.6rem;margin:0 0.35rem 0.35rem 0;' +
-          'background:#F4F4F5;border:1px solid #ddd;border-radius:12px;color:#B02F68;' +
-          'text-decoration:none;font-size:0.8rem;">' + escapeHtml(t) + '</a>';
+        return '<a href="' + makeTagLink(slugify(t)) + '" data-blog-tag class="blog-tag-pill">' +
+          escapeHtml(t) + '</a>';
       }).join('') +
       '</p>';
   }
@@ -366,6 +399,11 @@
     var fullHtml = mdToHtml(parsed.body);
     var truncation = truncateHtml(fullHtml);
     var permalink = makePermalink(parsed.slug);
+
+    // The full body is kept as a string and only injected into the DOM the
+    // first time the post is opened (see updateView), so list view doesn't
+    // carry every image of every post.
+    parsed.html = fullHtml;
 
     var el = document.createElement("article");
     el.className = "blog-post";
@@ -378,11 +416,11 @@
       '</h2>' +
       (parsed.date ? '<p class="blog-date">' + escapeHtml(formatDate(parsed.date)) + '</p>' : '') +
       makeTagPillsHtml(parsed.tags) +
-      '<div class="blog-body">' + fullHtml + '</div>' +
-      '<div class="blog-excerpt">' + truncation.excerpt +
+      '<div class="blog-body"></div>' +
+      '<div class="blog-excerpt' + (truncation.truncated ? ' is-truncated' : '') + '">' + truncation.excerpt +
         (truncation.truncated
           ? '<p class="blog-readmore-wrap">' +
-              '<a href="' + permalink + '" data-permalink class="blog-readmore">Read more →</a>' +
+              '<a href="' + permalink + '" data-permalink class="blog-readmore" aria-label="Read more: ' + escapeHtml(parsed.title) + '">Read more →</a>' +
             '</p>'
           : '') +
       '</div>';
@@ -400,20 +438,17 @@
 
   function makeTagFilterBar(activeTagSlug) {
     if (!allTags.length) return '';
-    var html = '<nav id="blog-tag-filter" style="display:flex;flex-wrap:wrap;align-items:center;' +
-      'gap:0.5rem;margin:1rem 0;padding:0.75rem 0;border-bottom:1px solid #e0e0e0;">';
-    html += '<span style="font-size:0.85rem;color:#666;margin-right:0.2rem;">Filter by tag:</span>';
 
-    function pillStyle(active) {
-      return 'display:inline-block;padding:0.25rem 0.75rem;border-radius:12px;font-size:0.85rem;' +
-        'text-decoration:none;' +
-        (active ? 'background:#B02F68;color:#fff;' : 'background:#F4F4F5;border:1px solid #ddd;color:#B02F68;');
+    function pill(href, label, active) {
+      return '<a href="' + href + '" class="blog-filter-pill' + (active ? ' is-active' : '') + '"' +
+        (active ? ' aria-current="true"' : '') + '>' + escapeHtml(label) + '</a>';
     }
 
-    html += '<a href="?page=1#blog" style="' + pillStyle(!activeTagSlug) + '">All</a>';
+    var html = '<nav id="blog-tag-filter" aria-label="Filter posts by tag">';
+    html += '<span class="blog-tag-filter-label">Filter by tag:</span>';
+    html += pill('?page=1#blog', 'All', !activeTagSlug);
     allTags.forEach(function (t) {
-      html += '<a href="' + makeTagLink(t.slug) + '" style="' + pillStyle(t.slug === activeTagSlug) + '">' +
-        escapeHtml(t.label) + '</a>';
+      html += pill(makeTagLink(t.slug), t.label, t.slug === activeTagSlug);
     });
     html += '</nav>';
     return html;
@@ -421,16 +456,16 @@
 
   function makePaginationNav(currentPage, totalPages, tagSlug) {
     var tagQS = tagSlug ? 'tag=' + encodeURIComponent(tagSlug) + '&' : '';
-    var html = '<nav id="blog-pagination-nav" style="display: flex; align-items: center; justify-content: center; gap: 0; margin: 2rem 0; padding: 1rem; border-top: 1px solid #e0e0e0;">';
+    var html = '<nav id="blog-pagination-nav" aria-label="Blog pages">';
 
     if (currentPage > 1) {
-      html += '<a href="?' + tagQS + 'page=' + (currentPage - 1) + '#blog" style="display: inline-block; padding: 0.5rem 1rem; background: #F4F4F5; border: 1px solid #ddd; border-radius: 4px; color: #B02F68; text-decoration: none; font-size: 0.95rem; transition: all 0.2s ease; margin-right: 1em;">← Previous</a>';
+      html += '<a href="?' + tagQS + 'page=' + (currentPage - 1) + '#blog" class="blog-pagination-btn blog-pagination-prev">← Previous</a>';
     }
 
-    html += '<span style="font-size: 0.9rem; color: #666; white-space: nowrap; margin: 0 1em;">Page ' + currentPage + ' of ' + totalPages + '</span>';
+    html += '<span class="blog-pagination-info">Page ' + currentPage + ' of ' + totalPages + '</span>';
 
     if (currentPage < totalPages) {
-      html += '<a href="?' + tagQS + 'page=' + (currentPage + 1) + '#blog" style="display: inline-block; padding: 0.5rem 1rem; background: #F4F4F5; border: 1px solid #ddd; border-radius: 4px; color: #B02F68; text-decoration: none; font-size: 0.95rem; transition: all 0.2s ease; margin-left: 1em;">Next →</a>';
+      html += '<a href="?' + tagQS + 'page=' + (currentPage + 1) + '#blog" class="blog-pagination-btn blog-pagination-next">Next →</a>';
     }
 
     html += '</nav>';
@@ -461,6 +496,10 @@
       var posts = containerEl.querySelectorAll('.blog-post');
       for (var i = 0; i < posts.length; i++) {
         if (posts[i].getAttribute('data-slug') === postSlug) {
+          var bodyEl = posts[i].querySelector('.blog-body');
+          if (bodyEl && !bodyEl.firstChild) {
+            bodyEl.innerHTML = postsBySlug[postSlug].html;
+          }
           posts[i].classList.add('this-post');
           posts[i].style.display = 'block';
         } else {
@@ -575,6 +614,9 @@
                "/contents/" + POSTS_DIR + "?ref=" + GH_BRANCH;
 
   fetch(apiUrl).then(function (r) {
+    if (r.status === 403 || r.status === 429) {
+      throw new Error("GitHub's rate limit was reached. Please try again in a few minutes.");
+    }
     if (!r.ok) throw new Error("GitHub API " + r.status);
     return r.json();
   }).then(function (files) {
@@ -657,6 +699,12 @@
     window.addEventListener('popstate', updateView);
 
     updateView();
+
+    // Deep links (?post=...) render after the browser has already done its
+    // #blog anchor scroll, so nudge the viewport to the opened post.
+    if (new URLSearchParams(location.search).get('post')) {
+      scrollToCurrent();
+    }
   }).catch(function (err) {
     showError("Couldn't load posts: " + err.message);
   });
