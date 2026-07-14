@@ -126,9 +126,14 @@
 
     text = emphasize(escapeHtml(text));
 
-    return text.replace(/\x00(\d+)\x00/g, function (_, i) {
-      return chunks[+i];
-    });
+    // Chunks can nest (an image stashed inside a link's text), so keep
+    // restoring until no placeholders remain.
+    while (/\x00\d+\x00/.test(text)) {
+      text = text.replace(/\x00(\d+)\x00/g, function (_, i) {
+        return chunks[+i];
+      });
+    }
+    return text;
   }
 
   // Split a GFM table row into trimmed cells, dropping the outer pipes.
@@ -472,6 +477,52 @@
     return html;
   }
 
+  // ---------- lightbox ----------
+
+  var lightboxEl = null;
+  var lightboxPrevFocus = null;
+  var lightboxPrevOverflow = '';
+
+  function closeLightbox() {
+    if (!lightboxEl || !lightboxEl.classList.contains('is-open')) return;
+    lightboxEl.classList.remove('is-open');
+    document.removeEventListener('keydown', onLightboxKey);
+    document.body.style.overflow = lightboxPrevOverflow;
+    if (lightboxPrevFocus && lightboxPrevFocus.focus) lightboxPrevFocus.focus();
+    lightboxPrevFocus = null;
+  }
+
+  function onLightboxKey(e) {
+    if (e.key === 'Escape' || e.key === 'Esc') closeLightbox();
+  }
+
+  function openLightbox(img) {
+    if (!lightboxEl) {
+      lightboxEl = document.createElement('div');
+      lightboxEl.id = 'blog-lightbox';
+      lightboxEl.setAttribute('role', 'dialog');
+      lightboxEl.setAttribute('aria-modal', 'true');
+      lightboxEl.setAttribute('aria-label', 'Image viewer');
+      lightboxEl.setAttribute('tabindex', '-1');
+      lightboxEl.innerHTML = '<img alt=""><p id="blog-lightbox-caption"></p>';
+      lightboxEl.addEventListener('click', closeLightbox);
+      document.body.appendChild(lightboxEl);
+    }
+    var lbImg = lightboxEl.querySelector('img');
+    lbImg.src = img.currentSrc || img.src;
+    lbImg.alt = img.alt || '';
+    var cap = lightboxEl.querySelector('#blog-lightbox-caption');
+    cap.textContent = img.alt || '';
+    cap.style.display = img.alt ? '' : 'none';
+
+    lightboxPrevFocus = document.activeElement;
+    lightboxPrevOverflow = document.body.style.overflow;
+    document.body.style.overflow = 'hidden';
+    lightboxEl.classList.add('is-open');
+    lightboxEl.focus();
+    document.addEventListener('keydown', onLightboxKey);
+  }
+
   // ---------- view state management ----------
 
   function updateView() {
@@ -577,6 +628,14 @@
 
   function handleContainerClick(e) {
     if (e.metaKey || e.ctrlKey || e.shiftKey || e.altKey || e.button !== 0) return;
+
+    // Any image in a post opens in the lightbox, unless it's wrapped in a link.
+    var img = e.target.closest ? e.target.closest('.blog-body img, .blog-excerpt img') : null;
+    if (img && !img.closest('a')) {
+      e.preventDefault();
+      openLightbox(img);
+      return;
+    }
 
     var permalink = e.target.closest ? e.target.closest('a[data-permalink]') : null;
     if (permalink) {
