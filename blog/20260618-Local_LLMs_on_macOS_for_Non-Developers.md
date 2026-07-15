@@ -7,7 +7,7 @@ tags: AI
 
 ![Photo by Zach M on Unsplash.](../images/0_yoypHghT5nVWGu07-optimised.jpg)
 
-`2300 words; 9 minutes`
+`2,300 words; 9 minutes`
 
 ---
 

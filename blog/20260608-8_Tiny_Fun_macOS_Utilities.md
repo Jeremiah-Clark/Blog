@@ -7,7 +7,7 @@ tags: apps
 
 ![Photo by Efe Yağız Soysal on Unsplash.](../images/0_S1CvkM8qxNmQoEi5-optimised.jpg)
 
-`1750 words; 7 minutes`
+`1,750 words; 7 minutes`
 
 ---
 

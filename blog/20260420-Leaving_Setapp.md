@@ -5,7 +5,7 @@ slug: leaving-setapp
 tags: apps
 ---
 
-`2180 Words; 9 min read`
+`2,180 Words; 9 min read`
 
 ---
 

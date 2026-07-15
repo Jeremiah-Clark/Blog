@@ -7,7 +7,7 @@ tags: CLI
 
 ![Photo by Harshit Katiyar on Unsplash.](../images/photo-1767817099805-d79e31fb968c.jpeg)
 
-`1250 Words; 6 min read`
+`1,250 Words; 6 min read`
 
 ---
 

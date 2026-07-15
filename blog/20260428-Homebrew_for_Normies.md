@@ -5,7 +5,7 @@ slug: homebrew-for-normies
 tags: CLI
 ---
 
-`1360 Words; 6 min read`
+`1,360 Words; 6 min read`
 
 ---
 

@@ -6,7 +6,7 @@ tags: apps
 ---
 
 ![Image by Mohamed Hassan from Pixabay.](../images/mohamed_hassan-office-3193372-optimised.jpg)
-`3950 Words; 16 min read`
+`3,950 Words; 16 min read`
 
 ---
 
