@@ -144,7 +144,6 @@ The more tokens a model outputs per second, the faster its responses will feel. 
 At around 70 tok/s, responses start feeling snappy. At 80+, they feel essentially instant.
 
 > [!Note]
-> 
 > Latency—the wait for the first output tokens—impacts the apparent speed of the model as well, but that is dictated more by hardware than by choice of model.
 
 ### Status & Score
@@ -171,7 +170,6 @@ Here are my recommendations, organized by hardware. I’m using CanIRun.ai and t
 - **Context Window** = 128k or more
 
 > [!Note]
-> 
 > I’m assuming the base RAM allocation for each configuration.
 
 I’ve chosen these as general-purpose tools primarily for conversation and text processing. This list is organized from least to most powerful. Once you locate your hardware, anything higher up on the list will run even better.
@@ -190,7 +188,6 @@ No doubt you’ve noticed that every command includes “-q4_K_M”. That’s th
 Quantization is a form of optimization that makes models smaller and faster, but reduces their quality. It runs from “F16” (16-bit), the original model, to “Q2_K” (2-bit), which is significantly reduced. The K specifies “grouped quantization,” and the M specifies “medium precision.” Beyond that, the rabbit hole goes deep—and for most use cases, Q4_K_M is the right answer anyway.
 
 > [!Note]
-> 
 > Higher-end models go up to F32 (32-bit), but models that run locally on current consumer hardware top out at F16.
 
 The individual model pages on CanIRun.ai include a table that details the impact of each level of quantization on the model, as well as how each should run on your system.
@@ -252,5 +249,4 @@ This article turned out to be more involved than I expected—and I’ve been ru
 
 
 > [!Note]
->
 > This is barely scratching the surface. This topic is deep and ever-changing. What I presented here is what I’ve found to be the most straightforward way to get your feet wet and see if you really want to dive in. Importantly, everything here is easy to reverse if you don’t — as I did several times before taking the plunge. There’s little harm in experimenting now that you have this base knowledge.
