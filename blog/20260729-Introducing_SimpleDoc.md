@@ -51,14 +51,14 @@ SimpleDoc comes in two flavors:
 ![](../images/SimpleDocPro-Logo.png)
 
 - **Paid** (one-time purchase per major release, yours to keep forever)
-- Quickstart and overview `README.md`, plus an in-depth `USER-GUIDE.md` file
+- Quickstart and overview `README.md`, plus in-depth `USER-GUIDE.md` 
 - A working example project
-- Everything in Lite, plus watermarks, page X of Y numbering, custom headers, auto-date, H2 page breaks, and a font fallback system
+- All Lite features, plus watermarks, page X of Y numbering, custom headers, auto-date, H2 page breaks, and a font fallback system
 - 217 KB zip file (Pandoc & XeLaTeX require a few GB of disk space)
 
 **You never have to touch raw code.**
 
-Both are built on proven open source tools—Pandoc 3.0 or later, and XeLaTeX—so there’s no risk of vendor lock-in or abandonment.
+Both Lite and Pro are built on proven open source tools—Pandoc 3.0 or later, and XeLaTeX—so there’s no risk of vendor lock-in or abandonment.
 Simple scripts and templates handle the formatting; you just deal with configuration files. 
 You only edit one YAML file per project to set up title and author, layout, fonts, TOC, etc. 
 You can save configuration files to reuse, ensuring consistency.
