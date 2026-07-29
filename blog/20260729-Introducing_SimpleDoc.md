@@ -8,7 +8,7 @@ tags: tool
 
 **A Markdown-to-PDF template system. Write in plain Markdown, configure in a single YAML file, run a build script, get a polished PDF. No LaTeX knowledge required.**
 
-![](../images/SimpleDoc - Gumroad Header@2x.png)
+![](../images/SimpleDoc-Gumroad-Header.png)
 
 If you compose documents in Markdown, you know why it’s the best way to write on a computer: 
 
@@ -32,7 +32,7 @@ That’s exactly the friction that SimpleDoc solves.
 
 If you've run into this problem and you're comfortable with simple terminal commands, then SimpleDoc is for you. 
 
-![Example config file and output.](../images/SimpleDoc Pro - Gumroad Header 2@2x.png)
+![Example config file and output.](../images/SimpleDoc-Pro-Gumroad-Header2.png)
 
 ---
 
@@ -40,7 +40,7 @@ SimpleDoc comes in two flavors:
 
 ## [SimpleDoc Lite](https://github.com/Jeremiah-Clark/simple-doc-lite/releases/latest)
 
-![](../images/SimpleDoc Lite - Logo.png)
+![](../images/SimpleDocLite-Logo.png)
 
 - **Free and open source** (released under an MIT license)
 - Quickstart and overview README file
@@ -49,7 +49,7 @@ SimpleDoc comes in two flavors:
 
 ## [SimpleDoc Pro](https://jclark.gumroad.com/l/SimpleDocPro)
 
-![](../images/SimpleDoc Pro - Logo.png)
+![](../images/SimpleDocPro-Logo.png)
 
 - **Paid** (one-time purchase per major release, yours to keep forever)
 - Quickstart and overview `README.md`, plus an in-depth `USER-GUIDE.md` file
