@@ -77,7 +77,7 @@ I believe SimpleDoc achieves that.
 
 
 > [!IMPORTANT]
-> If you are at all unsure if SimpleDoc will work for you, I encourage you to start with **[SimpleDoc Lite](https://github.com/Jeremiah-Clark/simple-doc-lite/releases/latest)**.
+> If you are at all unsure if SimpleDoc will work for you, I encourage you to start with **[SimpleDoc Lite](https://github.com/Jeremiah-Clark/simple-doc-lite/releases/latest)**.  
 > 
 > The README file includes directions to get you up and running quickly, a full list of configurable options, and details the differences between Lite and Pro.
 
