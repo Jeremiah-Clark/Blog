@@ -6,9 +6,8 @@ slug: simpledoc
 tags: tool
 ---
 
-**A Markdown-to-PDF template system. Write in plain Markdown, configure in a single YAML file, run a build script, get a polished PDF. No LaTeX knowledge required.**
-
 ![](../images/SimpleDoc-Gumroad-Header.png)
+**A Markdown-to-PDF template system. Write in plain Markdown, configure in a single YAML file, run a build script, get a polished PDF. No LaTeX knowledge required.**
 
 If you compose documents in Markdown, you know why it’s the best way to write on a computer: 
 
