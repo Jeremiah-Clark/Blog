@@ -8,7 +8,8 @@ tags: tool
 
 **A Markdown-to-PDF template system. Write in plain Markdown, configure in a single YAML file, run a build script, get a polished PDF. No LaTeX knowledge required.**
 
-![SimpleDoc - Gumroad Header@2x](../images/SimpleDoc - Gumroad Header@2x.png)
+![](../images/SimpleDoc - Gumroad Header@2x.png)
+
 If you compose documents in Markdown, you know why it’s the best way to write on a computer: 
 
 - The syntax is simple, clean, and focused on structure 
@@ -39,7 +40,8 @@ SimpleDoc comes in two flavors:
 
 ## [SimpleDoc Lite](https://github.com/Jeremiah-Clark/simple-doc-lite/releases/latest)
 
-![SimpleDoc Lite - Logo](../images/SimpleDoc Lite - Logo.png)
+![](../images/SimpleDoc Lite - Logo.png)
+
 - **Free and open source** (released under an MIT license)
 - Quickstart and overview README file
 - Fully capable for basic formatting
@@ -47,7 +49,8 @@ SimpleDoc comes in two flavors:
 
 ## [SimpleDoc Pro](https://jclark.gumroad.com/l/SimpleDocPro)
 
-![SimpleDoc Pro - Logo](../images/SimpleDoc Pro - Logo.png)
+![](../images/SimpleDoc Pro - Logo.png)
+
 - **Paid** (one-time purchase per major release, yours to keep forever)
 - Quickstart and overview `README.md`, plus an in-depth `USER-GUIDE.md` file
 - A working example project
