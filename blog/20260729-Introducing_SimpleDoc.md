@@ -37,7 +37,7 @@ If you've run into this problem and you're comfortable with simple terminal comm
 
 SimpleDoc comes in two flavors:
 
-## [SimpleDoc Lite](https://github.com/Jeremiah-Clark/simple-doc-lite/releases/latest)
+### [SimpleDoc Lite](https://github.com/Jeremiah-Clark/simple-doc-lite/releases/latest)
 
 ![](../images/SimpleDocLite-Logo.png)
 
@@ -46,7 +46,7 @@ SimpleDoc comes in two flavors:
 - Fully capable for basic formatting
 - 61 KB zip file (Pandoc & XeLaTeX require a few GB of disk space)
 
-## [SimpleDoc Pro](https://jclark.gumroad.com/l/SimpleDocPro)
+### [SimpleDoc Pro](https://jclark.gumroad.com/l/SimpleDocPro)
 
 ![](../images/SimpleDocPro-Logo.png)
 
