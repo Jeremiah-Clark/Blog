@@ -42,7 +42,7 @@ SimpleDoc comes in two flavors:
 ![](../images/SimpleDocLite-Logo.png)
 
 - **Free and open source** (released under an MIT license)
-- Quickstart and overview README file
+- Quickstart and overview `README.md` file
 - Fully capable for basic formatting
 - 61 KB zip file (Pandoc & XeLaTeX require a few GB of disk space)
 
