@@ -134,7 +134,7 @@ by Timber Hawkeye
 An accessible and deceptively deep introduction to practicing mindfulness in the modern world. 
 I have complicated feelings about some parts of this book, but I wouldn’t hesitate to recommend it to anyone seeking a new (old) way to view and live in the world.
 
-### **[The Subtle Art of Not Giving a F\*ck](https://amzn.to/3SoDKUO)** 
+### **[The Subtle Art of Not Giving a F*ck](https://amzn.to/3SoDKUO)**
 
 by Mark Manson
 
@@ -143,7 +143,7 @@ by Mark Manson
 Crude but impactful and immediately applicable. 
 It’s not about caring less; it’s about caring about the right things and letting the rest go. 
 Easier said than done, but worth trying to achieve. 
-Also worth a read along the same lines is the [No F\*cks Given Guides](https://amzn.to/4xmGXTS) series by Sarah Knight.
+Also worth a read along the same lines is the [No F*cks Given Guides](https://amzn.to/4xmGXTS) series by Sarah Knight.
 
 ### **[PRIVACY IN AMERICA: What Every American Needs to Know](https://amzn.to/4ikEzsc)** 
 
@@ -183,6 +183,6 @@ It’s also the shortest and likely cheapest book on this list, making good on t
 
 ---
 
-And there it is, 15 (+2) non-fiction book recommendation that I recommend to everyone—at least right now.
+And there it is, 15 (+3) non-fiction book recommendation that I recommend to everyone—at least right now.
 I'm constantly revising and reordering this list, I'm sure I'll be posting an update at some point.
 Whether you agree with my picks as a whole, I do hope I've given you at least one new title to look up.
