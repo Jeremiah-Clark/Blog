@@ -1,5 +1,5 @@
 ---
-title: Important Books
+title: Important & Accessible Books
 author: Jeremiah D Clark
 date: 2026-08-20
 slug: important_books
@@ -9,6 +9,8 @@ tags: books
 This is a list I’ve been carrying around and revising in my head for many years. 
 Every non-fiction book on this list changed the way I view and interact with the world in some profound or important way. 
 I believe every book on this list to be both widely accessible and immediately impactful; this is not a prestige list filled with scholarly and esoteric titles. 
+
+![Photo by [dlxmedia.hu](https://unsplash.com/@dlxmedia?utm_source=medium&utm_medium=referral) on [Unsplash](https://unsplash.com/?utm_source=medium&utm_medium=referral)](../images/0_nr1VQGoxAIeYGwXz.jpeg)
 
 > [!Important]
 > The links in this article may be affiliate links. 
