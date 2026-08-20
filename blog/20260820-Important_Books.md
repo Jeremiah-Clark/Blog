@@ -54,7 +54,7 @@ Essential reading for anyone who wants to get better at telling stories effectiv
 Most important, in my view, are the methods for condensing and streamlining a story to make it more digestible without changing its essential qualities. 
 Fiction writers, essayists, salespeople, researchers, businesspeople, and honestly anyone who ever tells a story for any reason will benefit from reading this book.
 
-### **[A Game Design Vocabulary: Exploring the Foundational Principles Behind Good Game Design](https://amzn.to/4wYzlX3)** 
+### **[A Game Design Vocabulary: Exploring the Foundational Principles Behind Good Game Design](https://amzn.to/4wYzlX3)**
 
 by Anna Anthropy & Naomi Clark
 
@@ -71,7 +71,7 @@ by Nate Staniforth
 
 I love magic—illusion, sleight of hand, mentalism, all of it. 
 It’s the ability to add a little extra delight and wonder to the everyday world. 
-Seeing magic through Nate Staniforth’s eyes as he travels the world to reclaim his lost spark deepened and broadened my appreciation.
+Seeing magic through Staniforth’s eyes as he travels the world to reclaim his lost spark deepened and broadened my appreciation.
 
 ### **[What Is Color?: 50 Q&A on Color Science](https://amzn.to/3SkEc6k)** 
 
@@ -93,7 +93,7 @@ by Bill Bryson
 
 ![A Short History of Nearly Everything 2.0 cover](../images/book-ShortHistoryOfNearlyEverything.jpeg)
 
-A fantastic and engaging history of scientific discovery delivered with wit and warmth as only Bill Bryson can. 
+A fantastic and engaging history of scientific discovery delivered with wit and warmth as only Bryson can. 
 It is compelling, informative, and provides a solid grounding in the development of critical thinking and the scientific method. 
 I read the first edition over a decade ago, and the second edition has been updated to bring it up to the present (as of 2025).
 
@@ -122,7 +122,7 @@ Woodard’s recent follow-up, [Nations Apart](https://amzn.to/4qynRIc), is just 
 
 These books focus on self-improvement, quality of life, health, and security.
 
-### **[Quiet: The Power of Introverts in a World that Can’t Stop Talking](https://amzn.to/4bYYdWR)** 
+### **[Quiet: The Power of Introverts in a World that Can’t Stop Talking](https://amzn.to/4bYYdWR)**
 
 by Susan Cain
 
@@ -177,7 +177,7 @@ For many of us, modern work is broken; Reinventing Organizations seeks to codify
 Even if you are not in a position to drive change, just having a framework to think about your work environment is immensely helpful. 
 I prefer the immediacy and accessibility of the lighter, illustrated version linked here.
 
-### **[Scrum: A Breathtakingly Brief Agile Intro](https://amzn.to/4hQ6joB)** 
+### **[Scrum: A Breathtakingly Brief and Agile Introduction](https://amzn.to/4hQ6joB)**
 
 by Chris Sims & Hillary Louise Johnson
 
