@@ -185,6 +185,6 @@ It’s also the shortest and likely cheapest book on this list, making good on t
 
 ---
 
-And there it is, 15 (+3) non-fiction book recommendation that I recommend to everyone—at least right now.
+And there it is, 15 (+3) non-fiction books that I recommend to everyone—at least right now.
 I'm constantly revising and reordering this list, I'm sure I'll be posting an update at some point.
 Whether you agree with my picks as a whole, I do hope I've given you at least one new title to look up.
