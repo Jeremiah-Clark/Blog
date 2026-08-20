@@ -12,6 +12,10 @@ I believe every book on this list to be both widely accessible and immediately i
 
 ![Photo by dlxmedia.hu (https://unsplash.com/@dlxmedia?utm_source=medium&utm_medium=referral) on Unsplash(https://unsplash.com/?utm_source=medium&utm_medium=referral)](../images/0_nr1VQGoxAIeYGwXz.jpeg)
 
+`1,228 words; 5 minutes`
+
+---
+
 > [!Important]
 > The links in this article may be affiliate links. 
 > If you use them to buy something, your price won’t be affected, but I’ll earn a small commission.
