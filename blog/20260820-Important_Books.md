@@ -1,5 +1,5 @@
 ---
-title: Important & Accessible Books
+title: Books that changed how I move through the world
 author: Jeremiah D Clark
 date: 2026-08-20
 slug: important_books
