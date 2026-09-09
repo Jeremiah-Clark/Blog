@@ -88,6 +88,8 @@ There will still be slight differences between manufacturers, but going by the p
 Here we get into what makes one pigment desirable over another, aside from the color. 
 Lightfastness and opacity are going to be listed on the packaging of paints from any reputable brand.
 
+![Labels are quite variable between brands, be sure you know what you’re reading. Right: M. Graham; Left: Holbein. Photogaphs by author.](../images/Watercolor-tube-labels.png)
+
 **Lightfastness**
 
 International standards group ASTM (American Society for Testing and Materials) performs standardized tests on most paint formulations to determine how well they stand up to light exposure without fading. 
@@ -258,14 +260,15 @@ Watercolor paints are available in a variety of form factors, listed from most t
 All watercolor paints, as far as I am aware, are available in tubes. 
 Typical tube sizes are 5ml and 15ml, though some brands diverge from those.
 
+![Watercolor tubes. Photograph by author.](../images/Watercolor-tubes.png)
+
 Tubes are great because even a small tube will fill several pans for roughly the price of a single pan. 
 Tube paints remain at a gel-like consistency until exposed to air. 
 If allowed to dry, they will usually dry to a semi-solid or gummy consistency, depending on the exact make-up of the formula.
 
 The trade-off is that the process can be messy, and pure paint straight from the tube has a tendency to get everywhere. 
 
-> Absolutely everywhere.  
-> But maybe that’s just me.
+> Absolutely everywhere.  But maybe that’s just me.
 
 ### Pans
 
