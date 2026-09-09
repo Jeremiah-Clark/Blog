@@ -60,7 +60,7 @@ All pigments have a name and a code that are consistent among all brands and med
 
 Common examples include Phthalocyanine Blue (PB15), Cadmium Orange (PO20), and Quinacridone Magenta (PR122).
 
-![Representative examples. Left to right: PB15, PO20, and PR122](../images/PigmentExamples.png)
+![Representative examples. Left to right: Daniel Smith Phthalo Blue BS, M. Graham Cadmium Orange, and Holbein Quinacridone Magenta. Swatches from [artistpigments.org (2026)](https://artistpigments.org/](../images/PigmentExamples-8977644.png)
 
 The P at the start identifies it as a pigment (a dye will have a D, and basic dyes will have a B). 
 The second (and sometimes third) letter identifies the color family: 
