@@ -52,6 +52,7 @@ Make sure to pay attention to the shade, it really does make a difference.
 
 The name printed on the outside of a tube of paint is an unreliable way to determine what color the paint inside it is. 
 For example, what Daniel Smith calls “Pyrrol Orange,” M. Graham calls “Scarlet Pyrrol,” and Gamma calls “Coral.” One pigment, three marketing names. 
+
 M. Graham’s “Cerulean Blue” is the same as Winsor & Newton’s “Cobalt Turquoise” and Isaro’s “Azure Blue.” 
 It’s a free-for-all out there when it comes to naming paint colors.
 
