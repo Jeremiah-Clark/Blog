@@ -27,7 +27,7 @@ To be clear, I’m not going to tell you exactly what paper, brushes, and paints
 # Part 1—Paint
 
 Watercolor paints can be understood through four basic properties: 
-pigment, binder, grade, and form factor.
+pigment, binder, form factor, and grade.
 
 ## 1. Pigment
 
@@ -219,39 +219,7 @@ You don’t often need to know more than that.
 > 
 > A few brands, like M. Graham and A. Gallo, use honey in place of some or all of the gum arabic (or its substitute) in their binder. That doesn’t make them edible though! Many pigments are toxic if ingested. Best to play it safe and just assume all your paints are inedible.
 
-## 3. Grade
-
-Paints are broadly divided into three quality categories: 
-Child, Student, and Professional.
-
-### Child
-
-Most of us first encountered watercolor in this form. 
-These usually come in flat plastic cases with small round pans of paint that are either chalky or greasy. 
-These use less expensive pigments and dyes, and are marketed as non-toxic. 
-Inexpensive and easy to use, they’re perfect for children exploring art, but lack the quality control, depth, and durability of better quality paints.
-
-We won’t be considering these. 
-
-### Student
-
-Student grade paints come in the same forms as professional watercolor paints—tubes, pans, and sometimes sticks—but are more economically produced. 
-This allows serious students to practice with paints that are pretty good, without the high cost of professional paints.
-
-The trade-off is that student paints sometimes use cheaper, less desirable pigments that don’t perform as well as the preferred pigments. 
-They also usually contain less pigment and more fillers. 
-You can make beautiful art with student grade paints, but there’s one more step up if you want the finest handling and colors available.
-
-### Professional
-
-Professional grade watercolor paints are made with expensive pigments and are more likely to use single pigments per color, leading to more reliable mixing. 
-The pigment load is higher and the binder will have fewer fillers compared to student paints.
-
-The trade-off, of course, is cost. 
-Professional watercolor paints can be very expensive. 
-You can easily spend a couple hundred dollars for a full 24-color palette.
-
-## 4. Form Factor
+## 3. Form Factor
 
 Watercolor paints are available in a variety of form factors, listed from most to least common:
 
@@ -291,6 +259,38 @@ You can also buy empty pans with integrated magnets.
 Much less common but very interesting are Daniel Smith’s watercolor sticks. 
 These look like thick crayons or oil pastels, but they are made from the same pigments as the tubes and pans, just shaped into a stick (I assume there’s something different in the binder to make this possible, though I’m not certain). 
 I have not used these personally, but see a lot of potential for them.
+
+## 4. Grade
+
+Paints are broadly divided into three quality categories: 
+Child, Student, and Professional.
+
+### Child
+
+Most of us first encountered watercolor in this form. 
+These usually come in flat plastic cases with small round pans of paint that are either chalky or greasy. 
+These use less expensive pigments and dyes, and are marketed as non-toxic. 
+Inexpensive and easy to use, they’re perfect for children exploring art, but lack the quality control, depth, and durability of better quality paints.
+
+We won’t be considering these. 
+
+### Student
+
+Student grade paints come in the same forms as professional watercolor paints—tubes, pans, and sometimes sticks—but are more economically produced. 
+This allows serious students to practice with paints that are pretty good, without the high cost of professional paints.
+
+The trade-off is that student paints sometimes use cheaper, less desirable pigments that don’t perform as well as the preferred pigments. 
+They also usually contain less pigment and more fillers. 
+You can make beautiful art with student grade paints, but there’s one more step up if you want the finest handling and colors available.
+
+### Professional
+
+Professional grade watercolor paints are made with expensive pigments and are more likely to use single pigments per color, leading to more reliable mixing. 
+The pigment load is higher and the binder will have fewer fillers compared to student paints.
+
+The trade-off, of course, is cost. 
+Professional watercolor paints can be very expensive. 
+You can easily spend a couple hundred dollars for a full 24-color palette.
 
 ## Brand Recommendations
 
