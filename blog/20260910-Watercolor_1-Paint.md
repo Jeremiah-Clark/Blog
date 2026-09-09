@@ -60,7 +60,7 @@ This is why we need to look at the paint’s pigment content rather than its mar
 
 Common examples include *Phthalocyanine Blue (PB15)*, *Cadmium Orange (PO20)*, and *Quinacridone Magenta (PR122)*.
 
-![Representative examples. Left to right: Daniel Smith Phthalo Blue BS, M. Graham Cadmium Orange, and Holbein Quinacridone Magenta. Swatches from artistpigments.org (2026)](../images/PigmentExamples-8977644.png)
+![Representative examples. Left to right: Daniel Smith Phthalo Blue BS, M. Graham Cadmium Orange, and Holbein Quinacridone Magenta. Swatches from artistpigments.org (2026).](../images/PigmentExamples-8977644.png)
 
 The P at the start identifies it as a pigment (a dye will have a D, and basic dyes will have a B). 
 The second (and sometimes third) letter identifies the color family: 
@@ -116,7 +116,7 @@ I prefer fully transparent pigments when possible, as it’s part of what makes 
 
 Opacity is indicated with a standard square or circle symbol to identify three or four steps from transparent to opaque.
 
-[image needed]
+![Typical opacity symbols. By author.](../images/Opacity.png)
 
 **Series**
 
@@ -126,6 +126,8 @@ Series 1 (sometimes A) pigments are the least expensive, and they get more expen
 ### Check the Website—Granulation & Staining
 
 Beyond lightfastness and opacity, other key pigment properties will be indicated on marketing materials and websites.
+
+![Watercolor Label Keys showing different approaches information given. From downloadable materials published by M. Graham, Daniel Smith, Winsor & Newton, and Holbein.](../images/Watercolor_Labels.png)
 
 **Granulation**
 
@@ -147,7 +149,7 @@ For the sake of control and versatility, I try to avoid staining pigments when I
 Staining pigments are identified in different ways. 
 Some brands will put an “S” or an “St” in the listing.  Sometimes a triangle symbol is used that works similarly to how the opacity symbol works.
 
-![Watercolor Label Keys showing different approaches. From downloadable materials published by M. Graham, Daniel Smith, Winsor & Newton, and Holbein](../images/Watercolor_Labels.png)
+![Some brands use a symbol like this to indicate staining. By author.](../images/Staining.png)
 
 ### Check the Reviews—Tinting Strength & Masstone
 
