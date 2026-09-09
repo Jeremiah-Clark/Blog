@@ -22,7 +22,7 @@ I’ve been neck-deep in this research for a while now, so I’m writing this **
 
 To be clear, I’m not going to tell you exactly what paper, brushes, and paints you should acquire (though I will have a few recommendations after each part, if you want a place to start). I’m giving you a solid base of factual knowledge so you can approach watercolor with greater confidence. 
 
-> My goal is to give you the knowledge base and the tools you need to choose for yourself—without getting overwhelmed like I did.
+> My goal is to give you the tools you need to choose for yourself—without getting overwhelmed like I did.
 
 # Part 1—Paint
 
@@ -275,7 +275,7 @@ Pans can be purchased pre-filled, or empty so you can fill them yourself.
 Ready-made palettes usually feature pre-filled half pans rather than non-removable wells, allowing you to freely experiment with the setup. 
 Pans are the easiest way to get started, if not the most economical.
 
-![Watercolor half-pans. Image from handprint.com/HP/WCL/pigmt3.html (MacEvoy, B. 2023).](../images/fullshade.jpg)
+![Watercolor half-pans. Image from handprint.com/HP/WCL/pigmt3.html (MacEvoy, B. 2015).](../images/fullshade.jpg)
 
 Be warned that in most cases there is nothing but gravity holding the pans into the palette. 
 I’ve taken to gluing thin (1mm) magnets to the bottoms of pans, with a second magnet in the bottom of the well, to keep them in place but still movable. 
@@ -370,7 +370,7 @@ In my next article, I’m going to get into methods for actually picking your co
 - Daniel Smith (2025). *Color charts*. [online] DANIEL SMITH Artists’ Materials. Available at: [https://danielsmith.com/color-charts/](https://danielsmith.com/color-charts/) [Accessed 8 Sept. 2026].
 - Dick Blick Art Materials (2024). *Watercolor paint*. [online] Dickblick.com. Available at: [https://www.dickblick.com/categories/painting/watercolor-paint/](https://www.dickblick.com/categories/painting/watercolor-paint/) [Accessed 9 Sept. 2026].
 - HK Holbein (2024). *Watercolors*. [online] Holbeinartistmaterials.com. Available at: [https://holbeinartistmaterials.com/watercolors/](https://holbeinartistmaterials.com/watercolors/) [Accessed 8 Sept. 2026].
-- MacEvoy, B. (2023). *Handprint: Watercolor*. [online] Handprint.com. Available at: [https://handprint.com/HP/WCL/water.html](https://handprint.com/HP/WCL/water.html) [Accessed 3 Sept. 2026].
+- MacEvoy, B. (2015). *Handprint: Watercolor*. [online] Handprint.com. Available at: [https://handprint.com/HP/WCL/water.html](https://handprint.com/HP/WCL/water.html) [Accessed 3 Sept. 2026].
 - M. Graham & Co. (2026). *Watercolors*. [online] M. Graham & Co. Available at: [https://mgraham.com/artists-colors/watercolors/](https://mgraham.com/artists-colors/watercolors/) [Accessed 8 Sept. 2026].
 - Scheinberger, F. (2014). *Urban watercolor sketching: A guide to drawing, painting, and storytelling in color*. Berkeley: Watson-Guptill Publications. Available at: [https://amzn.to/4A3MgcP](https://amzn.to/4A3MgcP) (affiliate link), and [https://bookshop.org/a/128387/9780770435219](https://bookshop.org/a/128387/9780770435219) (affiliate link).
 - Winsor & Newton NA (2024). *Professional Watercolour*. [online] Winsor & Newton NA. Available at: [https://www.winsornewton.com/collections/professional-watercolour](https://www.winsornewton.com/collections/professional-watercolour) [Accessed 8 Sept. 2026].
