@@ -51,6 +51,7 @@ Make sure to pay attention to the shade, it really does make a difference.
 ### Paint Names vs. Pigment Names
 
 The name printed on the outside of a tube of paint is an unreliable way to determine what color the paint inside it is. 
+
 For example, what Daniel Smith calls “Pyrrol Orange,” M. Graham calls “Scarlet Pyrrol,” and Gamma calls “Coral.” One pigment, three marketing names. 
 
 M. Graham’s “Cerulean Blue” is the same as Winsor & Newton’s “Cobalt Turquoise” and Isaro’s “Azure Blue.” 
@@ -59,7 +60,7 @@ It’s a free-for-all out there when it comes to naming paint colors.
 This is why we need to look at the paint’s pigment content rather than its marketing name. 
 All pigments have a name and a code that are consistent among all brands and mediums, and any reputable brand will list the constituent pigments on the packaging.
 
-Common examples include Phthalocyanine Blue (PB15), Cadmium Orange (PO20), and Quinacridone Magenta (PR122).
+Common examples include *Phthalocyanine Blue (PB15)*, *Cadmium Orange (PO20)*, and *Quinacridone Magenta (PR122)*.
 
 ![Representative examples. Left to right: Daniel Smith Phthalo Blue BS, M. Graham Cadmium Orange, and Holbein Quinacridone Magenta. Swatches from artistpigments.org (2026)](../images/PigmentExamples-8977644.png)
 
@@ -79,8 +80,8 @@ The second (and sometimes third) letter identifies the color family:
 
 Returning to the examples above:
 
-- Pyrrol Orange, Scarlet Pyrrol, and Coral are all Pyrrol Orange (PO73).
-- Cerulean Blue, Cobalt Turquoise, and Azure Blue are all Cobalt Chromium Oxide (PB36).
+- Pyrrol Orange, Scarlet Pyrrol, and Coral are all *Pyrrol Orange (PO73)*.
+- Cerulean Blue, Cobalt Turquoise, and Azure Blue are all *Cobalt Chromium Oxide (PB36)*.
 
 There will still be slight differences between manufacturers, but going by the pigment name will get you pretty close.
 
@@ -169,25 +170,25 @@ One example is Perylene Green (PBk31), which appears green when diluted and clos
 ### Some Pigments Have Range
 
 To make this whole pigment thing even more complicated, multiple colors can be derived from a single pigment. 
-A common example is Iron Oxide (PBr7). 
+A common example is *Iron Oxide (PBr7)*. 
 This one pigment is used to create Raw Sienna (a mid-valued earth yellow), Burnt Sienna (a dark earth orange), Raw Umber (a dark earth brown), and Burnt Umber (a very dark earth brown).
 
 All four colors are in the same family, but they are distinct and not freely interchangeable.
 
 On the flip side, different pigments sometimes produce nearly the same color. 
-Daniel Smith, for instance, uses both Nickel Dioxine Yellow (PY153) and Natural Yellow Iron Oxide (PY43), which can both appear to be the same color.
+Daniel Smith, for instance, uses both *Nickel Dioxine Yellow (PY153)* and *Natural Yellow Iron Oxide (PY43)*, which can both appear to be the same color.
 
 So why have colors using both of these pigments? 
 Sometimes it’s because one is less expensive, but more often it’s because they perform slightly differently.
 
-To continue with PY42 and PY153 from Daniel Smith, the differences are illustrative:
+To continue with *PY42* and *PY153* from Daniel Smith, the differences are illustrative:
 
-- **Natural Yellow Iron Oxide (PY42)**—Daniel Smith offers three single-pigment paints made with PY42, all various shades of Yellow Ochre. Two are granulating, and all are non-staining.
-- **Nickel Dioxine Yellow (PY153)**—Just one Daniel Smith paint, New Gamboge, uses PY153. To my eye, the actual hue is all but identical to Raw Sienna Light, but New Gamboge is non-granulating and somewhat staining.
+- **Natural Yellow Iron Oxide (PY42)**—Daniel Smith offers three single-pigment paints made with *PY42*, all various shades of Yellow Ochre. Two are granulating, and all are non-staining.
+- **Nickel Dioxine Yellow (PY153)**—Just one Daniel Smith paint, New Gamboge, uses *PY153*. To my eye, the actual hue is all but identical to Raw Sienna Light, but New Gamboge is non-granulating and somewhat staining.
 
 ![Though honestly, I’m not sure I could tell them apart without labels. Images from dickblick.com (Dick Blick Art Materials, 2024).](../images/Watercolor_PY42-PY153-8924618.png)
 
-The fact that PY42 is used in more colors than PY153 suggests it’s a more flexible or readily sourced pigment as well.
+The fact that *PY42* is used in more colors than *PY153* also suggests it’s a more flexible or readily sourced pigment as well.
 
 ### Single Pigment vs Multi-Pigment Paints
 
