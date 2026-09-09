@@ -6,7 +6,7 @@ slug: watercolor_1-paint
 tags: art
 ---
 
-![Testing paints. Photograph copyright Jeremiah Clark.](../images/Watercolor-Header1-8976533.png)
+![Testing paints. Photograph by author.](../images/Watercolor-Header1-8976533.png)
 
 Watercolor is a delicate art form that rewards a light touch, commitment, and patience. 
 By rights, I should hate it. 
@@ -17,22 +17,19 @@ And all you need for cleanup is water.
 
 Watercolor it is also deceptively complicated, and easy to get lost in. 
 
-You can just dive in and learn through experimentation, but that could end up beingg very expensive and time consuming, and some of it will still never make sense without a little groundwork. 
-I’ve been neck-deep in this research for a while now, so I’m writing this three-part series both to teach, and to learn.
+You can just dive in and learn through experimentation, but that could end up being very expensive and time consuming, and some of it will still never make sense without a little groundwork. 
+I’ve been neck-deep in this research for a while now, so I’m writing this **three-part series** both to teach, and to learn.
 
-To be clear, I’m only a student of watercolor myself. 
-What I’m relating here is the result of (too much?) research. 
-This article is about the knowledge needed to approach watercolor with some confidence. 
-I’m not going to tell you exactly what paper, brushes, and paints you should acquire (though I will have a few recommendations after each part, if you want a place to start).
+To be clear, I’m not going to tell you exactly what paper, brushes, and paints you should acquire (though I will have a few recommendations after each part, if you want a place to start). I’m giving you a solid base of factual knowledge so you can approach watercolor with greater confidence. 
 
-> My goal is to give you the knowledge base you need to do your own research and choose for yourself—without getting overwhelmed like I did.
+> My hope is to give you the tools you need to choose for yourself—without getting overwhelmed like I did.
 
 # Part 1—Paint
 
-Watercolor paints can be understood through three basic properties: 
-pigment, binder, and form factor.
+Watercolor paints can be understood through four basic properties: 
+pigment, binder, grade, and form factor.
 
-## Pigments
+## 1. Pigment
 
 The first thing to understand about paint is that when we talk about paint, we’re really talking about *pigments*.
 
@@ -40,25 +37,26 @@ Pigments give a paint its color and—possibly more so for watercolor than for o
 Pigments can be natural or chemical, sourced from plants, minerals, or even animals. 
 Some pigments are relatively unchanged from their ancient origins, and some are a result of modern chemistry.
 
-For our purposes, the important part is that pigments define what a paint looks like, and how it behaves.
+For our purposes, the key insight is that pigments define what a paint looks like, and how it behaves.
 
 > [!Important]
 >
 > Some pigments, depending on how they are prepared, can end up with a “shade,” a leaning or cast that changes the perception of the base color. If you see a paint name like “Phthalo Blue RS,” the “RS” is “Red Shade.”
-
-Make sure to pay attention to the shade, it really does make a difference.  
+>
+> Make sure to pay attention to the shade, it really does make a difference.  
 
 ### Paint Names vs. Pigment Names
 
-The name printed on the outside of a tube of paint is an unreliable way to determine what color the paint inside it is. 
+The name printed on the outside of a tube of paint is an unreliable way to determine exactly what color the paint inside it is. 
 
 For example, what Daniel Smith calls “Pyrrol Orange,” M. Graham calls “Scarlet Pyrrol,” and Gamma calls “Coral.” One pigment, three marketing names. 
 
-M. Graham’s “Cerulean Blue” is the same as Winsor & Newton’s “Cobalt Turquoise” and Isaro’s “Azure Blue.” 
+Another example, M. Graham’s “Cerulean Blue” is the same as Winsor & Newton’s “Cobalt Turquoise” and Isaro’s “Azure Blue.” 
+
 It’s a free-for-all out there when it comes to naming paint colors.
 
 This is why we need to look at the paint’s pigment content rather than its marketing name. 
-All pigments have a name and a code that are consistent among all brands and mediums, and any reputable brand will list the constituent pigments on the packaging.
+**All pigments have a name and a code** that are consistent among all brands and mediums, and any reputable brand will list the constituent pigments on the packaging.
 
 Common examples include *Phthalocyanine Blue (PB15)*, *Cadmium Orange (PO20)*, and *Quinacridone Magenta (PR122)*.
 
@@ -109,7 +107,7 @@ ASTM Ratings:
 - III = Fair
 - IV = Fugitive
 
-Do not buy paints that lack any rating.
+Do not buy paints that lack any rating, whether ASTM or the brand’s own.
 
 **Opacity**
 
@@ -117,6 +115,8 @@ Watercolor pigments are transparent to different degrees.
 I prefer fully transparent pigments when possible, as it’s part of what makes watercolor unique.
 
 Opacity is indicated with a standard square or circle symbol to identify three or four steps from transparent to opaque.
+
+[image needed]
 
 **Series**
 
@@ -142,13 +142,12 @@ Note that this is often a simple yes or no, it won’t always indicate *how* gra
 
 Some pigments can be lifted off the paper (to some degree) using a clean wet brush—and some can not. 
 Once a “staining” pigment touches the paper, the color is there forever. 
-For the sake of control and versatility, I try to avoid staining pigments when I can, but that isn’t often possible.
+For the sake of control and versatility, I try to avoid staining pigments when I can, but often that isn’t possible.
 
 Staining pigments are identified in different ways. 
-Some brands will put an “S” or an “St”. 
-Sometimes a triangle symbol is used that works similarly to how the opacity symbol works.
+Some brands will put an “S” or an “St” in the listing.  Sometimes a triangle symbol is used that works similarly to how the opacity symbol works.
 
-![Watercolor Label Keys from downloadable materials published by M. Graham, Daniel Smith, Winsor & Newton, and Holbein](../images/Watercolor_Labels.png)
+![Watercolor Label Keys showing different approaches. From downloadable materials published by M. Graham, Daniel Smith, Winsor & Newton, and Holbein](../images/Watercolor_Labels.png)
 
 ### Check the Reviews—Tinting Strength & Masstone
 
@@ -176,19 +175,19 @@ This one pigment is used to create Raw Sienna (a mid-valued earth yellow), Burnt
 All four colors are in the same family, but they are distinct and not freely interchangeable.
 
 On the flip side, different pigments sometimes produce nearly the same color. 
-Daniel Smith, for instance, uses both *Nickel Dioxine Yellow (PY153)* and *Natural Yellow Iron Oxide (PY43)*, which can both appear to be the same color.
+Daniel Smith, for instance, uses both *Nickel Dioxine Yellow (PY153)* and *Natural Yellow Iron Oxide (PY42)*, which can both appear to be the same color.
 
 So why have colors using both of these pigments? 
 Sometimes it’s because one is less expensive, but more often it’s because they perform slightly differently.
 
 To continue with *PY42* and *PY153* from Daniel Smith, the differences are illustrative:
 
-- **Natural Yellow Iron Oxide (PY42)**—Daniel Smith offers three single-pigment paints made with *PY42*, all various shades of Yellow Ochre. Two are granulating, and all are non-staining.
+- **Natural Yellow Iron Oxide (PY42)**—Daniel Smith offers three single-pigment paints made with *PY42*. Two are granulating, and all are non-staining.
 - **Nickel Dioxine Yellow (PY153)**—Just one Daniel Smith paint, New Gamboge, uses *PY153*. To my eye, the actual hue is all but identical to Raw Sienna Light, but New Gamboge is non-granulating and somewhat staining.
 
 ![Though honestly, I’m not sure I could tell them apart without labels. Images from dickblick.com (Dick Blick Art Materials, 2024).](../images/Watercolor_PY42-PY153-8924618.png)
 
-The fact that *PY42* is used in more colors than *PY153* also suggests it’s a more flexible or readily sourced pigment as well.
+The fact that *PY42* is used in more colors than *PY153* suggests it’s a more flexible or readily sourced pigment as well.
 
 ### Single Pigment vs Multi-Pigment Paints
 
@@ -196,26 +195,27 @@ Paints can be either single-pigment paints or mixes.
 Ideally, as many paints in your palette as possible should be single pigment. 
 This is most important when mixing paints to create new colors.
 
-When you mix paints, you should think of it as mixing their constituent pigments. 
-It comes back to how subtractive colors work, which I’ll cover more in Part 2.
+When you mix paints, as always you should think of it as mixing their constituent pigments. 
+It comes back to how subtractive colors work, which I’ll cover more in **Part 2**.
 
-The important part is that when you mix two single-pigment paints, you only have to account for the interactions of two pigments. 
+The key is that when you mix two single-pigment paints, you only have to account for the interactions of two pigments. 
 If you mix two paints that have two pigments each, now you have to account for the interactions of *four* pigments with each other. 
 The more pigments you mix, the more likely you are to create a muddy color.
 
 > The takeaway of all of this is: Pigments are complicated. Checking the pigment is the first step in exploring new colors, not the last. Knowing what to look for now will make that much easier.
 
-## Binder
+## 2. Binder
 
 The binder is a water soluble material—traditionally gum arabic and now often a synthetic alternative—that holds the pigment in suspension. 
-There’s more to it than that, of course, but thinking of everything that isn’t the pigment as simply “the binder” will do for our needs. 
+There’s more to it than that, of course. There are preservatives, flow agents, fillers, and more. 
+Thinking of everything that isn’t the pigment as simply “the binder” will do for our needs. 
 You don’t often need to know more than that.
 
-> [!Note]
+> [!Important]
 > 
-> A few brands, like M. Graham and A. Gallo, use honey in place of gum arabic or its substitute. That doesn’t make them edible though! Many pigments are toxic if ingested. Best to play it safe and just assume all your paints are inedible.
+> A few brands, like M. Graham and A. Gallo, use honey in place of some or all of the gum arabic (or its substitute) in their binder. That doesn’t make them edible though! Many pigments are toxic if ingested. Best to play it safe and just assume all your paints are inedible.
 
-## Grades of Paint
+## 3. Grade
 
 Paints are broadly divided into three quality categories: 
 Child, Student, and Professional.
@@ -226,6 +226,8 @@ Most of us first encountered watercolor in this form.
 These usually come in flat plastic cases with small round pans of paint that are either chalky or greasy. 
 These use less expensive pigments and dyes, and are marketed as non-toxic. 
 Inexpensive and easy to use, they’re perfect for children exploring art, but lack the quality control, depth, and durability of better quality paints.
+
+We won’t be considering these. 
 
 ### Student
 
@@ -245,7 +247,7 @@ The trade-off, of course, is cost.
 Professional watercolor paints can be very expensive. 
 You can easily spend a couple hundred dollars for a full 24-color palette.
 
-## Form Factor
+## 4. Form Factor
 
 Watercolor paints are available in a variety of form factors, listed from most to least common:
 
@@ -260,14 +262,14 @@ If allowed to dry, they will usually dry to a semi-solid or gummy consistency, d
 
 The trade-off is that the process can be messy, and pure paint straight from the tube has a tendency to get everywhere. 
 
-Absolutely everywhere. 
-But maybe that’s just me.
+> Absolutely everywhere.  
+> But maybe that’s just me.
 
 ### Pans
 
 Pans are small rectangular tubs that hold paint in portable palettes, allowing them to be rearranged and swapped at will. 
 Half pans are the most common, and are of a roughly uniform size from one manufacturer to the next. 
-Full pans are twice the width of half pans—thus “half” pan—but are far less common.
+Full pans are twice the width of half pans—thus “half” pan—but are less common.
 
 Pans can be purchased pre-filled, or empty so you can fill them yourself. 
 Ready-made palettes usually feature pre-filled half pans rather than non-removable wells, allowing you to freely experiment with the setup. 
@@ -276,7 +278,7 @@ Pans are the easiest way to get started, if not the most economical.
 ![Watercolor half-pans. Image from handprint.com/HP/WCL/pigmt3.html (MacEvoy, B. 2023).](../images/fullshade.jpg)
 
 Be warned that in most cases there is nothing but gravity holding the pans into the palette. 
-I’ve taken to gluing thin (1mm) magnets to the bottoms of pans, with a second magnet in the bottom of the well, to keep them in place. 
+I’ve taken to gluing thin (1mm) magnets to the bottoms of pans, with a second magnet in the bottom of the well, to keep them in place but still movable. 
 You can also buy empty pans with integrated magnets.
 
 ### Sticks
@@ -293,7 +295,7 @@ Two student and four professional grade brands, in order of preference.
 
 Source for numbers: [artistpigments.org (2026)](https://artistpigments.org/)
 
-### Student—Van Gogh (from Royal Talens)
+### Student—Van Gogh (Royal Talens)
 
 - Made in: Holland
 - Paints: 72 (29 single-pigment)
@@ -302,7 +304,7 @@ Very few colors are granulating (4), and the majority have excellent lightfastne
 
 > This is my highest recommendation for a beginner. I still have a number of Van Gogh paints in my palette, and have no plans to swap in professional alternatives until they’ve run out, if even then.
 
-### Student—Cotman (from Winsor & Newton)
+### Student—Cotman (Winsor & Newton)
 
 - Made in: France
 - Paints: 48 (25 single-pigment)
@@ -319,7 +321,7 @@ Be warned that only a quarter of their paints are rated as having the best light
 
 More than half of their paints are granulating (174), and a vast majority have excellent lightfastness (276).
 
-> Always my first stop for professional paints. They offer more colors than anyone else, including unique colors made from raw minerals (their Primatek line).
+> Usually my first stop for professional paints. They offer more colors than anyone else, including unique colors made from raw minerals (their Primatek line).
 
 ### Professional—Winsor & Newton
 
@@ -329,7 +331,7 @@ More than half of their paints are granulating (174), and a vast majority have e
 Nearly a third of their colors are granulating (36). 
 A little more than a third of their paints are rated as Excellent lightfastness (41), so be sure to check.
 
-> Winsor & Newton is known for consistently high quality across their range. Others may be trying new and exciting things, but W&N is usually a reliable choice.
+> Winsor & Newton is known for consistently high quality across their range. Others may be trying new and exciting things, but W&N is nearly always a safe choice.
 
 ### Professional—Holbein
 
@@ -348,7 +350,7 @@ Known to be controllable and easy to work with as a result of not including ox-g
 - Paints: 72 (56 single-pigment)
 
 Half of their colors are granulating (36), and most are rated as the highest level of lightfastness (64). 
-Made with a honey-based binder meant to improve smoothness and color vibrancy (M. Graham & Co., 2026).
+Made with a honey-heavy binder meant to improve smoothness and color vibrancy (M. Graham & Co., 2026).
 
 > The only reason I don’t have more M. Graham paints in my palette is because the binder that makes their paints extra smooth also means they never fully dry in the pan. For studio use, they’re vibrant and luscious and quite satisfying to use.
 
@@ -360,7 +362,7 @@ You now know more about the nitty gritty of watercolor paints than many artists.
 Of all subjects connected to watercolor painting, the paint itself is by far the most nitpicky and treacherous. 
 Hopefully I’ve covered the complexities and pitfalls in a way that saves you from some of the doom spirals I’ve found myself in.
 
-In my next article, I’m going to get into methods for actually picking your colors and assembling your first palette.
+In my next article, I’m going to get into methods for actually picking your colors and assembling your first palette. Then Part 3 will cover paper and brush options. 
 
 ## Sources
 
