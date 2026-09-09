@@ -3,7 +3,7 @@ title: An Absolute Beginner's Guide to Watercolor
 author: Jeremiah D Clark
 date: 2026-09-10
 slug: watercolor_1-paint
-tags: art, watercolor
+tags: art
 ---
 
 ![Testing paints. Photograph copyright Jeremiah Clark.](../images/Watercolor-Header1-8976533.png)
