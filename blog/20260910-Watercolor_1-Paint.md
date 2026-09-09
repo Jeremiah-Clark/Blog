@@ -137,7 +137,7 @@ I generally prefer smoother colors and gradients, and usually try to avoid granu
 And when used properly, granulation can add a lot of interest and drama, particularly in landscapes. 
 I like to have at least one granulating blue and green in my palette, as well as a granulating earth tone.
 
-Granulation will be called out in the brand’s marketing and on their website. 
+Granulation will usually be indicated in the brand’s marketing and on their website, often with a “G” in the listing.
 Note that this is often a simple yes or no, it won’t always indicate *how* granulating the paint will be.
 
 **Staining**
@@ -147,9 +147,9 @@ Once a “staining” pigment touches the paper, the color is there forever.
 For the sake of control and versatility, I try to avoid staining pigments when I can, but often that isn’t possible.
 
 Staining pigments are identified in different ways. 
-Some brands will put an “S” or an “St” in the listing.  Sometimes a triangle symbol is used that works similarly to how the opacity symbol works.
+Some brands will put an “S” or an “St” in the listing.  Sometimes a square or triangle symbol is used that works similarly to how the opacity symbol works.
 
-![Some brands use a symbol like this to indicate staining. By author.](../images/Staining.png)
+![Some brands use a symbol like these to indicate staining. By author.](../images/Staining-8996657.png)
 
 ### Check the Reviews—Tinting Strength & Masstone
 
@@ -158,7 +158,7 @@ Your best bet for finding these is through experimentation or reading reviews.
 
 **Tinting Strength**
 
-When mixing paints, some pigments will exert themselves more strongly than others. 
+When mixing paints, someWatercolor pigments will exert themselves more strongly than others. 
 Generally, more finely ground pigments are higher tinting, as are more opaque pigments. 
 If you are intending to use paints in a mix, knowing their relative tinting strengths will make it much easier.
 
