@@ -25,7 +25,7 @@ What I’m relating here is the result of (too much?) research.
 This article is about the knowledge needed to approach watercolor with some confidence. 
 I’m not going to tell you exactly what paper, brushes, and paints you should acquire (though I will have a few recommendations after each part, if you want a place to start).
 
-> My goal is to give you the knowledge base you need to do your own research and choose for yourself—without getting overwhelmed like I did.
+> My goal is to give you the knowledge base to do your own research and choose for yourself—without getting overwhelmed like I did.
 
 # Part 1—Paint
 
