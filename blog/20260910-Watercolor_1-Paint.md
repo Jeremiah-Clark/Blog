@@ -361,11 +361,11 @@ In my next article, I’m going to get into methods for actually picking your co
 
 ## Sources
 
-- artistpigments.org (2022-2026). *Watercolors*. [online] Artist Pigments.org. Available at: https://artistpigments.org/mediums/watercolor [Accessed 4 Sept. 2026].
-- Daniel Smith (2025). *Color charts*. [online] DANIEL SMITH Artists’ Materials. Available at: https://danielsmith.com/color-charts/ [Accessed 8 Sept. 2026].
-- Dick Blick Art Materials (2024). *Watercolor paint*. [online] Dickblick.com. Available at: https://www.dickblick.com/categories/painting/watercolor-paint/ [Accessed 9 Sept. 2026].
-- HK Holbein (2024). *Watercolors*. [online] Holbeinartistmaterials.com. Available at: https://holbeinartistmaterials.com/watercolors/ [Accessed 8 Sept. 2026].
-- MacEvoy, B. (2023). *Handprint: Watercolor*. [online] Handprint.com. Available at: https://handprint.com/HP/WCL/water.html [Accessed 3 Sept. 2026].
-- M. Graham & Co. (2026). *Watercolors*. [online] M. Graham & Co. Available at: https://mgraham.com/artists-colors/watercolors/ [Accessed 8 Sept. 2026].
-- Scheinberger, F. (2014). *Urban watercolor sketching: A guide to drawing, painting, and storytelling in color*. Berkeley: Watson-Guptill Publications. Available at: https://amzn.to/4A3MgcP (affiliate link), and https://bookshop.org/a/128387/9780770435219 (affiliate link).
-- Winsor & Newton NA (2024). *Professional Watercolour*. [online] Winsor & Newton NA. Available at: https://www.winsornewton.com/collections/professional-watercolour [Accessed 8 Sept. 2026].
+- artistpigments.org (2022-2026). *Watercolors*. [online] Artist Pigments.org. Available at: [https://artistpigments.org/mediums/watercolor](https://artistpigments.org/mediums/watercolor) [Accessed 4 Sept. 2026].
+- Daniel Smith (2025). *Color charts*. [online] DANIEL SMITH Artists’ Materials. Available at: [https://danielsmith.com/color-charts/](https://danielsmith.com/color-charts/) [Accessed 8 Sept. 2026].
+- Dick Blick Art Materials (2024). *Watercolor paint*. [online] Dickblick.com. Available at: [https://www.dickblick.com/categories/painting/watercolor-paint/](https://www.dickblick.com/categories/painting/watercolor-paint/) [Accessed 9 Sept. 2026].
+- HK Holbein (2024). *Watercolors*. [online] Holbeinartistmaterials.com. Available at: [https://holbeinartistmaterials.com/watercolors/](https://holbeinartistmaterials.com/watercolors/) [Accessed 8 Sept. 2026].
+- MacEvoy, B. (2023). *Handprint: Watercolor*. [online] Handprint.com. Available at: [https://handprint.com/HP/WCL/water.html](https://handprint.com/HP/WCL/water.html) [Accessed 3 Sept. 2026].
+- M. Graham & Co. (2026). *Watercolors*. [online] M. Graham & Co. Available at: [https://mgraham.com/artists-colors/watercolors/](https://mgraham.com/artists-colors/watercolors/) [Accessed 8 Sept. 2026].
+- Scheinberger, F. (2014). *Urban watercolor sketching: A guide to drawing, painting, and storytelling in color*. Berkeley: Watson-Guptill Publications. Available at: [https://amzn.to/4A3MgcP](https://amzn.to/4A3MgcP) (affiliate link), and [https://bookshop.org/a/128387/9780770435219](https://bookshop.org/a/128387/9780770435219) (affiliate link).
+- Winsor & Newton NA (2024). *Professional Watercolour*. [online] Winsor & Newton NA. Available at: [https://www.winsornewton.com/collections/professional-watercolour](https://www.winsornewton.com/collections/professional-watercolour) [Accessed 8 Sept. 2026].
