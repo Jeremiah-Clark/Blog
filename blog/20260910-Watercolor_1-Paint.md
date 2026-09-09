@@ -180,14 +180,14 @@ Daniel Smith, for instance, uses both *Nickel Dioxine Yellow (PY153)* and *Natur
 So why have colors using both of these pigments? 
 Sometimes it’s because one is less expensive, but more often it’s because they perform slightly differently.
 
-To continue with *PY42* and *PY153* from Daniel Smith, the differences are illustrative:
+To continue with PY42 and PY153 from Daniel Smith, the differences are illustrative:
 
-- **Natural Yellow Iron Oxide (PY42)**—Daniel Smith offers three single-pigment paints made with *PY42*. Two are granulating, and all are non-staining.
-- **Nickel Dioxine Yellow (PY153)**—Just one Daniel Smith paint, New Gamboge, uses *PY153*. To my eye, the actual hue is all but identical to Raw Sienna Light, but New Gamboge is non-granulating and somewhat staining.
+- **Natural Yellow Iron Oxide (PY42)**—Daniel Smith offers three single-pigment paints made with PY42. Two are granulating, and all are non-staining.
+- **Nickel Dioxine Yellow (PY153)**—Just one Daniel Smith paint, New Gamboge, uses PY153. To my eye, the actual hue is all but identical to Raw Sienna Light, but New Gamboge is non-granulating and somewhat staining.
 
 ![Though honestly, I’m not sure I could tell them apart without labels. Images from dickblick.com (Dick Blick Art Materials, 2024).](../images/Watercolor_PY42-PY153-8924618.png)
 
-The fact that *PY42* is used in more colors than *PY153* suggests it’s a more flexible or readily sourced pigment as well.
+The fact that PY42 is used in more colors than PY153 suggests it’s a more flexible or readily sourced pigment as well.
 
 ### Single Pigment vs Multi-Pigment Paints
 
