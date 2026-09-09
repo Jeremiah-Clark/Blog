@@ -6,7 +6,7 @@ slug: watercolor_1-paint
 tags: art, watercolor
 ---
 
-![Testing paints. Photograph copyright Jeremiah Clark.](../images/Watercolor_Header3-8974743.png)
+![Testing paints. Photograph copyright Jeremiah Clark.](../images/Watercolor-Header1-8976533.png)
 
 Watercolor is a delicate art form that rewards a light touch, commitment, and patience. 
 By rights, I should hate it. 
