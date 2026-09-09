@@ -364,6 +364,8 @@ Hopefully I’ve covered the complexities and pitfalls in a way that saves you f
 
 In my next article, I’m going to get into methods for actually picking your colors and assembling your first palette. Then Part 3 will cover paper and brush options. 
 
+![Playing around with watercolor. Photograph by author.](../images/Watercolor-Header2-8994585.png)
+
 ## Sources
 
 - artistpigments.org (2022-2026). *Watercolors*. [online] Artist Pigments.org. Available at: [https://artistpigments.org/mediums/watercolor](https://artistpigments.org/mediums/watercolor) [Accessed 4 Sept. 2026].
