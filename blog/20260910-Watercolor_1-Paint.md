@@ -364,6 +364,8 @@ Made with a honey-heavy binder meant to improve smoothness and color vibrancy (M
 
 > The only reason I don’t have more M. Graham & Co. paints in my palette is because the binder that makes their paints extra smooth also means they never fully dry in the pan. For studio use, they’re vibrant and luscious and quite satisfying to use.
 
+---
+
 ## That’s Part 1
 
 If you’ve read this far, congratulations!
