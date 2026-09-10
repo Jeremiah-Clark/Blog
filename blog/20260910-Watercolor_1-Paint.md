@@ -153,7 +153,7 @@ For the sake of control and versatility, I try to avoid staining pigments when I
 Staining pigments are identified in different ways. 
 Some brands will put an “S” or an “St” in the listing.  Sometimes a square or triangle symbol is used that works similarly to how the opacity symbol works.
 
-![Some brands use a symbol like these to indicate staining. By author.](../images/Staining-8996657.png)
+![Some brands use a symbol like these to indicate staining. By author.](../images/Staining.png)
 
 ### Check the Reviews—Tinting Strength & Masstone
 
