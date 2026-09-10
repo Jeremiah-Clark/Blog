@@ -42,12 +42,6 @@ Some pigments are relatively unchanged from their ancient origins, and some are 
 
 For our purposes, the key insight is that pigments define what a paint looks like, and how it behaves.
 
-> [!Important]
->
-> Some pigments, depending on how they are prepared, can end up with a “shade,” a leaning or cast that changes the perception of the base color. If you see a paint name like “Phthalo Blue RS,” the “RS” is “Red Shade.”
->
-> Make sure to pay attention to the shade, it really does make a difference.  
-
 ### Paint Names vs. Pigment Names
 
 The name printed on the outside of a tube of paint is an unreliable way to determine exactly what color the paint inside it is. 
@@ -85,6 +79,13 @@ Returning to the examples above:
 - Cerulean Blue, Cobalt Turquoise, and Azure Blue are all *Cobalt Chromium Oxide (PB36)*.
 
 There will still be slight differences between manufacturers, but going by the pigment name will get you pretty close.
+
+> [!Important]
+>
+> Some pigments, depending on how they are prepared, can end up with a “shade,” a leaning or cast that changes the perception of the base color. If you see a paint name like “Phthalo Blue RS,” the “RS” is “Red Shade.”
+>
+> Make sure to pay attention to the shade, it really does make a difference.  
+
 
 ### Check the Label—Lightfastness, Opacity, and Series
 
