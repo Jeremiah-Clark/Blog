@@ -1,5 +1,5 @@
 ---
-title: An Absolute Beginner's Guide to Watercolor
+title: An Absolute Beginner's Guide to Watercolor, Part 1
 author: Jeremiah D Clark
 date: 2026-09-10
 slug: watercolor_1-paint
@@ -14,6 +14,7 @@ Instead, I find it relaxing.
 Even just mixing colors and testing them on paper is very satisfying.
 
 And all you need for cleanup is water.
+Nice. 
 
 Watercolor it is also deceptively complicated, and easy to get lost in. 
 
@@ -86,9 +87,10 @@ There will still be slight differences between manufacturers, but going by the p
 ### Check the Label—Lightfastness, Opacity, and Series
 
 Here we get into what makes one pigment desirable over another, aside from the color. 
-Lightfastness and opacity are going to be listed on the packaging of paints from any reputable brand.
+Lightfastness and opacity are going to be listed on the packaging of most paints from any reputable brand.
+Be warned that labels are quite variable between brands, so be sure you know what you’re reading.
 
-![Labels are quite variable between brands, be sure you know what you’re reading. Right: M. Graham; Left: Holbein. Photogaphs by author.](../images/Watercolor-tube-labels.png)
+![Examples of completely different labeling standards between brands. Left: M. Graham; Right: Holbein. Photogaphs by author.](../images/Watercolor-tube-labels.png)
 
 **Lightfastness**
 
@@ -96,18 +98,18 @@ International standards group ASTM (American Society for Testing and Materials) 
 They give each tested paint a rating from “Excellent” to “Fugitive.” 
 These ratings assume unrealistic controlled “museum” conditions, so it’s generally not recommended to use paints with less than a “Very Good” rating.
 
-> [!note]
-> Submitting to testing is voluntary, so some brands will provide their own ratings based on internal testing. 
-
 One of the following should be indicated on the packaging of the paint you’re looking at. 
 
-
-ASTM Ratings:
+**ASTM Ratings**:
 
 - I = Excellent
 - II = Very good
 - III = Fair
 - IV = Fugitive
+
+> [!note]
+> Submitting to testing is voluntary, so some brands will provide their own ratings based on internal testing. 
+Some also add an additional permanency indication as well. 
 
 Do not buy paints that lack any rating, whether ASTM or the brand’s own.
 
@@ -116,7 +118,7 @@ Do not buy paints that lack any rating, whether ASTM or the brand’s own.
 Watercolor pigments are transparent to different degrees. 
 I prefer fully transparent pigments when possible, as it’s part of what makes watercolor unique.
 
-Opacity is indicated with a standard square or circle symbol to identify three or four steps from transparent to opaque.
+Opacity is indicated with a somewhat standard square or circle symbol to identify three or four steps from transparent to opaque.
 
 ![Typical opacity symbols. By author.](../images/Opacity.png)
 
@@ -129,7 +131,7 @@ Series 1 (sometimes A) pigments are the least expensive, and they get more expen
 
 Beyond lightfastness and opacity, other key pigment properties will be indicated on marketing materials and websites.
 
-![Watercolor Label Keys showing different approaches information given. From downloadable materials published by M. Graham, Daniel Smith, Winsor & Newton, and Holbein.](../images/Watercolor_Labels.png)
+![Watercolor Label Keys showing different approaches and information given. From downloadable materials published by M. Graham, Daniel Smith, Winsor & Newton, and Holbein.](../images/Watercolor_Labels.png)
 
 **Granulation**
 
