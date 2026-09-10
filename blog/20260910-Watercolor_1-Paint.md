@@ -8,6 +8,8 @@ tags: art
 
 ![Testing paints. Photograph by author.](../images/Watercolor-Header1-8976533.png)
 
+`3,080 Words; 12 minutes`
+
 Watercolor is a delicate art form that rewards a light touch, commitment, and patience. 
 By rights, I should hate it. 
 Instead, I find it relaxing. 
@@ -129,7 +131,7 @@ Series 1 (sometimes A) pigments are the least expensive, and they get more expen
 
 Beyond lightfastness and opacity, other key pigment properties will be indicated on marketing materials and websites.
 
-![Watercolor Label Keys showing different approaches and information given. From downloadable materials published by M. Graham & Co., Daniel Smith, Winsor & Newton, and Holbein.](../images/Watercolor_Labels.png)
+![Watercolor label keys showing different approaches and information given. From downloadable materials published by M. Graham & Co., Daniel Smith, Winsor & Newton, and Holbein. Links in Sources](../images/Watercolor_Labels.png)
 
 **Granulation**
 
@@ -236,7 +238,7 @@ If allowed to dry, they will usually dry to a semi-solid or gummy consistency, d
 
 The trade-off is that the process can be messy, and pure paint straight from the tube has a tendency to get everywhere. 
 
-> Absolutely everywhere.  But maybe that’s just me.
+> *Absolutely everywhere.*  But maybe that’s just me.
 
 ### Pans
 
