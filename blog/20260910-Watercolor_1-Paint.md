@@ -16,9 +16,9 @@ Even just mixing colors and testing them on paper is very satisfying.
 And all you need for cleanup is water.
 Nice. 
 
-Watercolor it is also deceptively complicated, and easy to get lost in. 
+Watercolor is also deceptively complicated, and easy to get lost in. 
 
-You can just dive in and learn through experimentation, but that could end up being very expensive and time consuming, and some of it will still never make sense without a little groundwork. 
+You can just dive in and learn through experimentation, but that could end up being very expensive and time-consuming, and some of it will still never make sense without a little groundwork. 
 I’ve been neck-deep in this research for a while now, so I’m writing this **three-part series** both to teach, and to learn.
 
 To be clear, I’m not going to tell you exactly what paper, brushes, and paints you should acquire (though I will have a few recommendations after each part, if you want a place to start). I’m giving you a solid base of factual knowledge so you can approach watercolor with greater confidence. 
@@ -50,9 +50,9 @@ For our purposes, the key insight is that pigments define what a paint looks lik
 
 The name printed on the outside of a tube of paint is an unreliable way to determine exactly what color the paint inside it is. 
 
-For example, what Daniel Smith calls “Pyrrol Orange,” M. Graham calls “Scarlet Pyrrol,” and Gamma calls “Coral.” One pigment, three marketing names. 
+For example, what Daniel Smith calls “Pyrrol Orange,” M. Graham & Co. calls “Scarlet Pyrrol,” and Gamma Old Master Watercolor calls “Coral.” One pigment, three marketing names. 
 
-Another example, M. Graham’s “Cerulean Blue” is the same as Winsor & Newton’s “Cobalt Turquoise” and Isaro’s “Azure Blue.” 
+Another example, M. Graham & Co.’s “Cerulean Blue” is the same as Winsor & Newton’s “Cobalt Turquoise” and Isaro’s “Azure Blue.” 
 
 It’s a free-for-all out there when it comes to naming paint colors.
 
@@ -61,7 +61,7 @@ This is why we need to look at the paint’s pigment content rather than its mar
 
 Common examples include *Phthalocyanine Blue (PB15)*, *Cadmium Orange (PO20)*, and *Quinacridone Magenta (PR122)*.
 
-![Representative examples. Left to right: Daniel Smith Phthalo Blue BS, M. Graham Cadmium Orange, and Holbein Quinacridone Magenta. Swatches from artistpigments.org (2026).](../images/PigmentExamples-8977644.png)
+![Representative examples. Left to right: Daniel Smith Phthalo Blue BS, M. Graham & Co. Cadmium Orange, and Holbein Quinacridone Magenta. Swatches from artistpigments.org (2026).](../images/PigmentExamples-8977644.png)
 
 The P at the start identifies it as a pigment (a dye will have a D, and basic dyes will have a B). 
 The second (and sometimes third) letter identifies the color family: 
@@ -90,7 +90,7 @@ Here we get into what makes one pigment desirable over another, aside from the c
 Lightfastness and opacity are going to be listed on the packaging of most paints from any reputable brand.
 Be warned that labels are quite variable between brands, so be sure you know what you’re reading.
 
-![Examples of completely different labeling standards between brands. Left: M. Graham; Right: Holbein. Photogaphs by author.](../images/Watercolor-tube-labels.png)
+![Examples of completely different labeling standards between brands. Left: M. Graham & Co.; Right: Holbein. Photographs by author.](../images/Watercolor-tube-labels.png)
 
 **Lightfastness**
 
@@ -98,9 +98,7 @@ International standards group ASTM (American Society for Testing and Materials) 
 They give each tested paint a rating from “Excellent” to “Fugitive.” 
 These ratings assume unrealistic controlled “museum” conditions, so it’s generally not recommended to use paints with less than a “Very Good” rating.
 
-One of the following should be indicated on the packaging of the paint you’re looking at. 
-
-**ASTM Ratings**:
+One of the following ASTM ratings should be indicated on the packaging of the paint you’re looking at:
 
 - I = Excellent
 - II = Very good
@@ -109,7 +107,7 @@ One of the following should be indicated on the packaging of the paint you’re 
 
 > [!note]
 > Submitting to testing is voluntary, so some brands will provide their own ratings based on internal testing. 
-Some also add an additional permanency indication as well. 
+Some add an additional permanency indication as well. 
 
 Do not buy paints that lack any rating, whether ASTM or the brand’s own.
 
@@ -131,7 +129,7 @@ Series 1 (sometimes A) pigments are the least expensive, and they get more expen
 
 Beyond lightfastness and opacity, other key pigment properties will be indicated on marketing materials and websites.
 
-![Watercolor Label Keys showing different approaches and information given. From downloadable materials published by M. Graham, Daniel Smith, Winsor & Newton, and Holbein.](../images/Watercolor_Labels.png)
+![Watercolor Label Keys showing different approaches and information given. From downloadable materials published by M. Graham & Co., Daniel Smith, Winsor & Newton, and Holbein.](../images/Watercolor_Labels.png)
 
 **Granulation**
 
@@ -146,7 +144,7 @@ Note that this is often a simple yes or no, it won’t always indicate *how* gra
 
 **Staining**
 
-Some pigments can be lifted off the paper (to some degree) using a clean wet brush—and some can not. 
+Some pigments can be lifted off the paper (to some degree) using a clean wet brush—and some cannot. 
 Once a “staining” pigment touches the paper, the color is there forever. 
 For the sake of control and versatility, I try to avoid staining pigments when I can, but often that isn’t possible.
 
@@ -162,7 +160,7 @@ Your best bet for finding these is through experimentation or reading reviews.
 
 **Tinting Strength**
 
-When mixing paints, someWatercolor pigments will exert themselves more strongly than others. 
+When mixing paints, some watercolor pigments will exert themselves more strongly than others. 
 Generally, more finely ground pigments are higher tinting, as are more opaque pigments. 
 If you are intending to use paints in a mix, knowing their relative tinting strengths will make it much easier.
 
@@ -181,7 +179,7 @@ This one pigment is used to create Raw Sienna (a mid-valued earth yellow), Burnt
 All four colors are in the same family, but they are distinct and not freely interchangeable.
 
 On the flip side, different pigments sometimes produce nearly the same color. 
-Daniel Smith, for instance, uses both *Nickel Dioxine Yellow (PY153)* and *Yellow Iron Oxide (PY42)*, which can both appear to be the same color.
+Daniel Smith, for instance, uses both *Nickel Dioxime Yellow (PY153)* and *Yellow Iron Oxide (PY42)*, which can both appear to be the same color.
 
 So why have colors using both of these pigments? 
 Sometimes it’s because one is less expensive, but more often it’s because they perform slightly differently.
@@ -189,7 +187,7 @@ Sometimes it’s because one is less expensive, but more often it’s because th
 To continue with PY42 and PY153 from Daniel Smith, the differences are illustrative:
 
 - **Yellow Iron Oxide (PY42)**—Daniel Smith offers three single-pigment paints made with PY42. Two are granulating, and all are non-staining.
-- **Nickel Dioxine Yellow (PY153)**—Just one Daniel Smith paint, New Gamboge, uses PY153. To my eye, the actual hue is all but identical to Raw Sienna Light, but New Gamboge is non-granulating and somewhat staining.
+- **Nickel Dioxime Yellow (PY153)**—Just one Daniel Smith paint, New Gamboge, uses PY153. To my eye, the actual hue is all but identical to Raw Sienna Light, but New Gamboge is non-granulating and somewhat staining.
 
 ![Though honestly, I’m not sure I could tell them apart without labels. Images from dickblick.com (Dick Blick Art Materials, 2024).](../images/Watercolor_PY42-PY153-8924618.png)
 
@@ -201,7 +199,7 @@ Paints can be either single-pigment paints or mixes.
 Ideally, as many paints in your palette as possible should be single pigment. 
 This is most important when mixing paints to create new colors.
 
-When you mix paints, as always you should think of it as mixing their constituent pigments. 
+When you mix paints, as always, you should think of it as mixing their constituent pigments. 
 It comes back to how subtractive colors work, which I’ll cover more in **Part 2**.
 
 The key is that when you mix two single-pigment paints, you only have to account for the interactions of two pigments. 
@@ -219,7 +217,7 @@ You don’t often need to know more than that.
 
 > [!Important]
 > 
-> A few brands, like M. Graham and A. Gallo, use honey in place of some or all of the gum arabic (or its substitute) in their binder. That doesn’t make them edible though! Many pigments are toxic if ingested. Best to play it safe and just assume all your paints are inedible.
+> A few brands, like M. Graham & Co. and A. Gallo, use honey in place of some or all of the gum arabic (or its substitute) in their binder. That doesn’t make them edible though! Many pigments are toxic if ingested. Best to play it safe and just assume all your paints are inedible.
 
 ## 3. Form Factor
 
@@ -244,13 +242,13 @@ The trade-off is that the process can be messy, and pure paint straight from the
 
 Pans are small rectangular tubs that hold paint in portable palettes, allowing them to be rearranged and swapped at will. 
 Half pans are the most common, and are of a roughly uniform size from one manufacturer to the next. 
-Full pans are twice the width of half pans—thus “half” pan—but are less common.
+Full pans are twice the width of half pans—thus “half” pans—but are less common.
 
 Pans can be purchased pre-filled, or empty so you can fill them yourself. 
 Ready-made palettes usually feature pre-filled half pans rather than non-removable wells, allowing you to freely experiment with the setup. 
 Pans are the easiest way to get started, if not the most economical.
 
-![Watercolor half-pans. Image from handprint.com/HP/WCL/pigmt3.html (MacEvoy, B. 2015).](../images/fullshade.jpg)
+![Watercolor half-pans. Photograph by author.](../images/Watercolor-HalfPans.png)
 
 Be warned that in most cases there is nothing but gravity holding the pans into the palette. 
 I’ve taken to gluing thin (1mm) magnets to the bottoms of pans, with a second magnet in the bottom of the well, to keep them in place but still movable. 
@@ -328,7 +326,7 @@ Be warned that only a quarter of their paints are rated as having the best light
 
 More than half of their paints are granulating (174), and a vast majority have excellent lightfastness (276).
 
-> Usually my first stop for professional paints. They offer more colors than anyone else, including unique colors made from raw minerals (their Primatek line).
+> Usually my first stop for professional paints. They offer more colors than anyone else, including unique colors made from raw minerals (their PrimaTek line).
 
 ### Professional—Winsor & Newton
 
@@ -351,7 +349,7 @@ Known to be controllable and easy to work with as a result of not including ox-g
 
 > Holbein paints are high quality and are often competitively priced. Just be sure to check the lightfastness rating before buying.
 
-### Professional—M. Graham
+### Professional—M. Graham & Co.
 
 - Made in: USA
 - Paints: 72 (56 single-pigment)
@@ -359,7 +357,7 @@ Known to be controllable and easy to work with as a result of not including ox-g
 Half of their colors are granulating (36), and most are rated as the highest level of lightfastness (64). 
 Made with a honey-heavy binder meant to improve smoothness and color vibrancy (M. Graham & Co., 2026).
 
-> The only reason I don’t have more M. Graham paints in my palette is because the binder that makes their paints extra smooth also means they never fully dry in the pan. For studio use, they’re vibrant and luscious and quite satisfying to use.
+> The only reason I don’t have more M. Graham & Co. paints in my palette is because the binder that makes their paints extra smooth also means they never fully dry in the pan. For studio use, they’re vibrant and luscious and quite satisfying to use.
 
 ## That’s Part 1
 
