@@ -181,14 +181,14 @@ This one pigment is used to create Raw Sienna (a mid-valued earth yellow), Burnt
 All four colors are in the same family, but they are distinct and not freely interchangeable.
 
 On the flip side, different pigments sometimes produce nearly the same color. 
-Daniel Smith, for instance, uses both *Nickel Dioxine Yellow (PY153)* and *Natural Yellow Iron Oxide (PY42)*, which can both appear to be the same color.
+Daniel Smith, for instance, uses both *Nickel Dioxine Yellow (PY153)* and *Yellow Iron Oxide (PY42)*, which can both appear to be the same color.
 
 So why have colors using both of these pigments? 
 Sometimes it’s because one is less expensive, but more often it’s because they perform slightly differently.
 
 To continue with PY42 and PY153 from Daniel Smith, the differences are illustrative:
 
-- **Natural Yellow Iron Oxide (PY42)**—Daniel Smith offers three single-pigment paints made with PY42. Two are granulating, and all are non-staining.
+- **Yellow Iron Oxide (PY42)**—Daniel Smith offers three single-pigment paints made with PY42. Two are granulating, and all are non-staining.
 - **Nickel Dioxine Yellow (PY153)**—Just one Daniel Smith paint, New Gamboge, uses PY153. To my eye, the actual hue is all but identical to Raw Sienna Light, but New Gamboge is non-granulating and somewhat staining.
 
 ![Though honestly, I’m not sure I could tell them apart without labels. Images from dickblick.com (Dick Blick Art Materials, 2024).](../images/Watercolor_PY42-PY153-8924618.png)
