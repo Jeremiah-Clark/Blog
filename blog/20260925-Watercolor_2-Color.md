@@ -8,6 +8,8 @@ tags: art
 
 ![In-progress watercolor swatches. Photograph by author.](../images/Header-part2@2x.png)
 
+`4,010 Words; 16 minutes`
+
 > [!important]
 > This is part 2 of 3. Read [**Part 1—Paint** here.](https://jeremiahclark.com/?post=watercolor-1-paint#blog)
 
@@ -329,6 +331,10 @@ Either will work, it largely comes down to personal preference.
 **Primary & Secondary**
 
 These six form the essential core of our palette.
+
+> [!NOTE]
+>
+> The letter or letters in parenthesis after the color name are keyed to the image above.
 
 - **Cyan (C)**—Phthalo Blue GS (PB15:3), Cerulean Blue (PB35)
 - **Magenta (M)**—Quinacridone Magenta (PR122), Quinacridone Violet (PV19)
