@@ -64,13 +64,9 @@ The exact color you see depends on the specific wavelength, or mix of wavelength
 > [!tip]
 > Though most people use “violet” and “purple” interchangeably—including most artists—they are not technically the same thing.
 > 
-> *Violet* is a spectral color, meaning that it exists as a discrete band of wavelengths on the visible light spectrum—below 400nm wavelength, give or take—right before it moves into ultraviolet.
+> *Violet* is a spectral color, meaning that it exists as a discrete band of wavelengths on the visible light spectrum—below 400nm wavelength, give or take—right before it moves into ultraviolet. By contrast, *purple* is a combination of blue and red wavelengths that are combined by your brain into a single perceived color. (Eckstut and Eckstut, 2020, pp. 85–86)
 > 
-> By contrast, *purple* is a combination of blue and red wavelengths that are combined by your brain into a single perceived color. (Eckstut and Eckstut, 2020, pp. 85–86)
-> 
-> In fact, all of the colors between violet and red on the color wheel are “nonspectral” colors. 
-They exist only in the mind of the observer.
-> 
+> In fact, all of the colors between violet and red on the color wheel are “nonspectral” colors. They exist only in the mind of the observer. 
 > For the artist, there’s little practical difference, and I’ve settled on using “violet,” as most sources I've referenced do.
 
 ### Additive vs. Subtractive Color
