@@ -62,17 +62,12 @@ When radiation within the visible light spectrum—between about 380 and 740 nan
 The exact color you see depends on the specific wavelength, or mix of wavelengths, that is present (Clark, 2021).
 
 > [!tip]
-> 
 > Though most people use “violet” and “purple” interchangeably—including most artists—they are not technically the same thing. 
-> 
 > *Violet* is a spectral color, meaning that it exists as a discrete band of wavelengths on the visible light spectrum—below 400nm wavelength, give or take—right before it moves into ultraviolet.
-> 
 > By contrast, *purple* is a combination of blue and red wavelengths that are combined by your brain into a single perceived color. 
 > (Eckstut and Eckstut, 2020, pp. 85–86)
-> 
 > In fact, all of the colors between violet and red on the color wheel are “nonspectral” colors. 
 > They exist only in the mind of the observer. 
-> 
 > For the artist, there’s little practical difference, and I’ve settled on using “violet,” as most sources I've referenced do.
 
 ### Additive vs. Subtractive Color
@@ -94,13 +89,10 @@ This makes sense once you realize that by adding colors, you are subtracting the
 The key takeaway is that **when talking about paint, we’re talking exclusively about subtractive color mixing.**
 
 > [!note]
-> 
 > Digging deeper, projected and reflected light have a very interesting relationship. 
 > Thinking too much about it can trap you in a chicken-and-egg loop.
-> 
 > You can only see a reflective material’s actual color after projected light has bounced off of it. 
 > But you can only see the final additive mix of projected light by looking at a material it has bounced off of.
-> 
 > In the end, the relationship between color, light, and reflective materials is extremely complicated. 
 > Both surfaces and light play important and interdependent roles in how we perceive color.
 
@@ -119,7 +111,6 @@ There are no two colors in any medium that can recreate the whole color spectrum
 But with three, it’s possible—if only just.
 
 > [!Important]
-> 
 > It’s not actually possible to create perfect primaries in physical media like pigments. 
 > While it’s *theoretically* possible to mix every color from just three primaries, it’s not *literally* possible. 
 > Still, you can get close, and it is the best place to start building our mixing palette.
@@ -165,11 +156,9 @@ CMY also covers the visible spectrum somewhat more evenly than RYB, which bunche
 ![The CMY and RYB color wheels with a color spectrum below each. The approximate spectral location of each color is marked. Note that magenta and violet are not spectral colors, so cannot be located on the spectrum. Images by author.](../images/CMYvsRYB.png)
 
 > [!tip]
-> 
 > The order of color names like “blue-violet” and “yellow-green” matters. 
 > **The first color modifies the second.** 
 > For example, “blue-violet” is a violet color that leans blue, and “yellow-green” is a green color that leans yellow.
-> 
 > I’ve had to correct both my own text and image labels multiple times, so I thought it was worth clearing up.
 
 ### Digital vs. Pigment Colors
@@ -193,9 +182,7 @@ That’s not to say there is no value in a constructed color wheel!
 It is a clear and efficient way to represent many aspects of color theory, in particular the relationship between complements. 
 
 > [!tip]
-> 
 > **Complements:** Colors that sit opposite each other on the color wheel, when mixed, cancel each other out to create neutral tones. 
-> 
 > Theoretically nearly gray but, due to the vagaries of pigments, just as often a dull brown. 
 
 ![A digital approximation of mixing CMY complements. Note that it is rarely an even 1:1 mix to achieve the neutral result. The exact ratios depend on many factors. Image by author.](../images/Mixing_CMY_Complements.png)
@@ -226,13 +213,10 @@ Red to Red-Orange, and Blue-Violet to Violet-Blue.
 Not perfect, but much better.
 
 > [!important]
->
 > I need to stress that no matter how carefully measurements were taken, the positions of pigments on the Artist's Color Wheel are not exact. 
 There is necessarily some judgment, bias, interpretation, and unavoidable inexactitude involved. 
->
 > By the same token, the placement and size of the wedges I overlaid reflect my best attempt, but are still down to personal judgment and bias.
 **This is a useful framework, not an absolute truth.** 
->
 > You can drive yourself crazy trying to nail this stuff down, which is a big part of what makes watercolor—and physical mediums in general—both frustrating and beguiling.
 
 ### The Pigment Color Wheel
@@ -414,7 +398,6 @@ There are a number of mixes that require a bit of either white or black to achie
 If you have room, go ahead and add a color or two that makes you happy, even if they have no practical purpose in your palette.
 
 > For example, *Holbein’s Opera.* It’s a bright retro pink. It's attention-grabbing to say the least. The downside is that the dyes that make it so luminous (BV10 in Holbein’s version) are fugitive, fading quickly with UV light exposure. Even so, it’s often in my palette just because I like it.
->
 > Another, *Daniel Smith’s Black Tourmaline Genuine* keeps going in and out of my palette. It uses genuine tourmaline in place of a traditional pigment, which adds an extremely gritty texture to any mix.
 
 ![Left: Holbein’s Opera swatches; Right: Daniel Smith’s Black Tourmaline Genuine swatches. The picture doesn’t quite do either justice. Photograph by author.](../images/Opera & Black Tourlamine.png)
