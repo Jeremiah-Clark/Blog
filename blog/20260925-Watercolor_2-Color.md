@@ -62,11 +62,11 @@ When radiation within the visible light spectrum—between about 380 and 740 nan
 The exact color you see depends on the specific wavelength, or mix of wavelengths, that is present (Clark, 2021).
 
 > [!tip]
-> Though most people use “violet” and “purple” interchangeably—including most artists—they are not technically the same thing.
+> Though most people use “violet” and “purple” interchangeably—including most artists—they are not technically the same thing. 
 > 
-> *Violet* is a spectral color, meaning that it exists as a discrete band of wavelengths on the visible light spectrum—below 400nm wavelength, give or take—right before it moves into ultraviolet. By contrast, *purple* is a combination of blue and red wavelengths that are combined by your brain into a single perceived color. (Eckstut and Eckstut, 2020, pp. 85–86)
+> *Violet* is a spectral color, meaning that it exists as a discrete band of wavelengths on the visible light spectrum—below 400nm wavelength, give or take—right before it moves into ultraviolet. By contrast, *purple* is a combination of blue and red wavelengths that are combined by your brain into a single perceived color (Eckstut and Eckstut, 2020, pp. 85–86). 
 > 
-> In fact, all of the colors between violet and red on the color wheel are “nonspectral” colors. They exist only in the mind of the observer.
+> In fact, all of the colors between violet and red on the color wheel are “nonspectral” colors. They exist only in the mind of the observer. 
 > 
 > For the artist, there’s little practical difference, and I’ve settled on using “violet,” as most sources I've referenced do.
 
@@ -89,11 +89,11 @@ This makes sense once you realize that by adding colors, you are subtracting the
 The key takeaway is that **when talking about paint, we’re talking exclusively about subtractive color mixing.**
 
 > [!note]
-> Digging deeper, projected and reflected light have a very interesting relationship. Thinking too much about it can trap you in a chicken-and-egg loop.
+> Digging deeper, projected and reflected light have a very interesting relationship. Thinking too much about it can trap you in a chicken-and-egg loop. 
 > 
-> You can only see a reflective material’s actual color after projected light has bounced off of it. But you can only see the final additive mix of projected light by looking at a material it has bounced off of.
+> You can only see a reflective material’s actual color after projected light has bounced off of it. But you can only see the final additive mix of projected light by looking at a material it has bounced off of. 
 > 
-> In the end, the relationship between color, light, and reflective materials is extremely complicated. Both surfaces and light play important and interdependent roles in how we perceive color.
+> In the end, the relationship between color, light, and reflective materials is extremely complicated. Both surfaces and light play important and interdependent roles in how we perceive color. 
 
 ### Primary Colors
 
@@ -154,7 +154,7 @@ CMY also covers the visible spectrum somewhat more evenly than RYB, which bunche
 ![The CMY and RYB color wheels with a color spectrum below each. The approximate spectral location of each color is marked. Note that magenta and violet are not spectral colors, so cannot be located on the spectrum. Images by author.](../images/CMYvsRYB.png)
 
 > [!tip]
-> The order of color names like “blue-violet” and “yellow-green” matters. **The first color modifies the second.** For example, “blue-violet” is a violet color that leans blue, and “yellow-green” is a green color that leans yellow.
+> The order of color names like “blue-violet” and “yellow-green” matters. **The first color modifies the second.** For example, “blue-violet” is a violet color that leans blue, and “yellow-green” is a green color that leans yellow. 
 > 
 > I’ve had to correct both my own text and image labels multiple times, so I thought it was worth clearing up.
 
@@ -391,7 +391,7 @@ There are a number of mixes that require a bit of either white or black to achie
 
 If you have room, go ahead and add a color or two that makes you happy, even if they have no practical purpose in your palette.
 
-> For example, *Holbein’s Opera.* It’s a bright retro pink. It's attention-grabbing to say the least. The downside is that the dyes that make it so luminous (BV10 in Holbein’s version) are fugitive, fading quickly with UV light exposure. Even so, it’s often in my palette just because I like it.
+> For example, *Holbein’s Opera.* It’s a bright retro pink. It's attention-grabbing to say the least. The downside is that the dyes that make it so luminous (BV10 in Holbein’s version) are fugitive, fading quickly with UV light exposure. Even so, it’s often in my palette just because I like it. 
 > 
 > Another, *Daniel Smith’s Black Tourmaline Genuine* keeps going in and out of my palette. It uses genuine tourmaline in place of a traditional pigment, which adds an extremely gritty texture to any mix.
 
