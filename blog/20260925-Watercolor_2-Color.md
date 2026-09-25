@@ -56,7 +56,7 @@ If you want to skip the theory, feel free to scroll down until you find the **Pi
 
 At its most basic, all color is made up of differing wavelengths of electromagnetic radiation—all from within the small portion of the spectrum that we can see.
 
-![The visible portion of the electromagnetic spectrum contains all the wavelengths that we perceive as color. Image by author.](../images/VISIBLE LIGHT SPECTRUM.png)
+![The visible portion of the electromagnetic spectrum contains all the wavelengths that we perceive as color. Image by author.](../images/Visible_Light_Spectrum.png)
 
 When radiation within the visible light spectrum—between about 380 and 740 nanometers—enters our eyes, our brains interpret them as colors. 
 The exact color you see depends on the specific wavelength, or mix of wavelengths, that is present (Clark, 2021).
