@@ -423,7 +423,7 @@ I am not implying that this is the best palette or the one you should use. I jus
 - **Yellow-Green**—Van Gogh Permanent Yellowish Green (PY154+PG7)
 - **Violet**—Winsor & Newton Winsor Violet (Dioxazine) (PV23)
 
-> I don’t use wither of these often, but both open up colors that I haven’t been able to mix in any other way.
+> I don’t use either of these often, but both open up colors that I haven’t been able to reliably mix in any other way.
 
 **Black Tones**
 
