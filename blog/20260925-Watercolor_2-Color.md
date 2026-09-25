@@ -23,7 +23,7 @@ I hope that in the end you will find this useful and enlightening as well.
 
 And with that, let's learn about choosing colors and paints for our watercolor palettes.
 
-## Pre-Made Palettes
+## The Easy Option: Pre-Made Palettes
 
 One option, of course, is to buy a pre-constructed palette. 
 That is by far the quickest and easiest way to get started. 
@@ -48,7 +48,7 @@ To get the most out of your first palette, I recommend that you construct it to 
 
 The rest of this article will dig into how to go about doing that.
 
-## A Little (Too Much) Color Theory
+## The DIY Option: A Little (Too Much?) Color Theory
 
 To put together an effective mixing palette, it helps to understand how color mixing works. 
 To do that, we need to cover some of the basics of how color itself works. 
@@ -138,7 +138,7 @@ This change from RYB to CMY shifts the secondary colors as well:
 - Magenta and yellow make red
 - Yellow and cyan make green
 
-> “Thanks to modern intense and lightfast pigments, we can choose much more effective paints than were available to artists of the past, and as a result **the traditional primary triad — red, yellow, and blue — is obsolete** and should not be taught.” 
+> Thanks to modern intense and lightfast pigments, we can choose much more effective paints than were available to artists of the past, and as a result **the traditional primary triad — red, yellow, and blue — is obsolete** and should not be taught.
 > 
 > (MacEvoy, 2015)
 
@@ -173,7 +173,7 @@ The key breakthrough for me was to recognize that a color wheel is not a literal
 For convenience and clarity, the key colors are typically adjusted so that the primaries are evenly spaced around the circle. 
 In a sense, every color wheel you’ve ever seen is a well-meaning fiction. 
 
-> “Some color wheels adjust the location of paints around the hue circle so that certain hues fall neatly on evenly spaced ‘spokes’. In each case, the color locations are manipulated to **represent a color theory**. 
+> Some color wheels adjust the location of paints around the hue circle so that certain hues fall neatly on evenly spaced ‘spokes’. In each case, the color locations are manipulated to **represent a color theory**. 
 > 
 > (MacEvoy, 2015)
 
@@ -399,7 +399,7 @@ There are a number of mixes that require a bit of either white or black to achie
 
 If you have room, go ahead and add a color or two that makes you happy, even if they have no practical purpose in your palette.
 
-> For example, *Holbein’s Opera.* It’s a bright retro pink. It's attention-grabbing to say the least. The downside is that the dyes that make it so luminous (BV10 in Holbein’s version) are fugitive, fading quickly with UV light exposure. Even so, it’s often in my palette just because I like it. 
+> For example, *Holbein’s Opera,*a bright neon pink. It's attention-grabbing to say the least. The downside is that the dyes that make it so luminous (BV10 in Holbein’s version) are fugitive, fading quickly with UV light exposure. Even so, it’s often in my palette just because I like it. 
 > 
 > Another, *Daniel Smith’s Black Tourmaline Genuine* keeps going in and out of my palette. It uses genuine tourmaline in place of a traditional pigment, which adds an extremely gritty texture to any mix.
 
@@ -407,7 +407,7 @@ If you have room, go ahead and add a color or two that makes you happy, even if 
 
 ## My Current 15-Color Palette
 
-I recently picked up a travel case that holds fifteen colors, so I expanded from my original twelve.
+(I recently picked up a travel case that holds fifteen colors, so I expanded from my original twelve.)
 
 I am not implying that this is the best palette or the one you should use. I just want to show how I applied the information in this article to my own selections.
 
@@ -473,13 +473,21 @@ At this moment there are more than seventy-five items on the list covering my tw
 
 ## Sources
 
-- artistpigments.org (2026). *Watercolors*. \[online] Artist Pigments.org. Available at: [https://artistpigments.org/mediums/watercolor](https://artistpigments.org/mediums/watercolor) \[Accessed 4 Sept. 2026].
-- Clark, S.R. (2021). *Advanced color theory: Color wheels, impossible colors, and the primary color debate*. [online] Sarah Renae Clark - Coloring Book Artist and Designer. Available at: [https://sarahrenaeclark.com/advanced-color-theory-ryb-vs-cmy/](https://sarahrenaeclark.com/advanced-color-theory-ryb-vs-cmy/) [Accessed 4 Aug. 2026].
+### Books & Documents
+
 - Eckstut, A. and Eckstut, J. (2020). *What is color? 50 Questions and answers on the science of color*. New York, NY: Abrams. Available at: [https://amzn.to/4dwn8l9](https://amzn.to/4dwn8l9) (affiliate link), and [https://bookshop.org/a/128387/9781419734519](https://bookshop.org/a/128387/9781419734519) (affiliate link).
 - Laws, J.M. (2012). *The laws guide to drawing birds*. Berkeley, California: Heyday. Available at: [https://amzn.to/4xrKHTz](https://amzn.to/4xrKHTz) (affiliate link), and [https://bookshop.org/a/128387/9781597141956](https://bookshop.org/a/128387/9781597141956)](https://amzn.to/4xrKHTz) (affiliate link).
+- Moroney, N., Fairchild, M., Hunt, R. and Li, C. (2002). *The CIECAM02 color appearance model*. [online] RIT Digital Institutional Repository. Available at: [https://repository.rit.edu/other/143](https://repository.rit.edu/other/143) [Accessed 17 Sept. 2026].
+- Voloshin-Smith, V. (2024). *Watercolor 101: Pocket guide*. Rocky Nook. Available at: [https://amzn.to/4gRmOjf](https://amzn.to/4gRmOjf) (affiliate link), and [https://bookshop.org/a/128387/9798888142219](https://bookshop.org/a/128387/9798888142219) (affiliate link).
+
+### Articles
+
+- Clark, S.R. (2021). *Advanced color theory: Color wheels, impossible colors, and the primary color debate*. [online] Sarah Renae Clark - Coloring Book Artist and Designer. Available at: [https://sarahrenaeclark.com/advanced-color-theory-ryb-vs-cmy/](https://sarahrenaeclark.com/advanced-color-theory-ryb-vs-cmy/) [Accessed 4 Aug. 2026].
 - MacEvoy, B. (2015). *Handprint: Color wheels*. [online] Handprint.com. Available at: [https://handprint.com/HP/WCL/color13.html](https://handprint.com/HP/WCL/color13.html) [Accessed 7 Sept. 2026].
 - MacEvoy, B. (2015a). *Handprint: An artist’s color wheel*. [online] Handprint.com. Available at: [https://handprint.com/HP/WCL/color16.html](https://handprint.com/HP/WCL/color16.html) [Accessed 15 Sept. 2026].
 - MacEvoy, B. (2015b). *Handprint: The complete palette*. [online] Handprint.com. Available at: [https://handprint.com/HP/WCL/palette1.html](https://handprint.com/HP/WCL/palette1.html) [Accessed 15 Sept. 2026].
+
+### Websites
+
+- artistpigments.org (2026). *Watercolors*. \[online] Artist Pigments.org. Available at: [https://artistpigments.org/mediums/watercolor](https://artistpigments.org/mediums/watercolor) \[Accessed 4 Sept. 2026].
 - MacEvoy, B. (2015c). *Handprint: Watercolor*. [online] Handprint.com. Available at: [https://handprint.com/HP/WCL/water.html](https://handprint.com/HP/WCL/water.html) [Accessed 3 Sept. 2026].
-- Moroney, N., Fairchild, M., Hunt, R. and Li, C. (2002). *The CIECAM02 color appearance model*. [online] RIT Digital Institutional Repository. Available at: [https://repository.rit.edu/other/143](https://repository.rit.edu/other/143) [Accessed 17 Sept. 2026].
-- Voloshin-Smith, V. (2024). *Watercolor 101: Pocket guide*. Rocky Nook. Available at: [https://amzn.to/4gRmOjf](https://amzn.to/4gRmOjf) (affiliate link), and [https://bookshop.org/a/128387/9798888142219](https://bookshop.org/a/128387/9798888142219) (affiliate link).
