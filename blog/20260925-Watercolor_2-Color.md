@@ -389,7 +389,7 @@ If you have room, go ahead and add a color or two that makes you happy, even if 
 > 
 > Another, *Daniel Smith’s Black Tourmaline Genuine* keeps going in and out of my palette. It uses genuine tourmaline in place of a traditional pigment, which adds an extremely gritty texture to any mix.
 
-![Left: Holbein’s Opera swatches; Right: Daniel Smith’s Black Tourmaline Genuine swatches. The picture doesn’t quite do either justice. Photograph by author.](../images/Opera & Black Tourlamine.png)
+![Left: Holbein’s Opera swatches; Right: Daniel Smith’s Black Tourmaline Genuine swatches. The picture doesn’t quite do either justice. Photograph by author.](../images/Pink_and_Black_Paint.png)
 
 ### My Current 15-Color Palette
 
