@@ -444,7 +444,7 @@ I am not implying that this is the best palette or the one you should use. I jus
 
 > Lamp Black, Chinese White, and Burnt Umber are the three paints I added when moving from twelve to fifteen paints. They are mostly useful for mixes.
 
-![My 12-Color Watercolor Palette, swatched. Photograph by author.](../images/Watercolor Palette Squares.png)
+![My 12-Color Watercolor Palette, swatched. Photograph by author.](../images/Watercolor_Palette_Squares.png)
 
 ---
 
