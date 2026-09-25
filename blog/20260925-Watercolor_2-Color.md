@@ -88,7 +88,7 @@ Adding more colors for the light to pass through or reflect off **subtracts** mo
 One result of this difference worth highlighting is that **with subtractive color mixing, the resulting color is necessarily *less bright* than the colors mixed to make it.** 
 This makes sense once you realize that by adding colors, you are subtracting the amount of light that is reflected.
 
-The key takeaway is that **when talking about paint, we’re talking exclusively about subtractive color mixing.**
+*The key takeaway is that **when talking about paint, we’re talking exclusively about subtractive color mixing.***
 
 > [!note]
 > Digging deeper, projected and reflected light have a very interesting relationship. Thinking too much about it can trap you in a chicken-and-egg loop. 
@@ -211,9 +211,11 @@ Red to Red-Orange, and Blue-Violet to Violet-Blue.
 Not perfect, but much better.
 
 > [!important]
-> I need to stress that no matter how carefully measurements were taken, the positions of pigments on the Artist's Color Wheel are not exact. There is necessarily some judgment, bias, interpretation, and unavoidable inexactitude involved. By the same token, the placement and size of the wedges I overlaid reflect my best attempt, but are still down to personal judgment and bias. **This is a useful framework, not an absolute truth.** 
-> 
-> You can drive yourself crazy trying to nail this stuff down, which is a big part of what makes watercolor—and physical mediums in general—both frustrating and beguiling.
+> I need to stress that no matter how carefully measurements were taken, the positions of pigments on the Artist's Color Wheel are not exact. There is necessarily some judgment, bias, interpretation, and unavoidable inexactitude involved. By the same token, the placement and size of the wedges I overlaid reflect my best attempt, but are still down to personal judgment and bias. 
+
+***This is a useful framework, not an absolute truth.*** 
+
+You can drive yourself crazy trying to nail this stuff down, which is a big part of what makes watercolor—and physical mediums in general—both frustrating and beguiling.
 
 ### The Pigment Color Wheel
 
@@ -222,7 +224,7 @@ For simplicity, I’ve turned it into a traditional color wheel with the colors 
 
 ![The Pigment Color Wheel.  Image by author.](../images/Pigment_Wheel.png)
 
-This color wheel will be our guide for the next steps. 
+***This color wheel will be our guide for the next steps.*** 
 
 There is *far* more to color theory, of course, but this is what we need for our purposes.
 
@@ -461,7 +463,7 @@ In my next article I'll cover the rest of what you need to get going with waterc
 If you’d like to take your own deep dive into watercolor color theory, [ArtistPigments.org](https://artistpigments.org) is unmatched. 
 While I relied heavily on [Handprint.com](https://handprint.com/HP/WCL/water.html) for this article—MacEvoy’s synthesis of light physics, color physiology, and interpretive analysis is both in-depth and opinionated in the best way—it is becoming increasingly outdated as it is no longer updated. 
 
-By contrast, ArtistPigments.org is actively growing. 
+By contrast, [ArtistPigments.org](https://artistpigments.org) is actively growing. 
 Though it leans on objective measurements, almost to a fault—demanding more interpretation and inference from the reader—it offers the most comprehensive framework that I’m aware of for comparing pigments across brands, and even mediums.
 
 I put together a Collection on that site that includes all of the recommended pigments above from the brands I’m comfortable recommending, filtered for at least Very Good lightfastness. 
