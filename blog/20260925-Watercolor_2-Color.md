@@ -63,9 +63,7 @@ The exact color you see depends on the specific wavelength, or mix of wavelength
 
 > [!tip]
 > Though most people use “violet” and “purple” interchangeably—including most artists—they are not technically the same thing.
-> 
 > *Violet* is a spectral color, meaning that it exists as a discrete band of wavelengths on the visible light spectrum—below 400nm wavelength, give or take—right before it moves into ultraviolet. By contrast, *purple* is a combination of blue and red wavelengths that are combined by your brain into a single perceived color. (Eckstut and Eckstut, 2020, pp. 85–86)
-> 
 > In fact, all of the colors between violet and red on the color wheel are “nonspectral” colors. They exist only in the mind of the observer. 
 > For the artist, there’s little practical difference, and I’ve settled on using “violet,” as most sources I've referenced do.
 
@@ -89,9 +87,7 @@ The key takeaway is that **when talking about paint, we’re talking exclusively
 
 > [!note]
 > Digging deeper, projected and reflected light have a very interesting relationship. Thinking too much about it can trap you in a chicken-and-egg loop.
-> 
 > You can only see a reflective material’s actual color after projected light has bounced off of it. But you can only see the final additive mix of projected light by looking at a material it has bounced off of.
-> 
 > In the end, the relationship between color, light, and reflective materials is extremely complicated. Both surfaces and light play important and interdependent roles in how we perceive color.
 
 ### Primary Colors
@@ -154,7 +150,6 @@ CMY also covers the visible spectrum somewhat more evenly than RYB, which bunche
 
 > [!tip]
 > The order of color names like “blue-violet” and “yellow-green” matters. **The first color modifies the second.** For example, “blue-violet” is a violet color that leans blue, and “yellow-green” is a green color that leans yellow.
-> 
 > I’ve had to correct both my own text and image labels multiple times, so I thought it was worth clearing up.
 
 ### Digital vs. Pigment Colors
@@ -209,7 +204,7 @@ Not perfect, but much better.
 
 > [!important]
 > I need to stress that no matter how carefully measurements were taken, the positions of pigments on the Artist's Color Wheel are not exact. 
-There is necessarily some judgment, bias, interpretation, and unavoidable inexactitude involved. By the same token, the placement and size of the wedges I overlaid reflect my best attempt, but are still down to personal judgment and bias. **This is a useful framework, not an absolute truth.** 
+> There is necessarily some judgment, bias, interpretation, and unavoidable inexactitude involved. By the same token, the placement and size of the wedges I overlaid reflect my best attempt, but are still down to personal judgment and bias. **This is a useful framework, not an absolute truth.** 
 > You can drive yourself crazy trying to nail this stuff down, which is a big part of what makes watercolor—and physical mediums in general—both frustrating and beguiling.
 
 ### The Pigment Color Wheel
