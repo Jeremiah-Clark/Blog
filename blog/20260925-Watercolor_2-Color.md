@@ -405,7 +405,7 @@ If you have room, go ahead and add a color or two that makes you happy, even if 
 
 ![Left: Holbein’s Opera swatches; Right: Daniel Smith’s Black Tourmaline Genuine swatches. The picture doesn’t quite do either justice. Photograph by author.](../images/Pink_and_Black_Paint.png)
 
-### My Current 15-Color Palette
+## My Current 15-Color Palette
 
 I recently picked up a travel case that holds fifteen colors, so I expanded from my original twelve.
 
