@@ -217,7 +217,7 @@ Not perfect, but much better.
 
 You can drive yourself crazy trying to nail this stuff down, which is a big part of what makes watercolor—and physical mediums in general—both frustrating and beguiling.
 
-### The Pigment Color Wheel
+## The Pigment Color Wheel
 
 That leads us to our final color wheel, which I’m calling the **Pigment Color Wheel.** 
 For simplicity, I’ve turned it into a traditional color wheel with the colors spaced evenly around the wheel.
