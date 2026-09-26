@@ -489,5 +489,5 @@ At this moment there are more than seventy-five items on the list covering my tw
 
 ### Websites
 
-- artistpigments.org (2026). *Watercolors*. \[online] Artist Pigments.org. Available at: [https://artistpigments.org/mediums/watercolor](https://artistpigments.org/mediums/watercolor) \[Accessed 4 Sept. 2026].
+- artistpigments.org (2026). *Watercolors*. [online] Artist Pigments.org. Available at: [https://artistpigments.org/mediums/watercolor](https://artistpigments.org/mediums/watercolor) [Accessed 4 Sept. 2026].
 - MacEvoy, B. (2015c). *Handprint: Watercolor*. [online] Handprint.com. Available at: [https://handprint.com/HP/WCL/water.html](https://handprint.com/HP/WCL/water.html) [Accessed 3 Sept. 2026].
