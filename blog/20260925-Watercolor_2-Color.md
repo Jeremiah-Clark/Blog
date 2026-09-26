@@ -399,7 +399,7 @@ There are a number of mixes that require a bit of either white or black to achie
 
 If you have room, go ahead and add a color or two that makes you happy, even if they have no practical purpose in your palette.
 
-> For example, *Holbein’s Opera,*a bright neon pink. It's attention-grabbing to say the least. The downside is that the dyes that make it so luminous (BV10 in Holbein’s version) are fugitive, fading quickly with UV light exposure. Even so, it’s often in my palette just because I like it. 
+> For example, *Holbein’s Opera,* a bright neon pink. It's attention-grabbing to say the least. The downside is that the dyes that make it so luminous (BV10 in Holbein’s version) are fugitive, fading quickly with UV light exposure. Even so, it’s often in my palette just because I like it. 
 > 
 > Another, *Daniel Smith’s Black Tourmaline Genuine* keeps going in and out of my palette. It uses genuine tourmaline in place of a traditional pigment, which adds an extremely gritty texture to any mix.
 
