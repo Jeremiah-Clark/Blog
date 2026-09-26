@@ -411,6 +411,8 @@ If you have room, go ahead and add a color or two that makes you happy, even if 
 
 I am not implying that this is the best palette or the one you should use. I just want to show how I applied the information in this article to my own selections.
 
+![My watercolor palette as of September 2026. Photograph by author.](../images/My_Watercolor_Palette-20260924.png)
+
 **Primary & Secondary Colors**
 
 - **Cyan**—Daniel Smith Phthalo Blue GS (PB15:3)
