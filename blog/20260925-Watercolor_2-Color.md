@@ -411,7 +411,7 @@ If you have room, go ahead and add a color or two that makes you happy, even if 
 
 I am not implying that this is the best palette or the one you should use. I just want to show how I applied the information in this article to my own selections.
 
-![My watercolor palette as of September 2026. Photograph by author.](../images/My_Watercolor_Palette-20260924.png)
+![My watercolor palette as of late September 2026. Photograph by author.](../images/My_Watercolor_Palette-20260926.png)
 
 **Primary & Secondary Colors**
 
@@ -429,7 +429,7 @@ I am not implying that this is the best palette or the one you should use. I jus
 - **Red**—Van Gogh Permanent Red Light (PR255)
 - **Violet**—Winsor & Newton Winsor Violet (Dioxazine) (PV23)
 
-> Both of these open up colors that I haven’t been able to reliably mix in any other way. I plan to replace Permanent Red Light with Daniel Smith’s Pyrrol Red, which is deeper and more saturated.
+> Both of these open up colors that I haven’t been able to reliably mix in any other way. I plan to replace Permanent Red Light with Daniel Smith’s Pyrrol Red (254), which is deeper and more saturated.
 
 **Black Tones**
 
@@ -453,7 +453,7 @@ I am not implying that this is the best palette or the one you should use. I jus
 
 > Lamp Black, Chinese White, and Burnt Umber are the three paints I added when moving from twelve to fifteen paints. They are mostly useful for mixes.
 
-![My 12-Color Watercolor Palette, swatched. Photograph by author.](../images/Watercolor_Palette_Squares.png)
+![My 15-Color Watercolor Palette, swatched. Photograph by author.](../images/Watercolor_Palette_Squares.png)
 
 ---
 
@@ -471,7 +471,7 @@ By contrast, [ArtistPigments.org](https://artistpigments.org) is actively growin
 Though it leans on objective measurements, almost to a fault—demanding more interpretation and inference from the reader—it offers the most comprehensive framework that I’m aware of for comparing pigments across brands, and even mediums.
 
 I put together a Collection on that site that includes all of the recommended pigments above from the brands I’m comfortable recommending, filtered for at least Very Good lightfastness. 
-At this moment there are more than seventy-five items on the list covering my twenty-four recommended colors. Check it out here: [Complementary Mixing Palette](https://artistpigments.org/@JClark/collections/be4a814d38d670bdbe44)
+At this moment there are more than seventy-five items on the list covering my twenty-four recommended colors. I may update this Collection as I do more testing.  Check it out here: [Complementary Mixing Palette](https://artistpigments.org/@JClark/collections/be4a814d38d670bdbe44)
 
 ![All of the paints in the Collection, charted using CIECAM16 (the updated standard that replaced CIECAM02). This highlights both the coverage of this palette, as well as how variable these paints can be among brands. Screen capture from artistspigments.org by author.](../images/Color_wheel-scatter_plot.png)
 
