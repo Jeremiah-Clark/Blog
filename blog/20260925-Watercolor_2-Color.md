@@ -162,7 +162,7 @@ CMY also covers the visible spectrum somewhat more evenly than RYB, which bunche
 
 ### Digital vs. Pigment Colors
 
-One last wrinkle to explore is the fact that actual pigment colors behave differently from theoretically perfect digital colors. 
+One last wrinkle to explore: **Actual pigment colors behave differently from theoretically perfect digital colors.** 
 
 I confess that this part tripped me up. 
 
