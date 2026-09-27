@@ -355,7 +355,7 @@ Some colors are particularly difficult to mix, even with the CMY primary and sec
 - **Red (CR)**—Pyrrole Red (PR254), Cadmium Red Medium (PR108)
 - **Orange (CO)**—Quinacridone Burnt Orange (PO48)
 - **Orange-Yellow (CY)**—Hansa Yellow Deep (PY65), Nickel Azo Yellow (PY150)
-- **Green (CG)**—Yellow Green (various mixes include PG36+PY3 and PY154+PG7), Cobalt Titanate Green (PG50)
+- **Green (CG)**—Yellow Green (various mixes), Cobalt Titanate Green (PG50)
 - **Teal/Turquoise (CT)**—Cobalt Turquoise (PB36), Cobalt Teal Blue (PG50)
 - **Blue (CB)**—Cobalt Blue (PB28), Phthalo Blue RS (PB15:1)
 - **Violet (CV)**—Dioxazine Violet (PV23), Manganese Violet (PV16)
@@ -422,12 +422,14 @@ I am not implying that this is the best palette or the one you should use. I jus
 - **Green**—Van Gogh Phthalo Green BS (PG7)
 - **Blue-Violet**—Winsor & Newton French Ultramarine (PB29)
 
+> These six are set for the foreseeable future.
+
 **Convenience Colors**
 
-- **Yellow-Green**—Van Gogh Permanent Yellowish Green (PY154+PG7)
+- **Red**—Van Gogh Permanent Red Light (PR255)
 - **Violet**—Winsor & Newton Winsor Violet (Dioxazine) (PV23)
 
-> I don’t use either of these often, but both open up colors that I haven’t been able to reliably mix in any other way.
+> Both of these open up colors that I haven’t been able to reliably mix in any other way. I plan to replace Permanent Red Light with Daniel Smith’s Pyrrol Red, which is deeper and more saturated.
 
 **Black Tones**
 
