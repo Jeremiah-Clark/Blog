@@ -422,8 +422,6 @@ I am not implying that this is the best palette or the one you should use. I jus
 - **Green**—Van Gogh Phthalo Green BS (PG7)
 - **Blue-Violet**—Winsor & Newton French Ultramarine (PB29)
 
-> These six are set for the foreseeable future.
-
 **Convenience Colors**
 
 - **Red**—Van Gogh Permanent Red Light (PR255)
