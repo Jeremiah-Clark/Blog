@@ -75,7 +75,7 @@ The exact color you see depends on the specific wavelength, or mix of wavelength
 ### Additive vs. Subtractive Color
 
 When dealing with mixing colors, it’s important to know whether we’re dealing with *additive* or *subtractive* color mixing. 
-**Put simply, *additive* colors are projected from light sources, while *subtractive* colors are light reflected from a surface.**
+**Put simply,** ***additive*** **colors are projected from light sources, while** ***subtractive*** **colors are light reflected from a surface.**
 
 When you see light directly from a source—whether it is the sun, a lightbulb, or a monitor or display—the color you see is a result of the wavelengths of light it is projecting. 
 Different colors are a result of which wavelengths are present, and adding more colors to the mix **adds** those wavelengths to the projected light, altering the final color you see.
@@ -85,7 +85,7 @@ Some wavelengths of light will be absorbed by the surface.
 The color you see is a result of which wavelengths are left in the reflected light. 
 Adding more colors for the light to pass through or reflect off **subtracts** more wavelengths from that reflected light, changing the color you see.
 
-One result of this difference worth highlighting is that **with subtractive color mixing, the resulting color is necessarily *less bright* than the colors mixed to make it.** 
+One result of this difference worth highlighting is that **with subtractive color mixing, the resulting color is necessarily** ***less bright*** **than the colors mixed to make it.** 
 This makes sense once you realize that by adding colors, you are subtracting the amount of light that is reflected.
 
 *The key takeaway is that **when talking about paint, we’re talking exclusively about subtractive color mixing.***
