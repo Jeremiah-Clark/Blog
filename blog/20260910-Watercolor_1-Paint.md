@@ -376,6 +376,8 @@ Hopefully I’ve covered the complexities and pitfalls in a way that saves you f
 
 In my next article, I’m going to get into methods for actually picking your colors and assembling your first palette. Then Part 3 will cover paper and brush options. 
 
+>  Read [**Part 2 — Color** here.](https://jeremiahclark.com/?post=watercolor-2-color#blog)
+
 ![Playing around with watercolor. Photograph by author.](../images/Watercolor-Header2-8994585.png)
 
 ## Sources

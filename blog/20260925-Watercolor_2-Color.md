@@ -471,6 +471,8 @@ Though it leans on objective measurements, almost to a fault—demanding more in
 I put together a Collection on that site that includes all of the recommended pigments above from the brands I’m comfortable recommending, filtered for at least Very Good lightfastness. 
 At this moment there are more than seventy-five items on the list covering my twenty-four recommended colors. I may update this Collection as I do more testing.  Check it out here: [Complementary Mixing Palette](https://artistpigments.org/@JClark/collections/be4a814d38d670bdbe44)
 
+>  Read [**Part 3 — Paper, Brushes, & Beyond** here](https://jeremiahclark.com/?post=watercolor-3-gear#blog).
+
 ![All of the paints in the Collection, charted using CIECAM16 (the updated standard that replaced CIECAM02). This highlights both the coverage of this palette, as well as how variable these paints can be among brands. Screen capture from artistspigments.org by author.](../images/Color_wheel-scatter_plot.png)
 
 ## Sources
