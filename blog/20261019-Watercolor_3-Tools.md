@@ -118,7 +118,7 @@ Note that this smoothness will also mute granulation and will impact how wet on 
 
 > This is my personal preference in most cases. It most closely resembles my favorite paper for drawing—marker paper—which is very smooth. I’m trying to branch out, though, especially after seeing how hot press can cause problems with smooth washes.
 
-![Left: Hot Press; Right: Cold Press. You can see that the cold press texture not only exaggerates the granulation but also reduces the prominence of brush marks. Photograph by author.](../images/20261017 watercolor_strokes_blue_teal_brown.png)
+![Left: Hot Press; Right: Cold Press. You can see that the cold press texture not only exaggerates the granulation but also reduces the prominence of brush marks. Photograph by author.](../images/20261017_watercolor_strokes_blue_teal_brown.png)
 
 ### 3. Weight
 
