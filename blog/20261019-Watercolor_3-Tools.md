@@ -6,7 +6,7 @@ slug: watercolor_3-gear
 tags: art
 ---
 
-![This is a relatively small store, and this isn’t even their entire selection of sketchbooks—it continues around the corner. Photographed by author at Blick Art Supplies.](../images/20261015 art supplies shelves notebooks.png)
+![This is a relatively small store, and this isn’t even their entire selection of sketchbooks—it continues around the corner. Photographed by author at Blick Art Supplies.](../images/20261015_art_supplies_shelves_notebooks.png)
 
 `6,886 words; 26 minutes`
 
@@ -21,12 +21,12 @@ Now that we have our paints, we need the tools of the trade to make use of them.
 
 ## Paper
 
-Paper choice is probably the most consequential factor in a successful watercolor painting. 
-It’s not the most complicated—I just spent nearly 8,000 words on paint selection, after all—but paper is literally the foundation of every watercolor painting, and the sheer number of options can be daunting. 
+Paper choice is probably the most consequential factor in a successful watercolor painting.
+It’s not the most complicated—I just spent nearly 8,000 words on paint selection, after all—but paper is literally the foundation of every watercolor painting, and the sheer number of options can be daunting.
 
 The right paper will enhance your efforts, while the wrong paper will make your job harder than it needs to be, and may worsen or even ruin your final result.
-With a limited budget, you’re better off buying student paints and professional paper. 
-Brushes, which we’ll get to next, fall somewhere in the middle. 
+With a limited budget, you’re better off buying student paints and professional paper.
+Brushes, which we’ll get to next, fall somewhere in the middle.
 Very important, but you only need to invest in a few to start with.
 
 ---
@@ -43,16 +43,16 @@ When evaluating paper, there are four qualities to be aware of:
 Watercolor paper is usually made from one of two materials—cotton or wood pulp—or a mix of the two.
 
 > [!Important]
-> Regardless of paper type, always ensure your paper is acid-free. 
+> Regardless of paper type, always ensure your paper is acid-free.
 If it isn’t, it’s likely to discolor surprisingly quickly.
 
 **Cotton**
 
-Good quality watercolor paper is made from 100% cotton. 
-Always. 
+Good quality watercolor paper is made from 100% cotton.
+Always.
 Cotton paper is durable, less likely to be mangled by excessive working and reworking, and absorbs and holds watercolor paint more reliably when compared to wood pulp paper.
 
-![Legion Stonehenge “AQUA” paper is 100% cotton and available in these 10-sheet mini pads. Photographed by author at Blick Art Supplies.](../images/20261015 paper samples rack display.png)
+![Legion Stonehenge “AQUA” paper is 100% cotton and available in these 10-sheet mini pads. Photographed by author at Blick Art Supplies.](../images/20261015_paper_samples_rack_display.png)
 
 > [!Important]
 > If the paper isn’t clearly labelled as “100% Cotton,” then it probably isn’t cotton paper. The mini Legion pads in the picture above are an exception (the full size pads include far more information about weight, content, etc.).
@@ -60,42 +60,42 @@ Cotton paper is durable, less likely to be mangled by excessive working and rewo
 **Wood Pulp**
 
 Most paper is made from wood pulp — often referred to as “cellulose,” but cotton is technically cellulose too, so “wood pulp” is more descriptive (Wikipedia Contributors, 2019).
-It is less expensive than cotton paper, but also less durable and less absorbent. 
+It is less expensive than cotton paper, but also less durable and less absorbent.
 That lack of absorbency makes it harder to lay down smooth washes and gradients, and means paint will pool and puddle.
 
-Cheap “student grade” watercolor paper and “mixed-media” papers are usually heavyweight wood pulp paper. 
+Cheap “student grade” watercolor paper and “mixed-media” papers are usually heavyweight wood pulp paper.
 
 It may be useful to keep some around for testing colors or doing quick sketches, but it should be avoided for real watercolor work.
 
 **Blended**
 
-Sometimes you’ll find blended watercolor papers. 
-Blended papers contain some percentage of cotton, with the rest made up of wood pulp. 
+Sometimes you’ll find blended watercolor papers.
+Blended papers contain some percentage of cotton, with the rest made up of wood pulp.
 Blended papers are intended to strike a balance between quality and affordability.
 
-Higher cotton percentages will improve durability and absorption. 
+Higher cotton percentages will improve durability and absorption.
 If budget allows, 100% cotton paper is the gold standard.
 
 **Cotton-Top**
 
-Cotton-top papers are like two pieces of paper stuck together. 
-One side is wood pulp and makes up the bulk of the paper’s thickness. 
-The other side is a thin layer of cotton paper, giving you a better surface to work on. 
+Cotton-top papers are like two pieces of paper stuck together.
+One side is wood pulp and makes up the bulk of the paper’s thickness.
+The other side is a thin layer of cotton paper, giving you a better surface to work on.
 The goal is to produce a more affordable paper that still functions like expensive paper.
 
-Cotton-top papers aren’t common—I’ve only seen them offered online—and I haven’t tried or even touched them myself. 
+Cotton-top papers aren’t common—I’ve only seen them offered online—and I haven’t tried or even touched them myself.
 Because a cotton paper’s thickness aids in both stability *and* moisture retention, the compromise may not be worth it.
 
 ### 2. Finish
 
-Watercolor paper is available in three finishes: 
+Watercolor paper is available in three finishes:
 Hot press, cold press, and rough.
 
 **Rough**
 
-Rough paper is exactly what it sounds like, a highly textured surface. 
-The toothy, uneven surface will add a strong texture as paint pools in it and dries. 
-This is especially noticeable with granulating pigments, which will show strongest on rough paper. 
+Rough paper is exactly what it sounds like, a highly textured surface.
+The toothy, uneven surface will add a strong texture as paint pools in it and dries.
+This is especially noticeable with granulating pigments, which will show strongest on rough paper.
 Blends will also be more “active” as the mixing pigments interact with the texture before settling.
 
 > [!TIP]
@@ -103,7 +103,7 @@ Blends will also be more “active” as the mixing pigments interact with the t
 
 **Cold Press**
 
-Cold press paper is pressed without the use of heat, resulting in a surface that is notably smoother than rough paper, but still has a definite texture and tooth to it. 
+Cold press paper is pressed without the use of heat, resulting in a surface that is notably smoother than rough paper, but still has a definite texture and tooth to it.
 This is the most common finish for watercolor paper—it strikes a good balance between creating an interesting surface to work on without imposing too strong a texture on the paint.
 
 > [!TIP]
@@ -111,29 +111,29 @@ This is the most common finish for watercolor paper—it strikes a good balance 
 
 **Hot Press**
 
-Hot press paper is pressed using heat—essentially ironed—following production, resulting in a smooth, even surface. 
-Hot press paper is not as smooth as printer paper, but is far smoother than cold press paper. 
-Hot press papers are easier to lift colors from, easier to scan and photograph, and will interfere the least with the inherent properties of the paint. 
+Hot press paper is pressed using heat—essentially ironed—following production, resulting in a smooth, even surface.
+Hot press paper is not as smooth as printer paper, but is far smoother than cold press paper.
+Hot press papers are easier to lift colors from, easier to scan and photograph, and will interfere the least with the inherent properties of the paint.
 Note that this smoothness will also mute granulation and will impact how wet on wet effects and washes blend.
 
 > This is my personal preference in most cases. It most closely resembles my favorite paper for drawing—marker paper—which is very smooth. I’m trying to branch out, though, especially after seeing how hot press can cause problems with smooth washes.
 
-![Left: Hot Press; Right: Cold Press. You can see that the cold press texture not only exaggerates the granulation but also reduces the prominence of brush marks. Photograph by author.](../images/20261017 watercolor strokes blue teal brown.png)
+![Left: Hot Press; Right: Cold Press. You can see that the cold press texture not only exaggerates the granulation but also reduces the prominence of brush marks. Photograph by author.](../images/20261017 watercolor_strokes_blue_teal_brown.png)
 
 ### 3. Weight
 
-Watercolor paper is *thick.* A typical sheet of copier or printer paper will be around 14–24lb (52–90gsm). 
-For watercolor, anything less than 140lb (300gsm) is generally unsuitable as it will warp under heavy washes. 
-Thicker is often better—but that’s the minimum. 
+Watercolor paper is *thick.* A typical sheet of copier or printer paper will be around 14–24lb (52–90gsm).
+For watercolor, anything less than 140lb (300gsm) is generally unsuitable as it will warp under heavy washes.
+Thicker is often better—but that’s the minimum.
 Anything thinner will not stand up to the amount of water used in watercolor painting.
 
 Many mixed-media papers are around 98lb (160gsm)—which does feel heavy compared to most drawing papers—which will buckle and start to fall apart under a heavy wash.
 
-![You can technically use watercolor on Mixed Media paper, but it won’t work well beyond a light wash. It’s also not cotton.  Photographed by author at Blick Art Supplies.](../images/20261015 blue spiral mixed media notebook.png)
+![You can technically use watercolor on Mixed Media paper, but it won’t work well beyond a light wash. It’s also not cotton.  Photographed by author at Blick Art Supplies.](../images/20261015_blue_spiral_mixed_media_notebook.png)
 
-Watercolor papers up to 300lb (640gsm) are readily available, for a price. 
-The advantage to such heavyweight paper is that it will stand up to even more water than regular watercolor paper without curling or buckling. 
-The downside is that it will absorb and hold more water, meaning it will dry more slowly. 
+Watercolor papers up to 300lb (640gsm) are readily available, for a price.
+The advantage to such heavyweight paper is that it will stand up to even more water than regular watercolor paper without curling or buckling.
+The downside is that it will absorb and hold more water, meaning it will dry more slowly.
 It’s also more expensive and takes up more space, meaning fewer sheets per block or pad.
 
 > [!NOTE]
@@ -145,20 +145,20 @@ Watercolor paper is available in at least three general forms, each with its own
 
 **Pads & Books**
 
-These are your typical sketchbooks or sketchpads, bound on one edge with a spiral binding, or a sewn or glued binding. 
-These are convenient and inexpensive, but are generally not the best for finished work. 
+These are your typical sketchbooks or sketchpads, bound on one edge with a spiral binding, or a sewn or glued binding.
+These are convenient and inexpensive, but are generally not the best for finished work.
 The spiral bound options in particular nearly always have wood pulp or blended paper, trading quality for convenience.
 
 **Blocks**
 
 > Blocks are by far the best way to do watercolor on the go.
 
-Blocks are unique to watercolor, as far as I can tell. 
-Watercolor blocks are like sketchpads, except they’re bound on at least two sides to a thick, stiff backing board. 
-This keeps the top sheet flat, preventing curling and excessive wrinkling when it gets wet. 
+Blocks are unique to watercolor, as far as I can tell.
+Watercolor blocks are like sketchpads, except they’re bound on at least two sides to a thick, stiff backing board.
+This keeps the top sheet flat, preventing curling and excessive wrinkling when it gets wet.
 When you’re done with that sheet, run a palette knife, or something similarly thin, all the way around under it to cut it free from the next sheet.
 
-![The only palette knife I have is this cheap plastic one. Once I sharpened the leading edge just a bit with some fine sandpaper it worked great. Photographed by author.](../images/20260911 Watercolor block removal.png)
+![The only palette knife I have is this cheap plastic one. Once I sharpened the leading edge just a bit with some fine sandpaper it worked great. Photographed by author.](../images/20260911_Watercolor_block_removal.png)
 
 Avoid using an actual knife, as it's far too easy to cut into the next sheet down.
 
@@ -167,12 +167,12 @@ Avoid using an actual knife, as it's far too easy to cut into the next sheet dow
 
 **Loose Sheets**
 
-Loose sheets are available in large sizes ideal for larger works. 
-They give you the greatest flexibility, and can be cut into multiple smaller sheets. 
-If you want, you can find instructions for turning large sheets into various styles of sketchbooks. 
+Loose sheets are available in large sizes ideal for larger works.
+They give you the greatest flexibility, and can be cut into multiple smaller sheets.
+If you want, you can find instructions for turning large sheets into various styles of sketchbooks.
 If you’re crafty this can be an economical way to get a compact pad with very good paper at a reasonable price.
 
-Another trick you can’t do with a sketchbook or block is to soak the sheet, then tape it down securely to your desk or a board as it dries. 
+Another trick you can’t do with a sketchbook or block is to soak the sheet, then tape it down securely to your desk or a board as it dries.
 This will pre-stretch the paper and force it to dry flat, making it much more stable as you start painting.
 
 ### Paper Recommendations
@@ -185,9 +185,9 @@ Considering all of this together, here is what I suggest investing in to start w
 - 140lb (300gsm) minimum
 - Around 7”×10” to 9”×12”
 
-This isn’t going to be great paper, but for the price per sheet it serves a purpose. 
-Use paper like this as scratch paper, or for testing paints and mixes. 
-This is the one time I would consider paper that’s not 100% cotton. 
+This isn’t going to be great paper, but for the price per sheet it serves a purpose.
+Use paper like this as scratch paper, or for testing paints and mixes.
+This is the one time I would consider paper that’s not 100% cotton.
 Do not use it for finished work, regardless.
 
 - [150 Sheets 100% Cotton Watercolor Paper Bulk -140lb/300gsm Art Paper-8.5”×11”](https://amzn.to/3TpEj1i)—Bulk individual sheets. Not great, and my own experience with it casts doubt on the 100% cotton claim, but it's not bad given the price (I have theories, but that’s a rabbit-hole for another article). This is the cheapest way I’ve found to get lots of useable scratch paper.
@@ -201,14 +201,13 @@ Do not use it for finished work, regardless.
 - 140lb (300gsm) minimum
 - 4”×6” to 8”×10”
 
-This will let you practice on good paper without spending a lot. 
-Small blocks in particular are good for carrying around if you want to try *plein-air* painting (painting outdoors). 
+This will let you practice on good paper without spending a lot.
+Small blocks in particular are good for carrying around if you want to try *plein-air* painting (painting outdoors).
 Most of the options below are available in a number of sizes and finishes.
 
-![My go-to watercolor blocks in Hot Press and Cold Press. Photograph by author.](../images/20261017 watercolor blocks.png)
+![My go-to watercolor blocks in Hot Press and Cold Press. Photograph by author.](../images/20261017_watercolor_blocks.png)
 
 - [PaperPop Watercolor Block 5”×7”-20 Sheets, 160lb 100% Cotton](https://amzn.to/4j5L6rl)—My personal favorite so far. Slightly heavier than normal watercolor paper, but just a little, for a great price.
-
 - [Fluid 100 Watercolor Block 4”×6”-15 Sheets, 140lb 100% Cotton](https://amzn.to/46GR1eO)—Another good choice with some smaller sizes. Also available with 300lb paper.
 - [FLUNBRATO Watercolor Block 4.7”×4.7”-80 Sheets, 140lb 100% Cotton](https://amzn.to/4hUe8I0)—This affordable block has surprisingly good paper for the price. It’s also bulky and doesn’t have a cover, so it’s not great for carrying around. I keep it on my desk so I always have decent paper on hand for doing quick tests of new paints or mixes.
 - [Stonehenge Aqua 100% Cotton Mini Pad Set](https://amzn.to/47l5SMx)—Stonehenge paper is high quality at any size (Rainey, 2017, p. 6), but my favorite product is their mini pads. They’re small enough to tuck into any kit so you can always have a bit of nice paper with you. This sample set includes three each of: 140lb Cold Press, 140lb Hot Press, 300lb Cold Press, and 140lb Cold Press Black paper.
@@ -222,8 +221,8 @@ Most of the options below are available in a number of sizes and finishes.
 - 140lb (300gsm) minimum
 - 9”×12” or larger
 
-Same as above, but on a larger scale. 
-Though all watercolor blocks are portable, starting around 9”×12” they start to get a bit unwieldy, in my opinion. 
+Same as above, but on a larger scale.
+Though all watercolor blocks are portable, starting around 9”×12” they start to get a bit unwieldy, in my opinion.
 And given the price, I leave these for more serious studio work (which means I’ve rarely used them, as I’m still learning).
 
 - [Arches Watercolor Paper Block 9”×12”-20 Sheets, 140lb 100% Cotton](https://amzn.to/4zp9MzT)—Just a bigger version of the previous Arches block.
@@ -236,7 +235,7 @@ And given the price, I leave these for more serious studio work (which means I�
 
 Brushes are one of those areas that can get very deep, but can also be kept pretty basic and still produce decent results.
 
-![This is a bit less than half of their brush selection, the other side is more brushes, and there are a few more elsewhere. Photographed by author at Blick Art Supplies.](../images/20261019 brushes shelves art supplies.png)
+![This is a bit less than half of their brush selection, the other side is more brushes, and there are a few more elsewhere. Photographed by author at Blick Art Supplies.](../images/20261019_brushes_shelves_art_supplies.png)
 
 First, getting a few definitions out of the way will help with clarity:
 
@@ -255,20 +254,20 @@ With that, let’s look at four defining features of brushes:
 
 ### 1. Material
 
-When talking about brush material, we’re talking about what the actual brush bristles are made from. 
+When talking about brush material, we’re talking about what the actual brush bristles are made from.
 All brush bristles can be grouped into two broad categories: Natural and synthetic.
 
 **Natural**
 
-Before the wide availability of plastics, the only option was natural fibers. In a word, hair (or fur, technically). 
+Before the wide availability of plastics, the only option was natural fibers. In a word, hair (or fur, technically).
 Many artists still swear by natural hair brushes, which tend to have superior performance in the areas that really matter to painters.
 
-Natural hairs retain their shape well, readily snapping back into shape. 
+Natural hairs retain their shape well, readily snapping back into shape.
 Due to their slightly rough microstructure, natural hairs hold a surprising amount of water and pigment, and lay it down in a controlled manner (Wee Paint Brush, 2023).
 
-The downsides include price, and the source of the hair. 
-Obviously, natural hair has to come from somewhere. 
-That “somewhere” is the international fur trade, with all the possible ethical concerns that entails (Bullaro, 2017). 
+The downsides include price, and the source of the hair.
+Obviously, natural hair has to come from somewhere.
+That “somewhere” is the international fur trade, with all the possible ethical concerns that entails (Bullaro, 2017).
 The whole issue is complicated, and I’m not going to take a stand one way or the other here—it’s up to each of us to decide how we feel about that, and act accordingly.
 
 **Common Types:**
@@ -281,24 +280,24 @@ The whole issue is complicated, and I’m not going to take a stand one way or t
 
 **Synthetic**
 
-If you want to avoid natural bristles for ethical or cost reasons, there are plenty of synthetic options to suit your needs. 
+If you want to avoid natural bristles for ethical or cost reasons, there are plenty of synthetic options to suit your needs.
 Many good synthetics are designed to mimic the feel and function of natural fiber brushes; i.e., synthetic sable is stiffer and good for control while synthetic squirrel brushes are softer and good for washes (Rainey, 2021b).
 
 Given the vast number of synthetics on offer, which vary significantly by manufacturer, a full accounting is beyond the scope of this article.
 
 **What about the handles?**
 
-Brush handles are usually made from wood or plastic. 
-They can be fat, skinny, long, or short. 
+Brush handles are usually made from wood or plastic.
+They can be fat, skinny, long, or short.
 Both the shape and length of the handle are a matter of personal preference and don’t directly impact performance.
 
 > I prefer handles on the shorter side for ease of handling. Think the length of a pencil, or a bit longer. That’s as good a place as any to start, but it’s entirely up to you.
 
 ### 2. Shape
 
-Brushes come in a dizzying variety of different shapes, each of which is intended for a particular use. 
-There also tend to be multiple names for many shapes. 
-What I’m listing here are the ones I’ve seen the most often. 
+Brushes come in a dizzying variety of different shapes, each of which is intended for a particular use.
+There also tend to be multiple names for many shapes.
+What I’m listing here are the ones I’ve seen the most often.
 Just be aware this isn’t an exhaustive list.
 For more, see Blick Art Materials (2025).
 
@@ -314,12 +313,12 @@ For more, see Blick Art Materials (2025).
 
 ### 3. Size
 
-Watercolor brushes are available in a wide range of sizes, from extremely small detail brushes to massive mop brushes. 
-There is no consensus among manufacturers about how to label sizes. Size is often indicated as a number like 2 or 6. 
+Watercolor brushes are available in a wide range of sizes, from extremely small detail brushes to massive mop brushes.
+There is no consensus among manufacturers about how to label sizes. Size is often indicated as a number like 2 or 6.
 Some brushes will indicate a width dimension, like 1/4” or 6mm.
 
-There’s no hard and fast rule for when one convention is used over another, and one brand’s 4 might be another brand’s 2, or 6. 
-Even brushes with actual dimensions may not be the same size, due to different standards for how to measure. 
+There’s no hard and fast rule for when one convention is used over another, and one brand’s 4 might be another brand’s 2, or 6.
+Even brushes with actual dimensions may not be the same size, due to different standards for how to measure.
 The easiest way to be sure of a brush’s size is to see it in person.
 
 ![These sizes are approximate and may vary by manufacturer. (Credit: Roebuck, 2018)](../images/watercolor-brush-size-chart-round-brushes.jpg)
@@ -348,7 +347,7 @@ Most brushes can be divided into three broad categories:
 Paint brushes are an investment, but one that can last a long time if you follow a few simple rules to care for them (Rainey, 2021a):
 
 1. **Always clean your brushes immediately after use.** Watercolor comes out easily when wet (though it may stain, especially with cheap nylon bristles like water brushes use), but if it’s allowed to dry, it may permanently damage the bristles or ferrule.
-2. **Do not leave your brushes in water.** Rinse them, then remove them from the water. Letting them sit risks loosening the ferrule, and bending the bristles if it’s resting on the bottom of the water cup. 
+2. **Do not leave your brushes in water.** Rinse them, then remove them from the water. Letting them sit risks loosening the ferrule, and bending the bristles if it’s resting on the bottom of the water cup.
 3. **Avoid submerging the ferrule completely into the water.** If water gets into the ferrule, it can damage the bristles, or loosen the ferrule by degrading the glue or corroding metal or wood components.
 4. **Reshape the bristles before they dry.** After cleaning, when the bristles are still wet, reform them into their original shape if necessary. This is especially true with cheap or very soft bristled brushes.
 5. **Dry laying down.** I used to dry brushes by putting them in a brush cup point up, but that’s a mistake. Point up allows water to run down and collect in the ferrule, where it can loosen the glue or degrade the bristle or handle materials.
@@ -362,8 +361,8 @@ If you’re just starting out, it’s best to keep it simple with a few well cho
 - If you want to branch out, **a larger flat or filbert brush is a good second pick**, making washes and gradients easier to create. Size 12 would be a good size for this.
 - If you really want a third brush, **either a wash or a detail brush, depending on the sorts of painting you’re doing.** Maybe both, for flexibility.
 
-Starting out, this three or four brush kit should get you a long way. 
-That’s especially true if you’re able to spring for decent quality brushes and care for them properly. 
+Starting out, this three or four brush kit should get you a long way.
+That’s especially true if you’re able to spring for decent quality brushes and care for them properly.
 I don’t mean you should shell out a couple hundred for a top-tier brush, just avoid the bargain basement options.
 
 > These are from my experience and research. My limitation is I’ve followed my own advice, which means I haven’t tried that many different brushes as I’m learning.
@@ -372,7 +371,7 @@ I don’t mean you should shell out a couple hundred for a top-tier brush, just 
 
 I really like the portability of travel brushes, and they’re what I’ve used the most.
 
-![My travel brush set.  Photograph by author.](../images/20261017 travel brushes.png)
+![My travel brush set.  Photograph by author.](../images/20261017_travel_brushes.png)
 
 - [Fuumuui 3pcs Squirrel Hair Travel Watercolor Brushes](https://amzn.to/4rV35mA)—I’ve had a previous version of this 3-brush set for a few years. It has three round brushes, one each small (#4), medium (#8), and large (#12). They’ve stood up well to my inexpert use, looking essentially brand new (aside from some expected dings and scratches from being carried in my bag). The #8 and #12 sizes are my most commonly used brushes.
 - [Fuumuui 4pcs Sable Travel Watercolor Brushes](https://amzn.to/4zkgVRS)—A variant of the above, I haven’t tried this 4-brush set specifically, but the brushes are the exact style of the set I have, and the price is very good for the variety on offer. It has a small and a medium round (which I can actually vouch for), a medium flat brush, and a medium dagger brush. That’s a pretty solid starter set and the one I’d buy for myself if I were starting over.
@@ -382,8 +381,8 @@ I really like the portability of travel brushes, and they’re what I’ve used 
 
 **Regular Brushes:**
 
-I have a few regular brushes that I bought early on, but nothing I’d really recommend—I chose poorly and/or didn’t know what I was doing and ruined them. 
-With regular brushes, the really cheap options simply aren’t worth it. 
+I have a few regular brushes that I bought early on, but nothing I’d really recommend—I chose poorly and/or didn’t know what I was doing and ruined them.
+With regular brushes, the really cheap options simply aren’t worth it.
 Instead, here are some mid-priced options I’ve seen recommended by artists I trust.
 
 - [Princeton Series 4050 Heritage Synthetic Sable Brush Set](https://amzn.to/4dUrPWg)—The word on these brushes is they’re a great synthetic alternative to natural sable. This set includes a small round, a medium round, and a large round, as well as a large (1/2”) angled wash (Rainey, 2022).
@@ -393,16 +392,16 @@ Instead, here are some mid-priced options I’ve seen recommended by artists I t
 
 If you want to store or travel with regular brushes, you’ll need to put them into a case that’s meant for brushes. This is the one I have, it works fine: [MEEDEN Zippered Paints Brush Case](https://amzn.to/4y9yrXW)
 
-![My poor abused/cheap brushes in their case. The mesh and holes allow the brushes to continue drying with the case closed, while still offering decent protection. Photograph by author.](../images/20260917 Paintbrushes in black case.jpeg)
+![My poor abused/cheap brushes in their case. The mesh and holes allow the brushes to continue drying with the case closed, while still offering decent protection. Photograph by author.](../images/20260917_Paintbrushes_in_black_case.jpeg)
 
 **Water Brushes:**
 
-As I said before, water brushes aren’t great, but they’re VERY convenient. 
+As I said before, water brushes aren’t great, but they’re VERY convenient.
 And to be fair, in the hands of a skilled artist—John Muir Laws, for example (Laws, 2012, p. 98)—water brushes can produce beautiful work.
 
-![A cheap and cheerful water brush. The syringe helps to refill the brush without mess (note that the “needle” is actually a tube). Photograph by author.](../images/20261017 waterbrush.png)
+![A cheap and cheerful water brush. The syringe helps to refill the brush without mess (note that the “needle” is actually a tube). Photograph by author.](../images/20261017_waterbrush.png)
 
-I carry a few around for quick sketches or just messing around. 
+I carry a few around for quick sketches or just messing around.
 If you’re careful, it’s the most self-contained and least messy way to paint. I’ve even used them in the waiting room at a doctor’s office.
 
 - [Mr. Pen Watercolor Brush Pens, 6 pcs](https://amzn.to/4BatvVK)—A basic, cheap water brush set. Includes three round and three flat brushes in three sizes each. The handles are flexible and squeezable along their full length.
@@ -436,25 +435,25 @@ Filling empty pans from tubes allows you to easily reorganize or rework your pal
 
 - [Bitray Small Size 15 Wells Airtight Palette Box](https://amzn.to/4jFYdiX)—My favorite portable palette case so far, this palette holds fifteen paints. It has a rubber sheet inside the lid that makes it airtight, which I removed (this would be useful for acrylic paints). Each well is separate which makes this palette feel very solid despite being inexpensive. It also adds some bulk, and it doesn’t leave the option of using full-pans. The top folds back flat, but being clear it doesn’t make for a very good mixing surface. I taped a paint cheatsheet and mixing guide to it instead (preliminary, needs some edits). Comes with regular half-pans that won’t jostle around, but will readily fall out.
 
-![15-Color palette. Photograph by author.](../images/20261017 paint palette colors wood.png)
+![15-Color palette. Photograph by author.](../images/20261017_paint_palette_colors_wood.png)
 
 - [Piutouyar Portable Paint Palette Box for Watercolor, 12 Wells](https://amzn.to/4A9aPoE)—A rival for the top spot. It’s both more compact and cheaper. Since it doesn’t have individually divided wells, it’s very small but can accommodate twelve half-pans or six full-pans. Note that the lid does not fold fully back so it cannot be used as a surface for mixing. Comes with regular half-pans, which will jostle around and fall out if you don’t add magnets, double-sided tape, or similar.
 
-![So cheap I’ve bought three of them. Here are two. Photograph by author.](../images/20261017 watercolor palettes colors.png)
+![So cheap I’ve bought three of them. Here are two. Photograph by author.](../images/20261017_watercolor_palettes_colors.png)
 
 - [Piutouyar Portable Palette Box for Watercolor, 24 Wells](https://amzn.to/4AXsDDx)—This palette is very lightweight and will accommodate twenty-four half-pans, or twelve full-pans. The top folds back flat and can be used for mixing. Comes with regular half-pans.
 
-![Note in particular where I removed the pans—you can see the metal strip I glued in. The overturned pan shows the integrated magnet. Photograph by author.](../images/20261017 watercolor palette colors.png)
+![Note in particular where I removed the pans—you can see the metal strip I glued in. The overturned pan shows the integrated magnet. Photograph by author.](../images/20261017_watercolor_palette_colors.png)
 
 - [SEAMIART Stackable Empty Watercolor Paint Palette Box](https://amzn.to/4zp3Man)—This is a different design I only recently discovered. You pull the end off and slide pans in that way. It holds them tightly, which means magnets aren’t needed. In fact, the pans with integrated magnets are *slightly* too tall to fit. The removable lid is designed for mixing and is held on with magnets. You can buy additional bottom trays and stack them to carry more paints. Each tray can hold thirty-six half-pans or eighteen full-pans. Does not come with any pans.
 
-![Both ends of the palette are removable and the pans slide in. Due to the peculiarities of the pans I bought, 5 full-pans and 3 half-pans fit perfectly in each row.  Photograph by author.](../images/20261017 watercolor palette open wood.png)
+![Both ends of the palette are removable and the pans slide in. Due to the peculiarities of the pans I bought, 5 full-pans and 3 half-pans fit perfectly in each row.  Photograph by author.](../images/20261017_watercolor_palette_open_wood.png)
 
 **Palettes**
 
-You can also get palettes that have integrated wells not intended to be used with pans. 
-These come in plastic, metal, and various ceramic varieties. 
-Some fold or have covers. 
+You can also get palettes that have integrated wells not intended to be used with pans.
+These come in plastic, metal, and various ceramic varieties.
+Some fold or have covers.
 Ideally, the palette should have multiple, separated mixing areas so you can keep different color families apart for cleaner mixes (Laws, 2012, p. 98).
 
 I haven’t really used any of these, but here are a few I’ve seen recommended and plan on checking out at some point:
@@ -465,21 +464,21 @@ I haven’t really used any of these, but here are a few I’ve seen recommended
 
 ### Water Cups/Jars
 
-Nothing special here, you just need a few cups or jars for water. 
-A mug, an empty jam jar, a small vase, whatever. 
-I will say, make sure that whatever you use is stable. 
-Bowls or tall skinny containers have a tendency to fall over mysteriously… 
+Nothing special here, you just need a few cups or jars for water.
+A mug, an empty jam jar, a small vase, whatever.
+I will say, make sure that whatever you use is stable.
+Bowls or tall skinny containers have a tendency to fall over mysteriously…
 But maybe that’s just me.
 
-Ideally you’ll have at least two containers of water. 
-One for cleaning your brushes, and another for re-wetting your clean brush. 
-Eventually the clean water will become cloudy and need to be replaced, but using two containers will make it last significantly longer. 
+Ideally you’ll have at least two containers of water.
+One for cleaning your brushes, and another for re-wetting your clean brush.
+Eventually the clean water will become cloudy and need to be replaced, but using two containers will make it last significantly longer.
 Three water containers (one for cleaning, one for a final rinse, and one clean) will work even better if you have space.
 
 ### Paper Towels, Rags, & Sponges
 
-You should always have something on hand to wipe your brush. 
-Not only to clean it, but also to remove excess water. 
+You should always have something on hand to wipe your brush.
+Not only to clean it, but also to remove excess water.
 Water control is a big topic all by itself.
 
 > [!TIP]
@@ -490,10 +489,10 @@ Water control is a big topic all by itself.
 - **Sponges**—Sponges work the same as rags, with the advantage of having a stable shape, and being easier to wring out. You can use basic kitchen sponges for this, or denser art or clay sponges (like these: [4 Pcs Round Painting Sponge, 2.96”](https://amzn.to/4BaDVEW)).
 - **High-Density Sponges**—I’m not sure what these are actually called, but they’re my favorite sponges for this purpose, and deserve their own entry on the list. [Painting Sponge 3-Pack Water Absorbing Art Sponge for Watercolor](https://amzn.to/4B3OvgB). When dry, these sponges become rock hard and mostly non-absorbent. Wet them and they soften and become *ridiculously* absorbent. The way they work in practice is hard to explain, I’ve spent more time than I care to admit just playing with them. When dry, they’re fairly easy to cut to whatever size you need.
 
-![A well-used rag and high-density sponge pieces along with a brand new high-density sponge. Photograph by author.](../images/20261018 foam blocks cloth grid.png)
+![A well-used rag and high-density sponge pieces along with a brand new high-density sponge. Photograph by author.](../images/20261018_foam_blocks_cloth_grid.png)
 
 > [!TIP]
-> I typically work with both a rag and a high-density sponge on hand. 
+> I typically work with both a rag and a high-density sponge on hand.
 > Be aware that whatever you use for this purpose *will* become hopelessly stained.
 
 ---
@@ -511,13 +510,13 @@ This has been a long article, so I’ll summarize what you really need to get st
 
 ## That’s a wrap on Part 3
 
-And almost 15,000 words later, we come to the end. 
+And almost 15,000 words later, we come to the end.
 All three entries in this series took far longer than I expected—especially this one, just look at that sources list!—which tells me both that I had a lot to learn (and still have, if I’m honest), and that this topic is worthy of exploration and dissemination.
 
-I’ve covered the paint properties, color theory, and tools needed for watercolor painting. 
-My approach has been mostly analytical, trying to quantify a messy topic with a long and organic history. 
-I sincerely hope that I’ve helped to bring some order to the chaos. 
-But, hopefully not *too* much. 
+I’ve covered the paint properties, color theory, and tools needed for watercolor painting.
+My approach has been mostly analytical, trying to quantify a messy topic with a long and organic history.
+I sincerely hope that I’ve helped to bring some order to the chaos.
+But, hopefully not *too* much.
 
 My aim was to provide a preliminary guide, to prevent the spinning wheels and crashing out common to new artists, not to remove all nuance and mystery—as if that would even be possible with any physical art medium.
 
@@ -534,7 +533,7 @@ Not everyone has dedicated, local arts and crafts suppliers. If you do it’s al
 
 If none of these options are convenient for you, you can always check out Walmart and Hobby Lobby, if your personal ethics allow it. And, of course, online retailers like [Amazon.com](https://www.amazon.com), [Blick’s online store](https://www.dickblick.com/), and [Jerry’s Artarama](https://www.jerrysartarama.com/) (which also has 21 [physical locations](https://www.jerrysretailstores.com/locations/) across 12 states, none of which I have visited) are an option as well.
 
-![More random swatches, just because.](../images/20260918 Colorful watercolor swatches.png)
+![More random swatches, just because.](../images/20260918_Colorful_watercolor_swatches.png)
 
 ## Sources
 
@@ -545,7 +544,7 @@ If none of these options are convenient for you, you can always check out Walmar
 - Rainey, J. (2022). *The ultimate guide to the best watercolor brushes*. [online] jennarainey.com. Available at: [https://jennarainey.com/ultimate-guide-best-watercolor-brushes/](https://jennarainey.com/ultimate-guide-best-watercolor-brushes/) \[Accessed 7 Oct. 2026].
 - Roebuck, A. (2018). *Watercolor brush size chart free PDF! - Watercolor affair*. [online] Watercolor Affair - Learn the Art and Techniques of Watercolor Painting. Available at: [https://www.watercoloraffair.com/watercolor-brush-size-chart/](https://www.watercoloraffair.com/watercolor-brush-size-chart/) [Accessed 17 Oct. 2026].
 - Sobuj, M.J. (2026). *Paint brush sizes explained: Ultimate guide*. [online] Painting Pro Guide. Available at: [https://paintingproguide.com/paint-brush-sizes-explained/](https://paintingproguide.com/paint-brush-sizes-explained/) \[Accessed 7 Oct. 2026].
-- Wee Paint Brush (2023). *The science of brush bristles natural*. [online] Paint Brush Manufacturer & Supplier, Custom Wholesale Brush Factory | Wee Paint Brush. Available at: [https://www.weepaintbrush.com/the-science-of-brush-bristles-natural/](https://www.weepaintbrush.com/the-science-of-brush-bristles-natural/) \[Accessed 7 Oct. 2026]. 
+- Wee Paint Brush (2023). *The science of brush bristles natural*. [online] Paint Brush Manufacturer & Supplier, Custom Wholesale Brush Factory | Wee Paint Brush. Available at: [https://www.weepaintbrush.com/the-science-of-brush-bristles-natural/](https://www.weepaintbrush.com/the-science-of-brush-bristles-natural/) \[Accessed 7 Oct. 2026].
 - Wikipedia Contributors (2019). *Cellulose*. [online] Wikipedia. Available at: https://en.wikipedia.org/wiki/Cellulose [Accessed 18 Oct. 2026].
 
 ### Books
