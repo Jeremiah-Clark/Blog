@@ -533,7 +533,7 @@ Not everyone has dedicated, local arts and crafts suppliers. If you do it’s al
 
 If none of these options are convenient for you, you can always check out Walmart and Hobby Lobby, if your personal ethics allow it. And, of course, online retailers like [Amazon.com](https://www.amazon.com), [Blick’s online store](https://www.dickblick.com/), and [Jerry’s Artarama](https://www.jerrysartarama.com/) (which also has 21 [physical locations](https://www.jerrysretailstores.com/locations/) across 12 states, none of which I have visited) are an option as well.
 
-![More random swatches, just because.](../images/20260918_Colorful_watercolor_swatches.png)
+![More random swatches, just because. Photograph by author.](../images/20260918_Colorful_watercolor_swatches.png)
 
 ## Sources
 
