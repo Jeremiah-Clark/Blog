@@ -193,7 +193,7 @@ Do not use it for finished work, regardless.
 - [150 Sheets 100% Cotton Watercolor Paper Bulk -140lb/300gsm Art Paper-8.5”×11”](https://amzn.to/3TpEj1i)—Bulk individual sheets. Not great, and my own experience with it casts doubt on the 100% cotton claim, but it's not bad given the price (I have theories, but that’s a rabbit-hole for another article). This is the cheapest way I’ve found to get lots of useable scratch paper.
 - [Canson XL Series Watercolor Paper, Wirebound Pad, 7”×10”, 30 Sheets (140lb/300gsm)](https://amzn.to/47aQvWR)—A spiral bound sketchbook with heavyweight wood pulp paper. Not great, but both affordable and portable.
 
-![Canson XL Watercolor pads are affordable and heavy enough for watercolor, but they’re not cotton. Save for testing and preliminary studies. Photographed by author at Blick Art Supplies.](../images/20261015 Canson watercolor paper XL.png)
+![Canson XL Watercolor pads are affordable and heavy enough for watercolor, but they’re not cotton. Save for testing and preliminary studies. Photographed by author at Blick Art Supplies.](../images/20261015_Canson_watercolor_paper_XL.png)
 
 **Small Block**
 
