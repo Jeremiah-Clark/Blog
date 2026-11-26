@@ -8,7 +8,7 @@ tags: business, ethics
 
 Following the revelations around Jensen Huang and his subsequent resignation—and just 11 days later, because we can’t have nice things, his reinstatement—SO MANY pixels have been spent defending him and his actions. 
 
-![In retrospect, the jacket was trying to warn us all along. Image from TOI Lifestyle Desk (2026). An older man  with gray hair and glasses (Jensen Huang), wearing a black leather jacket, looking downward in a dimly lit setting with red lighting and a TOI logo in the corner.](../images/20261125 man wearing black leather jacket looking down.jpeg)
+![In retrospect, the jacket was trying to warn us all along. Image from TOI Lifestyle Desk (2026).](../images/20261125 man wearing black leather jacket looking down.jpeg)
 
 > [!Tip]
 > If you haven’t been following it, here’s the short version: 
@@ -25,7 +25,7 @@ That said, one particular strain of that defense is particularly irksome to me. 
 
 Well, I’ve never screwed around on my wife, I’ve never illegally sold anything to a foreign adversary, and I have this *just perfect* casting stone to hand, so… let’s do this.
 
-![Just look at it. It’s perfect. Just *begging* to be cast. (A smooth, oval, tan stone with dark speckles resting on a dark surface.)](../images/20261116 textured stone oval brown.jpeg)
+![Just look at it. It’s perfect. Just *begging* to be cast.](../images/20261116 textured stone oval brown.jpeg)
 
 You’re **damn right** we hold the officers of multi trillion-dollar corporations to a higher standard. Anything less is suicidally stupid. No one with that level of power and influence is allowed to be “only human” anymore. 
 
@@ -33,7 +33,7 @@ Sorry, *not sorry.*
 
 Depending on how it’s counted, through Nvidia Jensen Huang controls around 80–90% of the worldwide AI chip market—82.5% of AI accelerator sales (Sterling, 2026), and 92% of GPUs used in data centers (Fernandez, 2025)—and a market capitalization that would make it one of the largest economies in the world if it were a country (Amure, 2026). Nvidia alone is 6% of the S&P 500 (Crisolago, 2026)—30 times the average member.
 
-![To drive home just how influential Nvidia is (or was?). Taken from the start of November, before the affairs became public. Created using genAI, numbers from Fernandez (2025), Sterling (2026), and Crisolago (2026) (top to bottom). (Horizontal bar chart titled 'Nvidia's Footprint, Nov 2026' with subtitle 'Dominates AI chips outright; still ~6% of the entire S&P 500 on its own'. Three purple bars show: Data center GPU market ~92%, AI chip market (revenue share) ~82%, S&P 500 index weight ~6%, on a 0–100 percent scale.)](../images/nvidias-footprint-nov-2026.png)
+![To drive home just how influential Nvidia is (or was?). Taken from the start of November, before the affairs became public. Created using genAI, numbers from Fernandez (2025), Sterling (2026), and Crisolago (2026) (top to bottom).](../images/nvidias-footprint-nov-2026.png)
 
 Jensen is one of the handful of men holding the keys to the future, and he lacks the judgment to keep his pants on and not to sell AI chips to a Chinese asset—while also aggressively fighting legislation aimed at preventing exactly that. 
 
@@ -68,7 +68,7 @@ In all of these cases we need to know *without question* that we can trust the p
 
 **Without that there can be no trust and the system stops working.** 
 
-![Uncle Ben knows what’s up. (Older man (Uncle Ben) facing a person (Peter Parker, aka Spiderman) with a raised finger, and text reading “with great power comes great responsibility.”)](../images/20261117 man quote responsibility power.png)
+![Uncle Ben knows what’s up.](../images/20261117 man quote responsibility power.png)
 
 The police wonder why people don’t trust them after they close ranks to protect officers who killed a sleeping woman after kicking in the door of the wrong apartment, or the shooting of a man laying on the ground with his hands up. The Supreme Court wonders why no one treats its shadow-docket rulings as impartial when, first, there’s a “shadow docket” at all, and second, so many of its actions are clearly aimed at furthering highly partisan political goals.
 
