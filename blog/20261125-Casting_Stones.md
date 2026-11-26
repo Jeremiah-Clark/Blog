@@ -8,7 +8,7 @@ tags: business, ethics
 
 Following the revelations around Jensen Huang and his subsequent resignation—and just 11 days later, because we can’t have nice things, his reinstatement—SO MANY pixels have been spent defending him and his actions. 
 
-![In retrospect, the jacket was trying to warn us all along. Image from TOI Lifestyle Desk (2026).](../images/20261125 man wearing black leather jacket looking down.jpeg)
+![In retrospect, the jacket was trying to warn us all along. Image from TOI Lifestyle Desk (2026).](../images/20261125-man_wearing_black_leather_jacket_looking_down.jpeg)
 
 > [!Tip]
 > If you haven’t been following it, here’s the short version: 
@@ -25,7 +25,7 @@ That said, one particular strain of that defense is particularly irksome to me. 
 
 Well, I’ve never screwed around on my wife, I’ve never illegally sold anything to a foreign adversary, and I have this *just perfect* casting stone to hand, so… let’s do this.
 
-![Just look at it. It’s perfect. Just *begging* to be cast.](../images/20261116 textured stone oval brown.jpeg)
+![Just look at it. It’s perfect. Just *begging* to be cast.](../images/20261116-textured_stone_oval_brown.jpeg)
 
 You’re **damn right** we hold the officers of multi trillion-dollar corporations to a higher standard. Anything less is suicidally stupid. No one with that level of power and influence is allowed to be “only human” anymore. 
 
@@ -68,7 +68,7 @@ In all of these cases we need to know *without question* that we can trust the p
 
 **Without that there can be no trust and the system stops working.** 
 
-![Uncle Ben knows what’s up.](../images/20261117 man quote responsibility power.png)
+![Uncle Ben knows what’s up.](../images/20261117-man_quote_responsibility_power.png)
 
 The police wonder why people don’t trust them after they close ranks to protect officers who killed a sleeping woman after kicking in the door of the wrong apartment, or the shooting of a man laying on the ground with his hands up. The Supreme Court wonders why no one treats its shadow-docket rulings as impartial when, first, there’s a “shadow docket” at all, and second, so many of its actions are clearly aimed at furthering highly partisan political goals.
 
@@ -85,10 +85,8 @@ But, I’m not a high-powered CEO, you say. I can’t possibly know what pressur
 
 The good news is, you don’t have to take my word for it! Here’s a high-powered CEO talking about exactly this issue:
 
-> “You know, I think you have to hold yourself responsible. You have agency. You're the CEO of the company, for God's sakes. You have to have high standards and expectations. 
->
-> […]
->
+> “You know, I think you have to hold yourself responsible. You have agency. You're the CEO of the company, for God's sakes. You have to have high standards and expectations.  
+> […]  
 > “I'm responsible for an entire industry. And so I think the pressure of being the CEO is high, *and it's supposed to be high.* It should not be an easy job. It shouldn't be a job that you take for granted.”
 >
 > -Jensen Huang to Bloomberg’s Emily Chang, [The rise and reckoning of Jensen Huang (2026)](https://www.youtube.com/watch?v=JW5s9Md4U2U) 
