@@ -11,9 +11,9 @@ Following the revelations around Jensen Huang and his subsequent resignation—a
 ![In retrospect, the jacket was trying to warn us all along. Image from TOI Lifestyle Desk (2026).](../images/20261125-man_wearing_black_leather_jacket_looking_down.jpeg)
 
 > [!Tip]
-> If you haven’t been following it, here’s the short version: 
+> If you haven’t been following it, here’s the short version:  
 >
-> Jensen Huang, CEO and co-founder of Nvidia, has admitted to multiple affairs, including two with direct reports and one with a suspected Chinese spy. Whether she is a literal spy isn’t important—she was funneling chips to Chinese companies either way. Huang and Nvidia knew it—or they should have, as the evidence seems overwhelming—and did nothing. The US government has been looking into it since at least 2024, but the President also opted to do nothing (Faulders, 2026). 
+> Jensen Huang, CEO and co-founder of Nvidia, has admitted to multiple affairs, including two with direct reports and one with a suspected Chinese spy. Whether she is a literal spy isn’t important—she was funneling chips to Chinese companies either way. Huang and Nvidia knew it—or they should have, as the evidence seems overwhelming—and did nothing. The US government has been looking into it since at least 2024, but the President also opted to do nothing (Faulders, 2026).  
 >
 > I’ll refer to the alleged spy as a Chinese “asset,” and let the investigation sort out the details of her complicity.
 
@@ -60,7 +60,7 @@ Wealth isn’t the only kind of power I have no patience for coddling. The same 
 But an affair isn’t a mistake, *it’s a choice.* Knowingly selling to a foreign adversary, however obliquely, isn’t a mistake, *it’s a choice.* Choices made for lazy, greedy, lustful, or short-sighted reasons. And for that we can offer no margin, and accept no excuses.
 
 > [!important]
-> If your daily actions: a) dictate life and death; b) directly impact the lives of millions; c) define the very concept of justice; or d) safeguard people’s most precious commodities—then you should absolutely be held to a higher standard. 
+> If your daily actions: a) dictate life and death; b) directly impact the lives of millions; c) define the very concept of justice; or d) safeguard people’s most precious commodities—then you should absolutely be held to a higher standard.  
 >
 > Full stop.
 
