@@ -15,6 +15,8 @@ Following the revelations around Jensen Huang and his subsequent resignation—a
 >
 > Jensen Huang, CEO and co-founder of Nvidia, has admitted to multiple affairs, including two with direct reports and one with a suspected Chinese spy. Whether she is a literal spy isn’t important—she was funneling chips to Chinese companies either way. Huang and Nvidia knew it—or they should have, as the evidence seems overwhelming—and did nothing. The US government has been looking into it since at least 2024, but the President also opted to do nothing (Faulders, 2026).  
 >
+> 
+>
 > I’ll refer to the alleged spy as a Chinese “asset,” and let the investigation sort out the details of her complicity.
 
 I’ve always found defending billionaires to be an odd impulse—they’re **billionaires.** They certainly don’t need your help, and they absolutely couldn’t give less of a shit about you or anyone else. 
@@ -60,9 +62,7 @@ Wealth isn’t the only kind of power I have no patience for coddling. The same 
 But an affair isn’t a mistake, *it’s a choice.* Knowingly selling to a foreign adversary, however obliquely, isn’t a mistake, *it’s a choice.* Choices made for lazy, greedy, lustful, or short-sighted reasons. And for that we can offer no margin, and accept no excuses.
 
 > [!important]
-> If your daily actions: a) dictate life and death; b) directly impact the lives of millions; c) define the very concept of justice; or d) safeguard people’s most precious commodities—then you should absolutely be held to a higher standard.  
->
-> Full stop.
+> If your daily actions: a) dictate life and death; b) directly impact the lives of millions; c) define the very concept of justice; or d) safeguard people’s most precious commodities—then you should absolutely be held to a higher standard.  Full stop.
 
 In all of these cases we need to know *without question* that we can trust the people in these positions to be honest and show good judgment not only when it is easy, but when it is hard. *Especially* when it is hard. 
 
@@ -85,10 +85,8 @@ But, I’m not a high-powered CEO, you say. I can’t possibly know what pressur
 
 The good news is, you don’t have to take my word for it! Here’s a high-powered CEO talking about exactly this issue:
 
-> “You know, I think you have to hold yourself responsible. You have agency. You're the CEO of the company, for God's sakes. You have to have high standards and expectations.  
-> […]  
-> “I'm responsible for an entire industry. And so I think the pressure of being the CEO is high, *and it's supposed to be high.* It should not be an easy job. It shouldn't be a job that you take for granted.”
->
+> “You know, I think you have to hold yourself responsible. You have agency. You're the CEO of the company, for God's sakes. You have to have high standards and expectations. […]  I'm responsible for an entire industry. And so I think the pressure of being the CEO is high, *and it's supposed to be high.* It should not be an easy job. It shouldn't be a job that you take for granted.”
+> 
 > -Jensen Huang to Bloomberg’s Emily Chang, [The rise and reckoning of Jensen Huang (2026)](https://www.youtube.com/watch?v=JW5s9Md4U2U) 
 
 Having neither a succession plan nor a corporate structure that can survive without you, is an interesting way to live up to that sentiment. Clearly the very best person to hang the future on.
