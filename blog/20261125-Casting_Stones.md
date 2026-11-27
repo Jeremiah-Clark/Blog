@@ -12,11 +12,9 @@ Following the revelations around Jensen Huang and his subsequent resignation—a
 
 > [!Tip]
 > If you haven’t been following it, here’s the short version:  
->
-> Jensen Huang, CEO and co-founder of Nvidia, has admitted to multiple affairs, including two with direct reports and one with a suspected Chinese spy. Whether she is a literal spy isn’t important—she was funneling chips to Chinese companies either way. Huang and Nvidia knew it—or they should have, as the evidence seems overwhelming—and did nothing. The US government has been looking into it since at least 2024, but the President also opted to do nothing (Faulders, 2026).  
->
 > 
->
+> Jensen Huang, CEO and co-founder of Nvidia, has admitted to multiple affairs, including two with direct reports and one with a suspected Chinese spy. Whether she is a literal spy isn’t important—she was funneling chips to Chinese companies either way. Huang and Nvidia knew it—or they should have, as the evidence seems overwhelming—and did nothing. The US government has been looking into it since at least 2024, but the President also opted to do nothing (Faulders, 2026).  
+> 
 > I’ll refer to the alleged spy as a Chinese “asset,” and let the investigation sort out the details of her complicity.
 
 I’ve always found defending billionaires to be an odd impulse—they’re **billionaires.** They certainly don’t need your help, and they absolutely couldn’t give less of a shit about you or anyone else. 
@@ -74,7 +72,7 @@ The police wonder why people don’t trust them after they close ranks to protec
 
 And now, once again, a wealthy and powerful executive gets away with behavior that would at the very least ruin our careers, and likely land us in jail. 
 
-Because *money.*
+Because *money.* And still they question the outrage.
 
 It’s especially rich that the people rushing to a CEO’s defense are usually the same who will argue that CEOs deserve their extortionistic salaries, stratospheric bonuses, and golden parachutes (even if the company they lead is currently burning to the ground) specifically *because* their actions and decisions are so very consequential. 
 
